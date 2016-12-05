@@ -1,1 +1,1 @@
-# nootropic-cat-treats
+# Nootropic Cat Treats

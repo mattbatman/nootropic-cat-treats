@@ -1,0 +1,30 @@
+{
+  "name": "nootropic-cat-treats",
+  "version": "1.0.0",
+  "description": "random quote generator",
+  "main": "index.js",
+  "scripts": {
+		"autoprefixer": "postcss -u autoprefixer -r css/main.css",
+		"sass:w": "sass --watch scss:css",
+    "start": "browser-sync start -s -f index.html css/main.css --no-ui --no-notify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattbatman/nootropic-cat-treats.git"
+  },
+  "author": {
+    "name": "Matt Batman",
+    "url": "http://mattbatman.com"
+  },
+  "license": "unlicensed",
+  "bugs": {
+    "url": "https://github.com/mattbatman/nootropic-cat-treats/issues"
+  },
+  "homepage": "https://github.com/mattbatman/nootropic-cat-treats#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.5.3",
+    "browser-sync": "^2.18.2",
+    "postcss-cli": "^2.6.0"
+  }
+}

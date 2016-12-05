@@ -1,0 +1,52 @@
+@import "normalize";
+
+$lg: 1000px;
+$md: 700px;
+
+:root {
+  --black: #211f1e;
+	--white: #ffffff;
+	--primary: #a71d5d;
+}
+
+html, .root {
+	font-size: 18px;
+}
+
+body {
+	background-color: var(--black);
+  color: var(--white);
+	font-family: 'Oswald';
+	font-size: 1em;
+}
+
+a {
+	color: var(--primary);
+}
+
+.cite > a {
+	display: block;
+	text-align: right;
+}
+
+.person {
+	color: var(--white);
+	font-weight: 700;
+}
+
+blockquote {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.611111111em;
+	font-weight: 300;
+	line-height: 1.46808511em;
+	margin: 0 0 0.4893617 0;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 100vh;
+	width: 96%;
+	margin: 0 auto;
+}
