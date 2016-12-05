@@ -36,17 +36,33 @@ a {
 
 blockquote {
 	font-family: 'Oswald', sans-serif;
-	font-size: 2.611111111em;
+	font-size: 1.611111111em;
 	font-weight: 300;
-	line-height: 1.46808511em;
-	margin: 0 0 0.4893617 0;
+	line-height: 1.4862069em;
+	margin: 0 0 0.79310345em 0;
+}
+
+blockquote > p {
+	margin: 0;
 }
 
 .container {
 	display: flex;
-	justify-content: center;
 	flex-direction: column;
 	height: 100vh;
+	justify-content: flex-start;
+	max-width: 1200px;
 	width: 96%;
 	margin: 0 auto;
+}
+
+@media (min-width: $md) {
+	.container {
+		justify-content: center;
+	}
+	blockquote {
+		font-size: 2.611111111em;
+		line-height: 1.46808511em;
+		margin: 0 0 0.4893617em 0;
+	}
 }
