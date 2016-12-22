@@ -1,0 +1,14 @@
+<div class="container">
+	<blockquote>
+		<p>
+			{{text$ | async}}
+		</p>
+	</blockquote>
+  <div class="meta">
+    <button (click)="onClick()">New Quote</button>
+    <div class="cite">
+      <p class="person">{{quotee$ | async}}</p>
+      <p><a href="{{link$ | async}}">{{platform$ | async}}</a></p>
+    </div>
+  </div>
+</div>
