@@ -1,4 +1,4 @@
-export const Quotes = [
+export const QUOTES = [
   {
     quote: 'You ever tried skiing on mushrooms?',
     quotee: 'Aubrey Marcus',

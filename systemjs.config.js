@@ -24,6 +24,8 @@
       '@angular/forms': 'npm:@angular/forms/bundles/forms.umd.js',
 
       // other libraries
+      '@ngrx/core':               'npm:@ngrx/core',
+      '@ngrx/store':               'npm:@ngrx/store',
       'rxjs':                      'npm:rxjs',
       'angular-in-memory-web-api': 'npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js'
     },
@@ -31,6 +33,14 @@
     packages: {
       app: {
         main: './main.js',
+        defaultExtension: 'js'
+      },
+      '@ngrx/core': {
+        main: '/bundles/core.umd.js',
+        defaultExtension: 'js'
+      },
+      '@ngrx/store': {
+        main: '/bundles/store.umd.js',
         defaultExtension: 'js'
       },
       rxjs: {
