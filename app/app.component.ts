@@ -13,7 +13,6 @@ import { REFRESH } from './reducers';
   templateUrl: 'app.component.html'
 })
 export class AppComponent  {
-  // quoteSource = new BehaviorSubject(this.getRandomQuote(Quotes));
   quote$;
   text$;
   quotee$;
@@ -41,10 +40,10 @@ export class AppComponent  {
     );
 
     this.click$
-    .mapTo(REFRESH)
+    .mapTo({type: REFRESH, payload: null})
     .subscribe(
-      (type) => {
-        store.dispatch({type});
+      (action) => {
+        store.dispatch(action);
       }
     );
   }

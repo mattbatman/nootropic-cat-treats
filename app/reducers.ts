@@ -2,7 +2,7 @@ import { QUOTES } from './quotes/quotes';
 export const REFRESH = 'REFRESH';
 
 
-export const quote = (state = QUOTES[0], {type}) => {
+export const quote = (state = QUOTES[0], {type, payload}) => {
   switch (type) {
     case REFRESH:
     return getRandomQuote(QUOTES);
