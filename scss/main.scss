@@ -55,10 +55,14 @@ blockquote > div {
 	display: flex;
 	flex-direction: column;
 	height: 100vh;
-	justify-content: flex-start;
+	justify-content: center;
 	max-width: 740px;
 	width: 96%;
 	margin: 0 auto;
+}
+
+.long, .medium {
+  justify-content: flex-start;
 }
 
 .meta {
@@ -111,5 +115,8 @@ button:focus {
     .meta {
       flex-direction: row;
       justify-content: space-between;
+    }
+    .medium {
+      justify-content: center;
     }
   }

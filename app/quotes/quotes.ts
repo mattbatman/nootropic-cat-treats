@@ -3,7 +3,8 @@ export const QUOTES = [
     quote: 'You ever tried skiing on mushrooms?',
     quotee: 'Aubrey Marcus',
     platform: 'Joe Rogan Experience, #878',
-    link: 'https://www.youtube.com/watch?v=2xplJOx3Vjw&t=2h27m49s'
+    link: 'https://www.youtube.com/watch?v=2xplJOx3Vjw&t=2h27m49s',
+    length: 'short'
   },
   {
     quote: `You’ve probably heard the fable about, I think it’s Buridan’s donkey,
@@ -13,7 +14,8 @@ export const QUOTES = [
     is unable to decide, so he eventually falls over and dies of both hunger and thirst.`,
     quotee: 'Derek Sivers',
     platform: 'The Tim Ferriss Show',
-    link: 'http://fourhourworkweek.com/2016/11/21/tools-of-titans-derek-sivers-distilled/'
+    link: 'http://fourhourworkweek.com/2016/11/21/tools-of-titans-derek-sivers-distilled/',
+    length: 'medium'
   },
   {
     quote: `
@@ -40,6 +42,7 @@ export const QUOTES = [
     `,
     quotee: 'Duncan Trussell',
     platform: 'The Duncan Trussell Family Hour',
-    link: 'http://www.duncantrussell.com/episodes/2016/11/22/emil-amos'
+    link: 'http://www.duncantrussell.com/episodes/2016/11/22/emil-amos',
+    length: 'long'
   }
 ];

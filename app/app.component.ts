@@ -18,7 +18,9 @@ export class AppComponent  {
   quotee$;
   platform$;
   link$;
+  length$;
   click$ = new Subject();
+  length;
 
   constructor(store: Store<any>) {
     this.quote$ = store.select('quote');
@@ -39,6 +41,12 @@ export class AppComponent  {
       (quote) => { return quote.link; }
     );
 
+    this.length$ = this.quote$.map(
+      (quote) => { return quote.length; }
+    ).subscribe(
+      (length) => { this.length = length; }
+    );
+
     this.click$
     .mapTo({type: REFRESH, payload: null})
     .subscribe(
@@ -46,6 +54,16 @@ export class AppComponent  {
         store.dispatch(action);
       }
     );
+  }
+
+  setContainerClass() {
+    let classes = {
+      container: true,
+      long: this.length === 'long',
+      short: false,
+      medium: this.length === 'medium'
+    };
+    return classes;
   }
 
 }
