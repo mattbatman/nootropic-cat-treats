@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Random quote generator with JRE references",
   "scripts": {
+    "autoprefixer": "postcss -u autoprefixer -r css/main.css",
     "build:aot": "ngc -p tsconfig-aot.json && rollup -c rollup-config.js",
     "lite:aot": "lite-server -c aot/bs-config.json",
     "node-copy": "node copy-dist-files",
@@ -43,6 +44,7 @@
     "@types/jasmine": "^2.5.36",
     "@types/node": "^6.0.46",
     "@types/selenium-webdriver": "^2.53.33",
+    "autoprefixer": "^6.6.0",
     "canonical-path": "0.0.2",
     "concurrently": "^3.1.0",
     "http-server": "^0.9.0",
@@ -54,6 +56,7 @@
     "karma-jasmine-html-reporter": "^0.2.2",
     "lite-server": "^2.2.2",
     "lodash": "^4.16.4",
+    "postcss-cli": "^2.6.0",
     "protractor": "4.0.9",
     "rimraf": "^2.5.4",
     "rollup": "^0.38.0",
