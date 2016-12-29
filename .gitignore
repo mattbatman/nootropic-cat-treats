@@ -2,7 +2,6 @@ node_modules
 npm-debug.log
 .sass-cache
 css/main.css.map
-css/main.css
 app/**/*.js
 app/**/*.js.map
 e2e/**/*.js
