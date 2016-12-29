@@ -12,7 +12,7 @@ import { REFRESH } from './reducers';
   selector: 'my-app',
   templateUrl: 'app.component.html'
 })
-export class AppComponent  {
+export class AppComponent {
   quote$;
   text$;
   quotee$;
@@ -23,7 +23,7 @@ export class AppComponent  {
   length;
 
   constructor(store: Store<any>) {
-    this.quote$ = store.select('quote');
+    this.quote$ = store.map(quote => quote);
 
     this.text$ = this.quote$.map(
       (quote) => { return quote.quote; }

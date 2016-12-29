@@ -3,7 +3,7 @@ import { StoreModule } from '@ngrx/store';
 import { quote } from './reducers';
 
 @NgModule({
-  imports: [StoreModule.provideStore({quote})]
+  imports: [StoreModule.provideStore(quote)]
 })
 
 export class AppStoreModule {}

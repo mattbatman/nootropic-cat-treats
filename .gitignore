@@ -7,3 +7,8 @@ app/**/*.js
 app/**/*.js.map
 e2e/**/*.js
 e2e/**/*.js.map
+aot/app/**/*.js
+aot/app/**/*.js.map
+aot/app/**/*.json
+aot/app/**/*.ts
+aot/dist/build.js.map
