@@ -19,7 +19,7 @@
   },
   "keywords": [],
   "author": "Matt Batman",
-  "license": "unlicensed",
+  "license": "UNLICENSED",
   "dependencies": {
     "@angular/common": "^2.4.1",
     "@angular/compiler": "^2.4.1",
