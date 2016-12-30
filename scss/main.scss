@@ -70,15 +70,13 @@ blockquote > div {
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: flex-start;
-  align-items: flex-start;
-  align-content: flex-start;
 }
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 button {
   display: inline-block;
-  height: 38px;
+  min-height: 38px;
   padding: 0 30px;
   color: var(--white);
   text-align: center;
@@ -96,6 +94,7 @@ button {
   box-sizing: border-box;
   order: 2;
   margin-top: 2em;
+  margin-bottom: 2em;
 }
 button:hover,
 button:focus {
@@ -110,6 +109,7 @@ button:focus {
     }
     button {
       margin-top: 0;
+      margin-bottom: 0;
       order: 1;
     }
     .meta {
