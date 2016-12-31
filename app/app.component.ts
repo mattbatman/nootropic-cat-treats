@@ -5,6 +5,7 @@ import './rxjs-operators';
 
 import { Store } from '@ngrx/store';
 
+import { QUOTES } from './quotes/quotes';
 import { REFRESH } from './reducers';
 
 @Component({
@@ -23,7 +24,7 @@ export class AppComponent {
   length;
 
   constructor(store: Store<any>) {
-    this.quote$ = store.map(quote => quote);
+    this.quote$ = store.map(no => QUOTES[no]);
 
     this.text$ = this.quote$.map(
       (quote) => { return quote.quote; }
@@ -48,7 +49,7 @@ export class AppComponent {
     );
 
     this.click$
-    .mapTo({type: REFRESH, payload: null})
+    .mapTo({type: REFRESH, payload: QUOTES.length - 1})
     .subscribe(
       (action) => {
         store.dispatch(action);
