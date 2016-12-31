@@ -56,6 +56,11 @@ export class AppComponent {
     );
   }
 
+  onClick(event) {
+    this.click$.next();
+    event.target.blur();
+  }
+
   setContainerClass() {
     let classes = {
       container: true,
