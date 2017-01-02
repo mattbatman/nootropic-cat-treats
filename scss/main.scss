@@ -10,7 +10,7 @@ $md: 600px;
 }
 
 html, .root {
-	font-size: 16px;
+	font-size: 18px;
 }
 
 body {
@@ -41,7 +41,7 @@ a {
 
 blockquote {
 	font-family: 'Oswald', sans-serif;
-	font-size: 1.611111111em;
+	font-size: 1em;
 	font-weight: 300;
 	line-height: 1.4862069em;
 	margin: 0 0 0.79310345em 0;
@@ -103,8 +103,8 @@ button:focus {
   outline: 0; }
 
   @media (min-width: $md) {
-    html, .root {
-    	font-size: 18px;
+    blockquote {
+    	font-size: 1.611111111em;
     }
     .cite {
       order: 2;
