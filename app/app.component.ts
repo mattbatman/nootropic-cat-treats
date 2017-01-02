@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 import { Subject } from 'rxjs/Subject';
 import './rxjs-operators';
@@ -13,7 +13,7 @@ import { REFRESH } from './reducers';
   selector: 'my-app',
   templateUrl: 'app.component.html'
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   quote$;
   text$;
   quotee$;
@@ -60,6 +60,10 @@ export class AppComponent {
   onClick(event) {
     this.click$.next();
     event.target.blur();
+  }
+
+  ngOnInit() {
+    this.click$.next();
   }
 
   setContainerClass() {

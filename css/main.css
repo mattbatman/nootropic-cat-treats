@@ -409,7 +409,7 @@ template {
   --primary: #a71d5d; }
 
 html, .root {
-  font-size: 18px; }
+  font-size: 16px; }
 
 body {
   background-color: var(--black);
@@ -512,6 +512,9 @@ button:focus {
   outline: 0; }
 
 @media (min-width: 600px) {
+  html, .root {
+    font-size: 18px; }
+
   .cite {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
