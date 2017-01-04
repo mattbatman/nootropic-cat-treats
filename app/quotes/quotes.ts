@@ -44,5 +44,12 @@ export const QUOTES = [
     platform: 'The Duncan Trussell Family Hour',
     link: 'http://www.duncantrussell.com/episodes/2016/11/22/emil-amos',
     length: 'long'
+  },
+  {
+    quote: `8 hours? There's 24 hours in a day, bro. What are you worried about?`,
+    quotee: 'Joe Rogan',
+    platform: 'Joe Rogan Experience, #895',
+    link: 'https://www.youtube.com/watch?v=5r-vP3N2uAg&t=51m40s',
+    length: 'short'
   }
 ];
