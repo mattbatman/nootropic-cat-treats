@@ -1,9 +1,5 @@
 <div [ngClass]="setContainerClass()">
-	<blockquote>
-		<p>
-			{{text$ | async}}
-		</p>
-	</blockquote>
+	<blockquote [innerHTML]="text$ | async"></blockquote>
   <div class="meta">
     <button (click)="onClick($event)">New Quote</button>
     <div class="cite">
