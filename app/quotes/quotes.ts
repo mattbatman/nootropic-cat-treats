@@ -80,14 +80,28 @@ export const QUOTES = [
       you go, “Oh, one day I’m going to be a grown up and this is all going to
       make sense.” But that day never comes. You get older, but you’re a baby
       still. You’re just an old baby. You’re an old baby with a car and fucking
-      credit card debt. And then you have a baby and then that baby grows up,
-      “Well I’m smarter than my dad. He’s a fucking idiot. My dad didn’t know
-      shit. He didn’t even have the internet."
+      credit card debt. And then you have a baby and then that baby grows up.
     </p>
     `,
     quotee: 'Joe Rogan',
     platform: 'Joe Rogan Experience, #891',
     link: 'https://www.youtube.com/watch?v=g5AKVbx2M38&t=1h24m50s',
     length: 'long'
+  },
+  {
+    quote: `
+    <p>
+      At a certain point in time, you go, “How much fucking sand is left in this
+      goddamned hour glass? What are we doing with it?” You know? Are we on a
+      continued path of improvement and spiritual enlightenment, or do we
+      eventually go, “Hey, guys, there’s a cliff coming up. Let’s just have a
+      drink. There’s a fucking cliff. There’s a cliff right over there. We’re
+      both looking at it."
+    </p>
+    `,
+    quotee: 'Joe Rogan',
+    platform: 'Joe Rogan Experience, #888',
+    link: 'https://www.youtube.com/watch?v=tka857PmVXg&t=1h00m20s',
+    length: 'medium'
   }
 ];
