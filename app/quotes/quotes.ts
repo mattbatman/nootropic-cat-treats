@@ -86,7 +86,7 @@ export const QUOTES = [
     quotee: 'Joe Rogan',
     platform: 'Joe Rogan Experience, #891',
     link: 'https://www.youtube.com/watch?v=g5AKVbx2M38&t=1h24m50s',
-    length: 'long'
+    length: 'medium'
   },
   {
     quote: `
