@@ -70,7 +70,7 @@ export class AppComponent implements OnInit {
     let classes = {
       container: true,
       long: this.length === 'long',
-      short: false,
+      short: this.length === 'short',
       medium: this.length === 'medium'
     };
     return classes;

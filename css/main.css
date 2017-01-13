@@ -409,7 +409,7 @@ template {
   --primary: #a71d5d; }
 
 html, .root {
-  font-size: 18px; }
+  font-size: 21px; }
 
 body {
   background-color: var(--black);
@@ -438,7 +438,7 @@ blockquote {
   font-family: 'Oswald', sans-serif;
   font-size: 1em;
   font-weight: 300;
-  line-height: 1.4862069em;
+  line-height: 1.58em;
   margin: 0.79310345em 0 0.79310345em 0; }
 
 blockquote > p {
@@ -459,7 +459,7 @@ blockquote > div {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  max-width: 740px;
+  max-width: 700px;
   width: 96%;
   margin: 0 auto; }
 
@@ -515,8 +515,8 @@ button:focus {
   outline: 0; }
 
 @media (min-width: 600px) {
-  blockquote {
-    font-size: 1.611111111em; }
+  .short > blockquote {
+    font-size: 1.61904762em; }
 
   .cite {
     -webkit-box-ordinal-group: 3;

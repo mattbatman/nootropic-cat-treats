@@ -10,7 +10,7 @@ $md: 600px;
 }
 
 html, .root {
-	font-size: 18px;
+	font-size: 21px;
 }
 
 body {
@@ -43,7 +43,7 @@ blockquote {
 	font-family: 'Oswald', sans-serif;
 	font-size: 1em;
 	font-weight: 300;
-	line-height: 1.4862069em;
+	line-height: 1.58em;
 	margin: 0.79310345em 0 0.79310345em 0;
 }
 
@@ -60,7 +60,7 @@ blockquote > div {
 	flex-direction: column;
 	height: 100vh;
 	justify-content: center;
-	max-width: 740px;
+	max-width: 700px;
 	width: 96%;
 	margin: 0 auto;
 }
@@ -107,8 +107,8 @@ button:focus {
   outline: 0; }
 
   @media (min-width: $md) {
-    blockquote {
-    	font-size: 1.611111111em;
+    .short > blockquote {
+    	font-size: 1.61904762em;
     }
     .cite {
       order: 2;
