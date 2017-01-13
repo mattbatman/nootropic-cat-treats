@@ -1,7 +1,7 @@
 {
   "name": "nootropic-cat-treats",
   "version": "1.0.0",
-  "description": "Random quote generator with JRE references",
+  "description": "Random quote generator with joe rogan experience references",
   "scripts": {
     "autoprefixer": "postcss -u autoprefixer -r css/main.css",
     "build:aot": "ngc -p tsconfig-aot.json && rollup -c rollup-config.js",
