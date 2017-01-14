@@ -59,9 +59,10 @@ blockquote > div {
 .container {
 	display: flex;
 	flex-direction: column;
-	height: 100vh;
+	height: 100%;
 	justify-content: center;
 	max-width: 700px;
+  min-height: 100vh;
 	width: 96%;
 	margin: 0 auto;
 }
@@ -75,6 +76,7 @@ blockquote > div {
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: flex-start;
+  margin-bottom: 1.618em;
 }
 
 /* Buttons
