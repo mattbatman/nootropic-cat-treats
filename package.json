@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Random quote generator with joe rogan experience references",
   "scripts": {
-    "autoprefixer": "postcss -u autoprefixer -r css/main.css",
+    "build:css": "postcss --config postcss-options.json",
     "build:aot": "ngc -p tsconfig-aot.json && rollup -c rollup-config.js",
     "lite:aot": "lite-server -c aot/bs-config.json",
     "node-copy": "node copy-dist-files",
@@ -42,7 +42,6 @@
   "devDependencies": {
     "@types/jasmine": "^2.5.36",
     "@types/node": "^6.0.46",
-    "autoprefixer": "^6.6.0",
     "canonical-path": "0.0.2",
     "concurrently": "^3.1.0",
     "http-server": "^0.9.0",
@@ -55,6 +54,8 @@
     "lite-server": "^2.2.2",
     "lodash": "^4.16.4",
     "postcss-cli": "^2.6.0",
+    "postcss-cssnext": "^2.9.0",
+    "postcss-import": "^9.1.0",
     "protractor": "4.0.14",
     "rimraf": "^2.5.4",
     "rollup": "^0.38.0",
