@@ -36,11 +36,11 @@
         defaultExtension: 'js'
       },
       '@ngrx/core': {
-        main: '/bundles/core.umd.js',
+        main: './bundles/core.umd.js',
         defaultExtension: 'js'
       },
       '@ngrx/store': {
-        main: '/bundles/store.umd.js',
+        main: './bundles/store.umd.js',
         defaultExtension: 'js'
       },
       rxjs: {

@@ -3552,6 +3552,6 @@ yeast@0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/yeast/-/yeast-0.1.2.tgz#008e06d8094320c372dbc2f8ed76a0ca6c8ac419"
 
-zone.js@^0.7.4:
-  version "0.7.5"
-  resolved "https://registry.yarnpkg.com/zone.js/-/zone.js-0.7.5.tgz#bca7cce46ba3216e8631cff36591c4e62cb27104"
+zone.js@0.7.2:
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/zone.js/-/zone.js-0.7.2.tgz#1a62b6be4b24d1b935e4566b0b4386b66966d1a7"

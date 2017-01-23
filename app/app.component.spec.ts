@@ -4,14 +4,23 @@ import { DebugElement } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import { Subject } from 'rxjs/Subject';
+import './rxjs-operators';
+import { Store } from '@ngrx/store';
+import { QUOTES } from './quotes/quotes';
+import { REFRESH } from './reducers';
+
 describe('AppComponent', function () {
   let de: DebugElement;
   let comp: AppComponent;
   let fixture: ComponentFixture<AppComponent>;
 
+  let storeStub;
+
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AppComponent ]
+      declarations: [ AppComponent ],
+      providers: [{provide: Store, useValue: storeStub}]
     })
     .compileComponents();
   }));
@@ -28,5 +37,11 @@ describe('AppComponent', function () {
     fixture.detectChanges();
     const blockquote = de.query(By.css('blockquote')).nativeElement;
     expect(blockquote).toBeDefined();
+  });
+
+  it('should have a blockquote', () => {
+    fixture.detectChanges();
+    const button = de.query(By.css('button')).nativeElement;
+    expect(button).toBeDefined();
   });
 });

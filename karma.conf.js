@@ -53,6 +53,10 @@ module.exports = function(config) {
       { pattern: 'node_modules/rxjs/**/*.js', included: false, watched: false },
       { pattern: 'node_modules/rxjs/**/*.js.map', included: false, watched: false },
 
+      // ngrx/store
+      { pattern: 'node_modules/@ngrx/store/bundles/store.umd.js', included: false, watched: true },
+      { pattern: 'node_modules/@ngrx/core/bundles/core.umd.js', included: false, watched: true },
+
       // Paths loaded via module imports:
       // Angular itself
       { pattern: 'node_modules/@angular/**/*.js', included: false, watched: false },
