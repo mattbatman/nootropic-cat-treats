@@ -103,8 +103,7 @@ export const QUOTES = [
     platform: 'Joe Rogan Experience, #888',
     link: 'https://www.youtube.com/watch?v=tka857PmVXg&t=1h00m20s',
     length: 'medium'
-  }
-  ,
+  },
   {
     quote: `
     <p>
@@ -136,5 +135,46 @@ export const QUOTES = [
     platform: 'Joe Rogan Experience, #902',
     link: 'https://www.youtube.com/watch?v=OYK84qCWz_M&t=23m10s',
     length: 'medium'
+  },
+  {
+    quote: `
+    <p>
+      "I didn't let my brother AJ score on me in basketball, he's 11 years
+      younger than me, until he was like 15. Score. Like, score."
+    </p>
+    <p>
+      "You wouldn't let him?"
+    </p>
+    <p>
+      "No! Now I have a 4 year old guy, Zander, my little guy, he’s got a weird
+      condition. When he picks up the basketball, he starts kind of weirdly
+      crying, ‘cause he knows dad's going to come out of somewhere and block the
+      fucking shit out of him. And so I posted this thing about it today on
+      instagram, and it was funny to watch everybody. I mean everybody’s into
+      these fucking eigth place trophies, I want to kill people. Like, all this
+      fake infrastructure of faking fucking self-esteem and then these kids
+      go into the market and they get punched in the mouth and they don’t know
+      what to do."
+    </p>
+    <p>
+      So, you don't let your kid score on you either?
+    </p>
+    <p>
+      Nope.
+    </p>
+    <p>
+      That's hilarious.
+    </p>
+    <p>
+      I will not let...I'm...I'm fucking gonna' beat the sh...like, until he can
+      win, then he's good. Like, AJ, my brother AJ's a better basketball player
+      than me because I didn't let him...like, what are you gonna' let people
+      score for?
+    </p>
+    `,
+    quotee: 'Gary Vaynerchuk to Joe Rogan',
+    platform: 'Joe Rogan Experience, #910',
+    link: 'https://www.youtube.com/watch?v=OLHdzLpMg-s&t=49m00s',
+    length: 'long'
   }
 ];
