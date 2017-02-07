@@ -107,28 +107,28 @@ export const QUOTES = [
   {
     quote: `
     <p>
-      "Have you ever heard of when people get poop transfusions?"
+      Have you ever heard of when people get poop transfusions?
     </p>
     <p>
       "No."
     </p>
     <p>
-      "Yeah, they'll take poop from a healthy person..."
+      Yeah, they'll take poop from a healthy person...
     </p>
     <p>
       "No!"
     </p>
     <p>
-      "Yes! Yes! It's a real thing!"
+      Yes! Yes! It's a real thing!
     </p>
     <p>
       "Ass to ass?"
     </p>
     <p>
-      "Well, they don't make you go butt-to-butt with somebody. I think they go
+      Well, they don't make you go butt-to-butt with somebody. I think they go
       in and fish it out and they shoot it up in you. But they literally will
       shoot somebody else's poop up your asshole, into your body. And some
-      people even swallow poop tablets."
+      people even swallow poop tablets.
     </p>
     `,
     quotee: 'Joe Rogan to Greg Fitzsimmons',
@@ -139,25 +139,25 @@ export const QUOTES = [
   {
     quote: `
     <p>
-      "I didn't let my brother AJ score on me in basketball, he's 11 years
-      younger than me, until he was like 15. Score. Like, score."
+      I didn't let my brother AJ score on me in basketball - he's 11 years
+      younger than me - until he was like 15. Score. Like, score.
     </p>
     <p>
-      "You wouldn't let him?"
+      You wouldn't let him?
     </p>
     <p>
-      "No! Now I have a 4 year old guy, Zander, my little guy, he’s got a weird
+      No! Now I have a 4 year old guy, Zander, my little guy, he’s got a weird
       condition. When he picks up the basketball, he starts kind of weirdly
       crying, ‘cause he knows dad's going to come out of somewhere and block the
       fucking shit out of him. And so I posted this thing about it today on
       instagram, and it was funny to watch everybody. I mean everybody’s into
-      these fucking eigth place trophies, I want to kill people. Like, all this
-      fake infrastructure of faking fucking self-esteem and then these kids
+      these fucking eigth place trophies - I want to kill people. Like, all this
+      fake infrastructure of fake fucking self-esteem and then these kids
       go into the market and they get punched in the mouth and they don’t know
-      what to do."
+      what to do.
     </p>
     <p>
-      So, you don't let your kid score on you either?
+      So, you don't let your kid score on you, either?
     </p>
     <p>
       Nope.
