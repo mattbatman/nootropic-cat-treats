@@ -176,5 +176,127 @@ export const QUOTES = [
     platform: 'Joe Rogan Experience, #910',
     link: 'https://www.youtube.com/watch?v=OLHdzLpMg-s&t=49m00s',
     length: 'long'
+  },
+  {
+    quote: `
+    <p>
+      You know the problem with, “woe is me?” Nobody’s fucking
+      listening. My friends, let me tell you who’s listening to you
+      complain. Either the two or three people that kind of have
+      to because they’re your parents, or your other fucking losing
+      friends. Nobody gives a fuck. That’s the problem. What nobody
+      understands about complaining is that it has zero ROI.
+    </p>
+    `,
+    quotee: 'Gary Vaynerchuk',
+    platform: 'Joe Rogan Experience, #910',
+    link: 'https://www.youtube.com/watch?v=OLHdzLpMg-s&t=1h34m45s',
+    length: 'medium'
+  },
+  {
+    quote: `
+    <p>
+      If anybody's made it that looks like you - that's it. That's
+      it. There's a blueprint.
+    </p>
+    `,
+    quotee: 'Gary Vaynerchuk',
+    platform: 'Joe Rogan Experience, #910',
+    link: 'https://www.youtube.com/watch?v=OLHdzLpMg-s&t=1h35m25s',
+    length: 'short'
+  },
+  {
+    quote: `
+    <p>
+      You understand that there's a very big difference between
+      being an entrepreneur, and being a successful entrepreneur?
+      But the market right now, everyone's like, "Oh, you're a CEO
+      and entrepreneur?" Like, as if you won. That's like me saying,
+      "I'm a basketball player." I play basketball. I'm not making
+      any fucking money.
+    </p>
+    `,
+    quotee: 'Gary Vaynerchuk',
+    platform: 'Joe Rogan Experience, #910',
+    link: 'https://www.youtube.com/watch?v=OLHdzLpMg-s&t=1h39m30s',
+    length: 'medium'
+  },
+  {
+    quote: `
+    <p>
+      When I was a kid, being an entrepreneur meant you were a loser
+      and had an idea.
+    </p>
+    `,
+    quotee: 'Gary Vaynerchuk',
+    platform: 'Joe Rogan Experience, #910',
+    link: 'https://www.youtube.com/watch?v=OLHdzLpMg-s&t=1h40m00s',
+    length: 'short'
+  },
+  {
+    quote: `
+    <p>
+      I'm from the generation where people made fun of my dad
+      because I didn't open a second wine store and I went on the
+      internet.
+    </p>
+    `,
+    quotee: 'Gary Vaynerchuk',
+    platform: 'Joe Rogan Experience, #910',
+    link: 'https://www.youtube.com/watch?v=OLHdzLpMg-s&t=1h41m30s',
+    length: 'short'
+  },
+  {
+    quote: `
+    <p>
+      "The telephone is not a viable product," was once said...by
+      people that didn't want the telephone to win.
+    </p>
+    `,
+    quotee: 'Gary Vaynerchuk',
+    platform: 'Joe Rogan Experience, #910',
+    link: 'https://www.youtube.com/watch?v=OLHdzLpMg-s&t=1h42m00s',
+    length: 'short'
+  },
+  {
+    quote: `
+    <p>
+      If you're lucky enough, right now, to be listening, and you're
+      good at what you like, become tunnel fucking vision.
+    </p>
+    `,
+    quotee: 'Gary Vaynerchuk',
+    platform: 'Joe Rogan Experience, #910',
+    link: 'https://www.youtube.com/watch?v=OLHdzLpMg-s&t=1h42m40s',
+    length: 'short'
+  },
+  {
+    quote: `
+    <p>
+      Have the conversation with the person that's holding you back.
+      The reason most people who are listening right now are not
+      doing "that thing" is because they're worried about the opinion
+      of somebody.
+    </p>
+    `,
+    quotee: 'Gary Vaynerchuk',
+    platform: 'Joe Rogan Experience, #910',
+    link: 'https://www.youtube.com/watch?v=OLHdzLpMg-s&t=1h42m55s',
+    length: 'short'
+  }
+  ,
+  {
+    quote: `
+    <p>
+      We have to get to a place where you're doing you, because
+      the number one thing that scares the fuck out of me is regret.
+      And you're going to sit there at 72, and you're going to say,
+      "I wish, I wish, I wish."
+    </p>
+    `,
+    quotee: 'Gary Vaynerchuk',
+    platform: 'Joe Rogan Experience, #910',
+    link: 'https://www.youtube.com/watch?v=OLHdzLpMg-s&t=1h43m15s',
+    length: 'short'
   }
 ];
