@@ -116,13 +116,13 @@ export const QUOTES = [
       Yeah, they'll take poop from a healthy person...
     </p>
     <p>
-      "No!"
+      No!
     </p>
     <p>
       Yes! Yes! It's a real thing!
     </p>
     <p>
-      "Ass to ass?"
+      Ass to ass?
     </p>
     <p>
       Well, they don't make you go butt-to-butt with somebody. I think they go
@@ -156,26 +156,11 @@ export const QUOTES = [
       go into the market and they get punched in the mouth and they don’t know
       what to do.
     </p>
-    <p>
-      So, you don't let your kid score on you, either?
-    </p>
-    <p>
-      Nope.
-    </p>
-    <p>
-      That's hilarious.
-    </p>
-    <p>
-      I will not let...I'm...I'm fucking gonna' beat the sh...like, until he can
-      win, then he's good. Like, AJ, my brother AJ's a better basketball player
-      than me because I didn't let him...like, what are you gonna' let people
-      score for?
-    </p>
     `,
     quotee: 'Gary Vaynerchuk to Joe Rogan',
     platform: 'Joe Rogan Experience, #910',
     link: 'https://www.youtube.com/watch?v=OLHdzLpMg-s&t=49m00s',
-    length: 'long'
+    length: 'medium'
   },
   {
     quote: `
