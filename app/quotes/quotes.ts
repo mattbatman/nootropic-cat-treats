@@ -9,8 +9,8 @@ export const QUOTES = [
   {
     quote: `
     <p>
-      You’ve probably heard the fable about, I think it’s Buridan’s donkey,
-      who…it’s a fable about a donkey that is standing halfway in-between a pile
+      You’ve probably heard the fable about &mdash; I think it’s Buridan’s donkey,
+      who &mdash; it’s a fable about a donkey that is standing halfway in-between a pile
       of hay and a bucket of water. And he just keeps looking left, to the hay, or
       right, to the water, trying to decide. Hay, or water? Hay, or water? And he
       is unable to decide, so he eventually falls over and dies of both hunger and thirst.
@@ -38,7 +38,7 @@ export const QUOTES = [
       that our puffy, wrinkled, alcoholic, racist, intolerant, hypocritical, news-obsessed
       skin-suits hang upon. And thank you for this incredible show called human
       incarnation. Please grant everyone at this table a lifetime of ever increasing,
-      powerful orgasms. Orgasms that move all of us in the direction of heightened
+      powerful orgasms &mdash; orgasms that move all of us in the direction of heightened
       states of consciousness, so that we can truly allow ourselves to surrender
       to the strange attractor at the end of time, that is rapidly transforming
       history into something that will be completely unrecognizable to those that
@@ -66,18 +66,18 @@ export const QUOTES = [
     quote: `
     <p>
       Before I had children, I used to think of people as being sort of static.
-      Obviously I was younger, and when you’re...especially when you’re really
-      young, when you're like 20 or something like that, you don’t really take
+      Obviously I was younger, and when you’re &mdash; especially when you’re really
+      young, when you're like 20 or something like that &mdash; you don’t really take
       into consideration that the people around you used to be your age. You
       kind of know it in an abstract sort of a sense, but once you actually have
       a baby, and then like, 5 years later the baby’s talking to you and you’re
-      having conversations you’re like, “Ah, you’re fucking learning shit now.”
-      And then 10 years later the baby’s in high school and you’re like, “Oh
-      Jesus Christ you’re almost a man.” And then…well, you realize, “Oh, we’re
-      all babies who had babies.” And then you raise those babies and then they
-      become adults and have babies of their own, but there are no grown ups.
-      It’s bullshit. It doesn’t exist. Like when you’re a kid and you’re sad and
-      you go, “Oh, one day I’m going to be a grown up and this is all going to
+      having conversations, you’re like, “Ah, you’re fucking learning shit now.”
+      And then 10 years later the baby’s in high school, and you’re like, “Oh
+      Jesus Christ, you’re almost a man.” And then...well, you realize, “Oh, we’re
+      all babies who had babies.” And then you raise those babies, and then they
+      become adults and have babies of their own, but there are no grown-ups.
+      It’s bullshit. It doesn’t exist. Like, when you’re a kid and you’re sad and
+      you go, “Oh, one day I’m going to be a grown-up and this is all going to
       make sense.” But that day never comes. You get older, but you’re a baby
       still. You’re just an old baby. You’re an old baby with a car and fucking
       credit card debt. And then you have a baby and then that baby grows up.
@@ -110,7 +110,7 @@ export const QUOTES = [
       Have you ever heard of when people get poop transfusions?
     </p>
     <p>
-      "No."
+      No.
     </p>
     <p>
       Yeah, they'll take poop from a healthy person...
@@ -139,21 +139,21 @@ export const QUOTES = [
   {
     quote: `
     <p>
-      I didn't let my brother AJ score on me in basketball - he's 11 years
-      younger than me - until he was like 15. Score. Like, score.
+      I didn't let my brother AJ score on me in basketball &mdash; he's 11 years
+      younger than me &mdash; until he was like, 15. Score. Like, score.
     </p>
     <p>
       You wouldn't let him?
     </p>
     <p>
-      No! Now I have a 4 year old guy, Zander, my little guy, he’s got a weird
+      No! Now I have a 4 year old guy &mdash; Zander my little guy &mdash; he’s got a weird
       condition. When he picks up the basketball, he starts kind of weirdly
-      crying, ‘cause he knows dad's going to come out of somewhere and block the
+      crying, because he knows dad's going to come out of somewhere and block the
       fucking shit out of him. And so I posted this thing about it today on
       instagram, and it was funny to watch everybody. I mean everybody’s into
-      these fucking eigth place trophies - I want to kill people. Like, all this
+      these fucking eigth place trophies &mdash; I want to kill people. Like, all this
       fake infrastructure of fake fucking self-esteem and then these kids
-      go into the market and they get punched in the mouth and they don’t know
+      go into the market, and they get punched in the mouth and they don’t know
       what to do.
     </p>
     `,
@@ -181,7 +181,7 @@ export const QUOTES = [
   {
     quote: `
     <p>
-      If anybody's made it that looks like you - that's it. That's
+      If anybody's made it that looks like you &mdash; that's it. That's
       it. There's a blueprint.
     </p>
     `,
@@ -195,9 +195,9 @@ export const QUOTES = [
     <p>
       You understand that there's a very big difference between
       being an entrepreneur, and being a successful entrepreneur?
-      But the market right now, everyone's like, "Oh, you're a CEO
+      But the market right now &mdash; everyone's like, "Oh, you're a CEO
       and entrepreneur?" Like, as if you won. That's like me saying,
-      "I'm a basketball player." I play basketball. I'm not making
+      "I'm a basketball player." I play basketball...I'm not making
       any fucking money.
     </p>
     `,
@@ -234,7 +234,7 @@ export const QUOTES = [
   {
     quote: `
     <p>
-      "The telephone is not a viable product," was once said...by
+      "The telephone is not a viable product," was once said by
       people that didn't want the telephone to win.
     </p>
     `,
@@ -247,7 +247,7 @@ export const QUOTES = [
     quote: `
     <p>
       If you're lucky enough, right now, to be listening, and you're
-      good at what you like, become tunnel fucking vision.
+      good at what you like &mdash; become tunnel fucking vision.
     </p>
     `,
     quotee: 'Gary Vaynerchuk',
@@ -276,7 +276,7 @@ export const QUOTES = [
       We have to get to a place where you're doing you, because
       the number one thing that scares the fuck out of me is regret.
       And you're going to sit there at 72, and you're going to say,
-      "I wish, I wish, I wish."
+      "I wish. I wish. I wish."
     </p>
     `,
     quotee: 'Gary Vaynerchuk',
