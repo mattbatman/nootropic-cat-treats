@@ -15,12 +15,10 @@ describe('AppComponent', function () {
   let comp: AppComponent;
   let fixture: ComponentFixture<AppComponent>;
 
-  let storeStub;
-
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [ AppComponent ],
-      providers: [{provide: Store, useValue: storeStub}]
+      providers: [ { provide: Store } ]
     })
     .compileComponents();
   }));
@@ -33,15 +31,4 @@ describe('AppComponent', function () {
 
   it('should create component', () => expect(comp).toBeDefined() );
 
-  it('should have a blockquote', () => {
-    fixture.detectChanges();
-    const blockquote = de.query(By.css('blockquote')).nativeElement;
-    expect(blockquote).toBeDefined();
-  });
-
-  it('should have a blockquote', () => {
-    fixture.detectChanges();
-    const button = de.query(By.css('button')).nativeElement;
-    expect(button).toBeDefined();
-  });
 });
