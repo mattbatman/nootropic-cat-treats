@@ -287,16 +287,16 @@ export const QUOTES = [
     quote: `
     <p>
       If you have a handle on your annual spending, and you know how much you
-      need to live on, all you need to do is save up 25 times that amount &mdash
-      and on the very, very conservative side let’s say 28 times that amount &mdash
+      need to live on, all you need to do is save up 25 times that amount &mdash;
+      and on the very, very conservative side let’s say 28 times that amount &mdash;
       in conservative investments like a giant vanguard index fund, and that’s
       enough to fund you with passive income with a high degree of safety for
-      the rest of your life. So, if you have &mdash let’s just keep the numbers
-      simple &mdash if you need $30,000 to live on, multiply that by 25 and
-      &mdash ah darn, I’m giving myself a tricky math question &mdash I’m thinking
+      the rest of your life. So, if you have &mdash; let’s just keep the numbers
+      simple &mdash; if you need $30,000 to live on, multiply that by 25 and
+      &mdash; ah darn, I’m giving myself a tricky math question &mdash; I’m thinking
       that’s like $750,000 you’d need saved up or something like that to quit forever.
       And that’s a lot less than most people think. Most people, at least in my
-      age group &mdash they’re shooting for the tens of millions type of range
+      age group &mdash; they’re shooting for the tens of millions type of range
       if they were to ever quit work early, and they haven’t really done the
       math on how easy it really is.
     </p>
