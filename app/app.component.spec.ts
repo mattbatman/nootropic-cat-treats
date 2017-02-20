@@ -10,7 +10,7 @@ import { Store } from '@ngrx/store';
 import { QUOTES } from './quotes/quotes';
 import { REFRESH } from './reducers';
 
-describe('AppComponent', function () {
+xdescribe('AppComponent', function () {
   let de: DebugElement;
   let comp: AppComponent;
   let fixture: ComponentFixture<AppComponent>;
