@@ -305,5 +305,35 @@ export const QUOTES = [
     platform: 'The Tim Ferriss Show, #221',
     link: 'http://tim.blog/2017/02/13/mr-money-mustache/',
     length: 'medium'
+  },
+  {
+    quote: `
+    <p>
+      When somebody tries to explain recursion to you using Fibonacci numbers,
+      you must murder them. I know that sounds rough, because they might be your
+      friend and they only mean well, but they must die.
+    </p>
+    `,
+    quotee: ' Mattias Petter Johansson (MPJ)',
+    platform: 'Recursion - Part 7 of Functional Programming in JavaScript',
+    link: 'https://www.youtube.com/watch?v=k7-N8R0-KY4&index=7&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84&t=1m5s',
+    length: 'short'
+  },
+  {
+    quote: `
+    <p>
+      This is, by the way, a good trick whenever you’re programming
+      &mdash; to always think about what it is you’re doing &mdash;
+      what is my end goal? &mdash; instead of just starting to code.
+      I think one of the most common mistakes in programming is to
+      start coding too early. Take some time to think about your
+      problem and where you’re going and that will save you a lot
+      of time.
+    </p>
+    `,
+    quotee: ' Mattias Petter Johansson (MPJ)',
+    platform: 'Recursion - Part 7 of Functional Programming in JavaScript',
+    link: 'https://www.youtube.com/watch?v=k7-N8R0-KY4&index=7&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84&t=8m45s',
+    length: 'medium'
   }
 ];
