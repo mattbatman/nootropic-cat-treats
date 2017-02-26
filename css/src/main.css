@@ -76,6 +76,12 @@ blockquote > div {
   margin-bottom: 1.618em;
 }
 
+.quotemarks {
+  color: var(--primary);
+  font-size: 100px;
+  text-align: center;
+}
+
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 button {
@@ -110,14 +116,9 @@ button:focus {
     .short > blockquote {
     	font-size: 1.61904762em;
     }
-    .cite {
-      order: 2;
-      text-align: right;
-    }
     button {
       margin-top: 0;
       margin-bottom: 0;
-      order: 1;
     }
     .meta {
       flex-direction: row;

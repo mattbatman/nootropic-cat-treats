@@ -549,6 +549,12 @@ blockquote > div {
   margin-bottom: 1.618em;
 }
 
+.quotemarks {
+  color: #a71d5d;
+  font-size: 100px;
+  text-align: center;
+}
+
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -588,18 +594,9 @@ button:focus {
     .short > blockquote {
     	font-size: 1.61904762em;
     }
-    .cite {
-      -webkit-box-ordinal-group: 3;
-          -ms-flex-order: 2;
-              order: 2;
-      text-align: right;
-    }
     button {
       margin-top: 0;
       margin-bottom: 0;
-      -webkit-box-ordinal-group: 2;
-          -ms-flex-order: 1;
-              order: 1;
     }
     .meta {
       -webkit-box-orient: horizontal;

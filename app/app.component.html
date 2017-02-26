@@ -1,10 +1,12 @@
 <div [ngClass]="setContainerClass()">
+    <span class="quotemarks">​‌&ldquo;</span>
 	<blockquote [innerHTML]="text$ | async"></blockquote>
-  <div class="meta">
-    <button (click)="onClick($event)">New Quote</button>
-    <div class="cite">
-      <p class="person">{{quotee$ | async}}</p>
-      <p><a href="{{link$ | async}}">{{platform$ | async}}</a></p>
+    <span class="quotemarks">​‌&rdquo;</span>
+    <div class="meta">
+        <div class="cite">
+            <p class="person">{{quotee$ | async}}</p>
+            <p><a href="{{link$ | async}}">{{platform$ | async}}</a></p>
+        </div>
+        <button (click)="onClick($event)">New Quote</button>
     </div>
-  </div>
 </div>
