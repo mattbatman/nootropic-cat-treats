@@ -331,9 +331,35 @@ export const QUOTES = [
       of time.
     </p>
     `,
-    quotee: ' Mattias Petter Johansson (MPJ)',
+    quotee: 'Mattias Petter Johansson (MPJ)',
     platform: 'Recursion - Part 7 of Functional Programming in JavaScript',
     link: 'https://www.youtube.com/watch?v=k7-N8R0-KY4&index=7&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84&t=8m45s',
     length: 'medium'
+  },
+  {
+    quote: `
+    <p>
+      There was an article in Scientific American how people &mdash;
+      and granted I’m sure this study was skewed and it’s a specific,
+      you know, group of people that sign for a study &mdash;
+      but that when someone was wrong, when someone told them they
+      were wrong, it made them believe their point even more...
+      But if you say to them &mdash; and I think that it’s the CIA
+      that uses this as a form of questioning &mdash; is that you
+      first have to legitimize their position before you suggest
+      that there might be something flawed about it. So you go like,
+      "I totally understand that you would think that &mdash; you
+      know &mdash; the earth is flat. I can see why you would have
+      thought that. I mean you grew up here. Of course you thought
+      that." If you empathize with them first, and then say, “You
+      know, but, turns out it’s round,” they’re more likely to
+      come around. But if you say, “Hey, you know that’s fucking
+      wrong," and if you show them proof, they double down even further.
+    </p>
+    `,
+    quotee: 'Whitney Cummings',
+    platform: 'Joe Rogan Experience, #910',
+    link: 'https://www.youtube.com/watch?v=v_P55Bexc5s&t=2h26m20s',
+    length: 'long'
   }
 ];
