@@ -361,5 +361,36 @@ export const QUOTES = [
     platform: 'Joe Rogan Experience, #910',
     link: 'https://www.youtube.com/watch?v=v_P55Bexc5s&t=2h26m20s',
     length: 'long'
+  },
+  {
+    quote: `
+    <p>
+      Are we talking about chemtrails now?
+    </p>
+    <p>
+      No, No &mdash; we’re talking about stratospheric aerosol injections.
+    </p>
+    `,
+    quotee: 'Joe Rogan and Eddie Bravo',
+    platform: 'Joe Rogan Experience, #911',
+    link: 'https://www.youtube.com/watch?v=UZPCp8SPfOM&t=1h23m30s',
+    length: 'short'
+  },
+  {
+    quote: `
+    <p>
+      We can go for a long time &mdash; 10 hours, Joe. This should be your longest podcast.
+    </p>
+    <p>
+      We’ll definitely peter out before then.
+    </p>
+    <p>
+      Nooo...we’ll go forever, dude.
+    </p>
+    `,
+    quotee: 'Alex Jones, Joe Rogan, and Eddie Bravo',
+    platform: 'Joe Rogan Experience, #911',
+    link: 'https://www.youtube.com/watch?v=UZPCp8SPfOM&=2h20m15s',
+    length: 'short'
   }
 ];
