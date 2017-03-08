@@ -390,7 +390,22 @@ export const QUOTES = [
     `,
     quotee: 'Alex Jones, Joe Rogan, and Eddie Bravo',
     platform: 'Joe Rogan Experience, #911',
-    link: 'https://www.youtube.com/watch?v=UZPCp8SPfOM&=2h20m15s',
-    length: 'short'
+    link: 'https://www.youtube.com/watch?v=UZPCp8SPfOM&t=2h20m15s',
+    length: 'medium'
+  },
+  {
+    quote: `
+    <p>
+      But it's just like anything else. It's sticking with it. Right now, I'm in
+      a slump. So what do you do as a baseball player &mdash; Jamie, when you're
+      in a slump, what do you do as a baseball player? You quit? No! You keep
+      fuckin' hittin'! And you keep striking out and you keep fuckin' striking out
+      and you keep it together.
+    </p>
+    `,
+    quotee: 'Joez Diaz',
+    platform: 'Joe Rogan Experience, #926',
+    link: 'https://www.youtube.com/watch?v=-mQjF-tPdiI&t=1h29m00s',
+    length: 'medium'
   }
 ];
