@@ -477,5 +477,16 @@ export const QUOTES = [
     platform: 'Moral Letters, 83.2 via The Daily Stoic',
     link: 'https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736?tag=ryanholnet-20',
     length: 'medium'
+  },
+  {
+    quote: `
+    <p>
+      Each day presents the chance to overthink things.
+    </p>
+    `,
+    quotee: 'Ryan Holiday and Stephen Hanselman',
+    platform: 'The Daily Stoic',
+    link: 'https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736?tag=ryanholnet-20',
+    length: 'short'
   }
 ];
