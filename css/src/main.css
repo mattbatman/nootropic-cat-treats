@@ -1,9 +1,10 @@
 @import "normalize";
 
 :root {
-  --black: #211f1e;
+    --black: #211f1e;
 	--white: #ffffff;
 	--primary: #a71d5d;
+    --primary-alt: #7d063d;
 }
 
 html, .root {
@@ -12,19 +13,23 @@ html, .root {
 
 body {
 	background-color: var(--black);
-  color: var(--white);
-	font-family: 'Oswald';
+    color: var(--white);
+	font-family: 'Quattrocento Sans', sans-serif;
 	font-size: 1em;
 }
 
 a {
 	color: var(--primary);
+    text-decoration: none;
+    font-weight: 700;
 }
-
+a:hover {
+    color: var(--primary-alt);
+}
 .cite {
 	display: block;
 	text-align: left;
-  order: 1;
+    order: 1;
 }
 
 .cite > p {
@@ -33,14 +38,14 @@ a {
 
 .cite > p:first-child {
 	color: var(--white);
-	font-weight: 400;
-  margin-bottom: 6px;
+	font-weight: 700;
+    margin-bottom: 6px;
 }
 
 blockquote {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Quattrocento', serif;
 	font-size: 1em;
-	font-weight: 300;
+	font-weight: 400;
 	line-height: 1.58em;
 	margin: 0.79310345em 0 0.79310345em 0;
 }
