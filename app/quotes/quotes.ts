@@ -341,9 +341,9 @@ export const QUOTES = [
     <p>
       There was an article in Scientific American how people &mdash;
       and granted I’m sure this study was skewed and it’s a specific,
-      you know, group of people that sign for a study &mdash;
+      you know, group of people that sign-up for a study &mdash;
       but that when someone was wrong, when someone told them they
-      were wrong, it made them believe their point even more...
+      were wrong, it made them believe their point even more.
       But if you say to them &mdash; and I think that it’s the CIA
       that uses this as a form of questioning &mdash; is that you
       first have to legitimize their position before you suggest
@@ -368,7 +368,7 @@ export const QUOTES = [
       Are we talking about chemtrails now?
     </p>
     <p>
-      No, No &mdash; we’re talking about stratospheric aerosol injections.
+      No. No. We’re talking about stratospheric aerosol injections.
     </p>
     `,
     quotee: 'Joe Rogan and Eddie Bravo',
@@ -403,7 +403,7 @@ export const QUOTES = [
       and you keep it together.
     </p>
     `,
-    quotee: 'Joez Diaz',
+    quotee: 'Joey Diaz',
     platform: 'Joe Rogan Experience, #926',
     link: 'https://www.youtube.com/watch?v=-mQjF-tPdiI&t=1h29m00s',
     length: 'medium'
