@@ -1,0 +1,135 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root {
+    --black: #211f1e;
+	--white: #ffffff;
+	--primary: #a71d5d;
+    --primary-alt: #7d063d;
+}
+
+html, .root {
+	font-size: 21px;
+}
+
+body {
+	background-color: var(--black);
+    color: var(--white);
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 1em;
+}
+
+a {
+	color: var(--primary);
+    text-decoration: none;
+    font-weight: 700;
+}
+a:hover {
+    color: var(--primary-alt);
+}
+.cite {
+	display: block;
+	text-align: left;
+    order: 1;
+}
+
+.cite > p {
+  margin: 0;
+}
+
+.cite > p:first-child {
+	color: var(--white);
+	font-weight: 700;
+    margin-bottom: 6px;
+}
+
+blockquote {
+	font-family: 'Quattrocento', serif;
+	font-size: 1em;
+	font-weight: 400;
+	line-height: 1.58em;
+	margin: 0.79310345em 0 0.79310345em 0;
+}
+
+blockquote > p {
+  margin: 0 0 0.79310345em 0;
+}
+
+blockquote > div {
+	margin: 0;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: center;
+	max-width: 700px;
+  min-height: 100vh;
+	width: 96%;
+	margin: 0 auto;
+}
+
+.long, .medium {
+  justify-content: flex-start;
+}
+
+.meta {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  margin-bottom: 1.618em;
+}
+
+.quotemarks {
+  color: var(--primary);
+  font-size: 100px;
+  text-align: center;
+}
+
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+button {
+  display: inline-block;
+  min-height: 33px;
+  padding: 0 30px;
+  color: var(--white);
+  text-align: center;
+  font-size: calc(11em / 18 * 1);
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid var(--white);
+  cursor: pointer;
+  box-sizing: border-box;
+  order: 2;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+button:hover,
+button:focus {
+  color: var(--primary);
+  border-color: var(--primary);
+  outline: 0; }
+
+  @media (min-width: 600px) {
+    .short > blockquote {
+    	font-size: 1.61904762em;
+    }
+    button {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .meta {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .medium {
+      justify-content: center;
+    }
+  }
