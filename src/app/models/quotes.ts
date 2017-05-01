@@ -558,5 +558,16 @@ export const QUOTES = [
     platform: 'Discourses, 1.18.21 via The Daily Stoic',
     link: 'https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance-ebook/dp/B01HNJIJB2/ref=sr_1_1?ie=UTF8&qid=1493176790&sr=8-1&keywords=the+daily+stoic',
     length: 'short'
+  },
+  {
+    quote: `
+    <p>
+      Anyway, I'm sorry. I know I haven't been my best this past decade.
+    </p>
+    `,
+    quotee: 'Steve Zissou',
+    platform: 'The Life Aquatic with Steve Zissou',
+    link: 'https://www.amazon.com/Life-Aquatic-Steve-Zissou/dp/B006C0AT9O/ref=sr_1_1?ie=UTF8&qid=1493640677&sr=8-1&keywords=a+life+aquatic',
+    length: 'short'
   }
 ];
