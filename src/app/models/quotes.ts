@@ -314,7 +314,7 @@ export const QUOTES = [
       friend and they only mean well, but they must die.
     </p>
     `,
-    quotee: ' Mattias Petter Johansson (MPJ)',
+    quotee: 'Mattias Petter Johansson (MPJ)',
     platform: 'Recursion - Part 7 of Functional Programming in JavaScript',
     link: 'https://www.youtube.com/watch?v=k7-N8R0-KY4&index=7&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84&t=1m5s',
     length: 'short'
@@ -569,5 +569,22 @@ export const QUOTES = [
     platform: 'The Life Aquatic with Steve Zissou',
     link: 'https://www.amazon.com/Life-Aquatic-Steve-Zissou/dp/B006C0AT9O/ref=sr_1_1?ie=UTF8&qid=1493640677&sr=8-1&keywords=a+life+aquatic',
     length: 'short'
+  },
+  {
+    quote: `
+    <p>
+      And then you realize that this area of stuff that you don’t know is almost
+      infinite. So, you realize that learning in programming &mdash; it cannot
+      be completed. Not even close. You just have to pick like, a path inside of
+      it and go slowly and just grow and compare yourself to the person that you
+      were yesterday. That feeling of, “Oh my god, there is so much that I don’t
+      know,” that feeling will not go away by learning more. It will grow - to a
+      point where you just realize, “Oh...uh...OK."
+    </p>
+    `,
+    quotee: 'Mattias Petter Johansson (MPJ)',
+    platform: 'Top 8 developer Habits: Perseverance',
+    link: 'https://www.youtube.com/watch?v=DwQ7psiU23I&t=10m50s',
+    length: 'long'
   }
 ];
