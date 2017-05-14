@@ -379,23 +379,6 @@ export const QUOTES = [
   {
     quote: `
     <p>
-      We can go for a long time &mdash; 10 hours, Joe. This should be your longest podcast.
-    </p>
-    <p>
-      We’ll definitely peter out before then.
-    </p>
-    <p>
-      Nooo...we’ll go forever, dude.
-    </p>
-    `,
-    quotee: 'Alex Jones, Joe Rogan, and Eddie Bravo',
-    platform: 'Joe Rogan Experience, #911',
-    link: 'https://www.youtube.com/watch?v=UZPCp8SPfOM&t=2h20m15s',
-    length: 'medium'
-  },
-  {
-    quote: `
-    <p>
       But it's just like anything else. It's sticking with it. Right now, I'm in
       a slump. So what do you do as a baseball player &mdash; Jamie, when you're
       in a slump, what do you do as a baseball player? You quit? No! You keep
@@ -616,5 +599,18 @@ export const QUOTES = [
     platform: 'Enchiridion, 34 via The Daily Stoic',
     link: 'https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance-ebook/dp/B01HNJIJB2/ref=sr_1_1?ie=UTF8&qid=1493176790&sr=8-1&keywords=the+daily+stoic',
     length: 'long'
+  },
+  {
+    quote: `
+    <p>
+      Clear your mind and get a hold on yourself and, as when awakened from
+      sleep and realizing it was only a bad dream upsetting you, wake up and
+      see that what's there is just like those dreams.
+    </p>
+    `,
+    quotee: 'Marcus Aurelius',
+    platform: 'Meditations, 6.31 via The Daily Stoic',
+    link: 'https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance-ebook/dp/B01HNJIJB2/ref=sr_1_1?ie=UTF8&qid=1493176790&sr=8-1&keywords=the+daily+stoic',
+    length: 'medium'
   }
 ];
