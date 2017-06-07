@@ -81,10 +81,16 @@ blockquote > div {
   margin-bottom: 1.618em;
 }
 
-.quotemarks {
-  color: var(--primary);
-  font-size: 100px;
-  text-align: center;
+.quotemark-l,
+.quotemark-r {
+    color: var(--primary);
+    font-size: 100px;
+    text-align: center;
+    line-height: 1;
+}
+
+.quotemark-r {
+    padding-top: 0.33em;
 }
 
 /* Buttons

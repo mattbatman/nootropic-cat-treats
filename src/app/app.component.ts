@@ -11,8 +11,21 @@ import { REFRESH } from './reducers/quote';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
+  template: `
+  <div [ngClass]="setContainerClass()">
+    <span class="quotemark-l">​‌&ldquo;</span>
+  	<blockquote [innerHTML]="text$ | async"></blockquote>
+    <span class="quotemark-r">​‌&rdquo;</span>
+      <div class="meta">
+          <div class="cite">
+              <p class="person">{{quotee$ | async}}</p>
+              <p><a href="{{link$ | async}}">{{platform$ | async}}</a></p>
+          </div>
+          <button (click)="onClick($event)">New Quote</button>
+      </div>
+  </div>
+  `
 })
 export class AppComponent implements OnInit {
   quote$;
