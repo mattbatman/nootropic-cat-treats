@@ -708,5 +708,23 @@ export const QUOTES = [
     platform: 'Enchiridion, 28 via The Daily Stoic',
     link: 'https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance-ebook/dp/B01HNJIJB2/ref=sr_1_1?ie=UTF8&qid=1493176790&sr=8-1&keywords=the+daily+stoic',
     length: 'Medium'
+  },
+  {
+    quote: `
+    <p>
+      Yesterday, I was on the road, and this woman is just tailing me so hard
+      &mdash; coming around, getting all crazy &mdash; and I just look over at
+      her, and I'm just like, "Easy. Like, eeeaaasssyyy. Like, live is good.
+      You have a beautiful car. You look healthy and young and pretty. Whatever.
+      Like, chill the hell out." You know? And I think people &mdash; they get
+      so caught up in these little problems, and they let it manifest into
+      something so great that they stop &mdash; they never stop to reflect that,
+      “Hey, look &mdash; life is OK."
+    </p>
+    `,
+    quotee: 'Jason Khalipa',
+    platform: 'The Tim Ferriss Show, #246',
+    link: 'http://tim.blog/2017/06/14/jason-khalipa/',
+    length: 'Medium'
   }
 ];
