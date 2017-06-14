@@ -124,9 +124,6 @@ button:focus {
   outline: 0; }
 
   @media (min-width: 600px) {
-    .short > blockquote {
-    	font-size: 1.61904762em;
-    }
     button {
       margin-top: 0;
       margin-bottom: 0;
