@@ -694,7 +694,7 @@ export const QUOTES = [
     quotee: 'Ryan Holiday and Stephen Hanselman',
     platform: 'Enchiridion, 20 via The Daily Stoic',
     link: 'https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance-ebook/dp/B01HNJIJB2/ref=sr_1_1?ie=UTF8&qid=1493176790&sr=8-1&keywords=the+daily+stoic',
-    length: 'Short'
+    length: 'short'
   },
   {
     quote: `
@@ -707,7 +707,7 @@ export const QUOTES = [
     quotee: 'Epictetus',
     platform: 'Enchiridion, 28 via The Daily Stoic',
     link: 'https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance-ebook/dp/B01HNJIJB2/ref=sr_1_1?ie=UTF8&qid=1493176790&sr=8-1&keywords=the+daily+stoic',
-    length: 'Medium'
+    length: 'medium'
   },
   {
     quote: `
@@ -725,6 +725,18 @@ export const QUOTES = [
     quotee: 'Jason Khalipa',
     platform: 'The Tim Ferriss Show, #246',
     link: 'http://tim.blog/2017/06/14/jason-khalipa/',
-    length: 'Medium'
+    length: 'medium'
+  },
+  {
+    quote: `
+    <p>
+      There are two ways to be wealthy &mdash; to get everything you want or to
+      want everything you have.
+    </p>
+    `,
+    quotee: 'Ryan Holiday and Stephen Hanselman',
+    platform: 'The Daily Stoic',
+    link: 'https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance-ebook/dp/B01HNJIJB2/ref=sr_1_1?ie=UTF8&qid=1493176790&sr=8-1&keywords=the+daily+stoic',
+    length: 'short'
   }
 ];
