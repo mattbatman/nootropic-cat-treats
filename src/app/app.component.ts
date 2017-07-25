@@ -6,8 +6,10 @@ import 'rxjs/add/operator/mapTo';
 
 import { Store } from '@ngrx/store';
 
+import * as creator from './actions';
+import * as fromRoot from './reducers';
+
 import { QUOTES } from './models/quotes';
-import { REFRESH } from './reducers/quote';
 
 @Component({
   selector: 'app-root',
@@ -36,9 +38,11 @@ export class AppComponent implements OnInit {
   length$;
   click$ = new Subject();
   length;
+  quotesLength = QUOTES.length - 1;
 
-  constructor(store: Store<any>) {
-    this.quote$ = store.map(no => QUOTES[no]);
+  constructor(store: Store<fromRoot.State>) {
+    this.quote$ = store.select(fromRoot.getQuoteNumber)
+      .map(n => QUOTES[n]);
 
     this.text$ = this.quote$.map(
       (quote) => { return quote.quote; }
@@ -63,13 +67,13 @@ export class AppComponent implements OnInit {
     );
 
     this.click$
-    .mapTo({type: REFRESH, payload: QUOTES.length - 1})
-    .subscribe(
-      (action) => {
-        store.dispatch(action);
-      }
-    );
-  }
+      .mapTo(new creator.NewQuoteClickedAction(this.quotesLength))
+      .subscribe(
+        (action) => {
+          store.dispatch(action);
+        }
+      );
+    }
 
   onClick(event) {
     this.click$.next();
