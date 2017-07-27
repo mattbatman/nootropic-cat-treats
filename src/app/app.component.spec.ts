@@ -7,7 +7,7 @@ import { Subject } from 'rxjs/Subject';
 
 import { AppComponent } from './app.component';
 import * as fromRoot from './reducers';
-import { MockStore } from '../testing-helpers/store';
+import { MockStore } from './test-helpers/store';
 
 describe('AppComponent', () => {
   let comp: AppComponent;
@@ -39,4 +39,16 @@ describe('AppComponent', () => {
     fixture.detectChanges();
     expect(el.textContent).toContain('New Quote');
   });
+
+  it('should display a quote on start-up', () => {});
+
+  it('should display the name of the quotee or author', () => {});
+
+  it('should display the relevant link', () => {});
+
+  it('should display a new quote when button is pressed', () => {});
+
+  it('should display the new name of the quotee or author when button is pressed', () => {});
+
+  it('should display the new link when button is pressed', () => {});
 });
