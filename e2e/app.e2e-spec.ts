@@ -14,6 +14,16 @@ describe('Nootropic Cat Treats App', () => {
   });
 });
 
+it('should display a different quote when the new quote button is clicked', () => {
+  const blockquote1 = by.css('blockquote');
+  const quote1 = element(blockquote1).getText();
+  const button = element(by.css('button'));
+  button.click();
+  const blockquote2 = by.css('blockquote');
+  const quote2 = element(blockquote1).getText();
+  expect(quote2).not.toEqual(quote1);
+});
+
 /*
 "click()" is available as a built-in jasmine convenience method
 */
