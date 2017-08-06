@@ -1,7 +1,7 @@
 import { ActionReducer, combineReducers } from '@ngrx/store';
 import { createSelector } from 'reselect';
 
-import * as fromQuoteNumber from './quoteNumber';
+import * as fromQuoteNumber from './quote-number';
 
 export interface State {
   quoteNumber: fromQuoteNumber.State;

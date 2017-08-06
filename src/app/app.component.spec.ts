@@ -7,7 +7,14 @@ import { Subject } from 'rxjs/Subject';
 
 import { AppComponent } from './app.component';
 import * as fromRoot from './reducers';
-import { MockStore } from './test-helpers/store';
+import { MockStore } from './test-helpers/mock-store';
+
+/*
+NOTE
+https://www.lynda.com/Angular-tutorials/Testing-components/557778/588070-4.html
+On the Lynda.com class, he copy and pasts all import statements from the
+app component to it's spec
+*/
 
 describe('AppComponent', () => {
   let comp: AppComponent;
@@ -50,36 +57,40 @@ describe('AppComponent', () => {
     linkEL = linkDE.nativeElement;
   });
 
-  it('should have a button that says New Quote', () => {
-    fixture.detectChanges();
-    expect(buttonEL.textContent).toContain('New Quote');
+  describe('on initialization', () => {
+    it('should have a button that says New Quote', () => {
+      fixture.detectChanges();
+      expect(buttonEL.textContent).toContain('New Quote');
+    });
+
+    it('should display a quote on start-up', () => {
+      fixture.detectChanges();
+      expect(quoteEL.textContent).toContain('You ever tried skiing on mushrooms?');
+    });
+
+    it('should display the name of the quotee or author', () => {
+      fixture.detectChanges();
+      expect(quoteeEL.textContent).toContain('Aubrey Marcus');
+    });
+
+    it('should display the relevant link text', () => {
+      fixture.detectChanges();
+      expect(linkEL.textContent).toContain('Joe Rogan Experience, #878');
+    });
+
+    it('link should lead to provided href', () => {
+      fixture.detectChanges();
+      expect(linkEL.href).toContain('https://www.youtube.com/watch?v=2xplJOx3Vjw&t=2h27m49s');
+    });
   });
 
-  it('should display a quote on start-up', () => {
-    fixture.detectChanges();
-    expect(quoteEL.textContent).toContain('You ever tried skiing on mushrooms?');
+  xdescribe('on new quote button clicked', () => {
+    it('should display a new quote when button is pressed', () => {});
+
+    it('should display the new name of the quotee or author when button is pressed', () => {});
+
+    it('should display the new link text when button is pressed', () => {});
+
+    it('new link should lead to new href when button is pressed', () => {});
   });
-
-  it('should display the name of the quotee or author', () => {
-    fixture.detectChanges();
-    expect(quoteeEL.textContent).toContain('Aubrey Marcus');
-  });
-
-  it('should display the relevant link text', () => {
-    fixture.detectChanges();
-    expect(linkEL.textContent).toContain('Joe Rogan Experience, #878');
-  });
-
-  it('link should lead to provided href', () => {
-    fixture.detectChanges();
-    expect(linkEL.href).toContain('https://www.youtube.com/watch?v=2xplJOx3Vjw&t=2h27m49s');
-  });
-
-  it('should display a new quote when button is pressed', () => {});
-
-  it('should display the new name of the quotee or author when button is pressed', () => {});
-
-  it('should display the new link text when button is pressed', () => {});
-
-  it('new link should lead to new href when button is pressed', () => {});
 });

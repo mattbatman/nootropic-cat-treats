@@ -1,14 +1,19 @@
+import { browser, element, by } from 'protractor';
 import { MyAppPage } from './app.po';
 
-describe('my-app App', () => {
-  let page: MyAppPage;
+describe('Nootropic Cat Treats App', () => {
 
   beforeEach(() => {
-    page = new MyAppPage();
+    browser.get('/');
   });
 
-  it('should display message saying app works', () => {
-    page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+  it('should display a quote', () => {
+    const blockquote = by.css('blockquote');
+    const quoteExists = element(blockquote).isPresent();
+    expect(quoteExists).toBeTruthy();
   });
 });
+
+/*
+"click()" is available as a built-in jasmine convenience method
+*/

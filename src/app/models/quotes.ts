@@ -1,4 +1,12 @@
-export const QUOTES = [
+export interface Quote {
+  quote: string;
+  quotee: string;
+  platform: string;
+  link: string;
+  length: string;
+};
+
+export const QUOTES: Array<Quote> = [
   {
     quote: '<p>You ever tried skiing on mushrooms?</p>',
     quotee: 'Aubrey Marcus',
