@@ -786,5 +786,27 @@ export const QUOTES: Array<Quote> = [
     platform: 'The Daily Stoic',
     link: 'https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance-ebook/dp/B01HNJIJB2/ref=sr_1_1?ie=UTF8&qid=1493176790&sr=8-1&keywords=the+daily+stoic',
     length: 'short'
+  },
+  {
+    quote: `
+    <p>
+      Such as your habitual thoughts, such also will be the character of your mind.
+    </p>
+    `,
+    quotee: 'Marcus Aurelius',
+    platform: 'The Daily Stoic',
+    link: 'https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance-ebook/dp/B01HNJIJB2/ref=sr_1_1?ie=UTF8&qid=1493176790&sr=8-1&keywords=the+daily+stoic',
+    length: 'short'
+  },
+  {
+    quote: `
+    <p>
+      We are what we repeatedly do. Therefore, excellence is not an act but a habit.
+    </p>
+    `,
+    quotee: 'Aristotle',
+    platform: 'The Daily Stoic',
+    link: 'https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance-ebook/dp/B01HNJIJB2/ref=sr_1_1?ie=UTF8&qid=1493176790&sr=8-1&keywords=the+daily+stoic',
+    length: 'short'
   }
 ];
