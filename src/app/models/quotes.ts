@@ -36,16 +36,24 @@ export const QUOTES: Array<Quote> = [
       Thank you so much for letting us exist. I can't believe we got even a few moments
       to experience what it's like to be thrust into time as monkey-descendants
       with an advanced biocomputer that allows us to experience a past, present, and
-      future. And though, at this moment, we may find ourselves surrounded by deeply
+      future.
+    </p>
+    <p>
+      And though, at this moment, we may find ourselves surrounded by deeply
       brainwashed weirdos whose entire conceptualization of reality has been constructed
       for them by religious institutions, corporations, or politicians, please help
       us remember that our family is actually me, wrapped around the infinite
       goodness of the universe, and just because we're currently acting like vicious
-      hyenas doesn't mean that we don't suffer, just like anyone else. Help us
-      see beyond our temporary mask of cuntiness, to the never ending transcendent glory
+      hyenas doesn't mean that we don't suffer, just like anyone else.
+    </p>
+    <p>
+      Help us see beyond our temporary mask of cuntiness, to the never ending transcendent glory
       that our puffy, wrinkled, alcoholic, racist, intolerant, hypocritical, news-obsessed
       skin-suits hang upon. And thank you for this incredible show called human
-      incarnation. Please grant everyone at this table a lifetime of ever increasing,
+      incarnation.
+    </p>
+    <p>
+      Please grant everyone at this table a lifetime of ever increasing,
       powerful orgasms &mdash; orgasms that move all of us in the direction of heightened
       states of consciousness, so that we can truly allow ourselves to surrender
       to the strange attractor at the end of time, that is rapidly transforming
@@ -808,5 +816,52 @@ export const QUOTES: Array<Quote> = [
     platform: 'The Daily Stoic',
     link: 'https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance-ebook/dp/B01HNJIJB2/ref=sr_1_1?ie=UTF8&qid=1493176790&sr=8-1&keywords=the+daily+stoic',
     length: 'short'
+  },
+  {
+    quote: `
+    <p>
+      One of my direct subordinates, one of my guys that worked for me &mdash; he would
+      call me up, he would pull me aside with some major problem, some issue that
+      was going on, and he'd say, "Boss, we got this and that and the other thing."
+    </p>
+    <p>
+      And I'd look at him and I'd say, "Good."
+    </p>
+    <p>
+      And finally one day he was telling me about some issue that he was having,
+      some problem, and he said, "I already know what you're going to say."
+    </p>
+    <p>
+      And I said, "Well, what am I going to say?"
+    </p>
+    <p>
+      And he said, "You're going to say, 'good.'" He said, "That's what you always say.
+      When something is wrong and going bad, you always just look at me and say,
+      'good.'"
+    </p>
+    <p>
+      And I said, "Well, yeah. When things are going bad, there's going to be some
+      good that's going to come from it. Didn't get the high-speed gear we wanted?
+      Didn't get promoted? Good. More time to get better. Oh, mission got canceled?
+      Good. We can focus on our other one. Didn't get funded? Didn't get the job
+      you wanted? Got injured? Sprained my ankle? Got tapped out? Good. Got beat?
+      Good. You learned. Unexpected problems? Good. We have the opportunity to
+      figure out a solution."
+    </p>
+    <p>
+      That's it. When things are going bad. Don't get all bummed out. Don't get
+      startled. Don't get frustrated.
+    </p>
+    <p>
+      If you can say the word, "good." Guess what? It means you're still alive.
+      It means you're still breathing. And if you're still breating, well then
+      hell &mdash; it means you've still got some fight left in you. So get up.
+      Dust off. Reload. Recalibrate. Reengage. And go out on the attack.
+    </p>
+    `,
+    quotee: 'Jocko Willink',
+    platform: 'Jocko Podcast',
+    link: 'https://www.youtube.com/watch?v=IdTMDpizis8',
+    length: 'long'
   }
 ];
