@@ -1,0 +1,130 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root {
+  --black: #211f1e;
+	--white: #ffffff;
+  --white-alt: #e4d8de;
+	--primary: #a71d5d;
+  --primary-alt: #7d063d;
+}
+
+html, .root {
+	font-size: 21px;
+}
+
+body {
+	background-color: var(--black);
+  color: var(--white);
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 1em;
+}
+
+a {
+	color: var(--primary);
+  text-decoration: none;
+  font-weight: 700;
+}
+a:hover {
+  color: var(--primary-alt);
+}
+.cite {
+	display: block;
+	text-align: left;
+}
+
+.cite > p {
+  margin: 0;
+}
+
+.cite > p:first-child {
+	color: var(--white);
+	font-weight: 700;
+  margin-bottom: 6px;
+}
+
+blockquote {
+	font-family: 'Quattrocento', serif;
+	font-size: 1em;
+	font-weight: 400;
+	line-height: 1.58em;
+	margin: 0.79310345em 0 0.79310345em 0;
+}
+
+blockquote > p {
+  margin: 0 0 0.79310345em 0;
+}
+
+blockquote > div {
+	margin: 0;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: center;
+	max-width: 700px;
+  min-height: 100vh;
+	width: 96%;
+	margin: 0 auto;
+}
+
+.long, .medium {
+  justify-content: flex-start;
+}
+
+.meta {
+  margin-bottom: 1.618em;
+}
+
+.quotemark-l {
+    color: var(--primary);
+    font-size: 100px;
+    text-align: center;
+    line-height: 1;
+}
+
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+button {
+  display: inline-block;
+  min-height: 33px;
+  padding: 0;
+  color: var(--black);
+  text-align: center;
+  font-size: calc(11em / 18 * 1);
+  font-weight: 700;
+  line-height: 33px;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: var(--white);
+  border-radius: 2px;
+  border: 1px solid var(--white);
+  cursor: pointer;
+  box-sizing: border-box;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 100%;
+}
+button:hover,
+button:focus {
+  background-color: var(--white-alt);
+  border-color: var(--white-alt);
+  outline: 0;
+}
+.container-button {
+  display: inline-block;
+  text-align: center;
+}
+
+  @media (min-width: 600px) {
+    button {
+      margin-top: 0;
+      margin-bottom: 0;
+      max-width: 180px;
+    }
+    .medium {
+      justify-content: center;
+    }
+  }
