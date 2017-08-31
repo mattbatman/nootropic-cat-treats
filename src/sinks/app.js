@@ -16,6 +16,7 @@ function model(actions) {
   return newClick$
     .fold((prev, cur) => {
       cur.target.blur();
+      window.scrollTo(0, 0);
       return random(0, quotesLength, prev);
     }, random(0, quotesLength, 0))
     .map(n => quotes[n]);
