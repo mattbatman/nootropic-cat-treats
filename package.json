@@ -1,57 +1,44 @@
 {
   "name": "nootropic-cat-treats",
-  "version": "2.0.0",
-  "description": "Random quote generator with joe rogan experience references",
+  "version": "3.0.0",
+  "description": "Random quote generator",
   "license": "UNLICENSED",
   "author": "Matt Batman",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mattbatman/nootropic-cat-treats.git"
   },
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.16.3",
+    "cname-webpack-plugin": "^1.0.1",
+    "css-loader": "^0.28.5",
+    "eslint": "^4.5.0",
+    "eslint-config-airbnb-base": "^11.3.2",
+    "eslint-plugin-import": "^2.7.0",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^2.30.1",
+    "mocha": "^3.1.2",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-loader": "^2.0.6",
+    "rimraf": "^2.6.1",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
   },
   "dependencies": {
-    "@angular/common": "^4.0.0",
-    "@angular/compiler": "^4.0.0",
-    "@angular/core": "^4.0.0",
-    "@angular/forms": "^4.0.0",
-    "@angular/http": "^4.0.0",
-    "@angular/platform-browser": "^4.0.0",
-    "@angular/platform-browser-dynamic": "^4.0.0",
-    "@angular/router": "^4.0.0",
-    "@ngrx/core": "^1.2.0",
-    "@ngrx/effects": "2.0.4",
-    "@ngrx/store": "^2.2.2",
-    "core-js": "^2.4.1",
-    "normalize.css": "^6.0.0",
-    "reselect": "^3.0.1",
-    "rxjs": "^5.4.0",
-    "zone.js": "^0.8.4"
+    "@cycle/dom": "^18.1.0",
+    "@cycle/run": "^3.2.0",
+    "xstream": "^10.9.0"
   },
-  "devDependencies": {
-    "@angular/cli": "1.0.1",
-    "@angular/compiler-cli": "^4.0.0",
-    "@ngrx/store-devtools": "3.2.4",
-    "@types/jasmine": "2.5.38",
-    "@types/node": "~6.0.60",
-    "codelyzer": "~2.0.0",
-    "jasmine-core": "~2.5.2",
-    "jasmine-spec-reporter": "~3.2.0",
-    "karma": "~1.4.1",
-    "karma-chrome-launcher": "~2.0.0",
-    "karma-cli": "~1.0.1",
-    "karma-coverage-istanbul-reporter": "^0.2.0",
-    "karma-jasmine": "~1.1.0",
-    "karma-jasmine-html-reporter": "^0.2.2",
-    "protractor": "~5.1.0",
-    "ts-node": "~2.0.0",
-    "tslint": "~4.5.0",
-    "typescript": "~2.2.0"
+  "scripts": {
+    "prebuild": "rimraf docs",
+    "start": "webpack-dev-server --env.dev",
+    "test": "wepback --env.test",
+    "build": "webpack -p --env.prod",
+    "build:dev": "webpack --env.dev"
   }
 }
