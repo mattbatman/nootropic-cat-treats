@@ -1,6 +1,6 @@
 import { run } from '@cycle/run';
 import { makeDOMDriver } from '@cycle/dom';
-import App from './sinks/app';
+import App from './mains/app';
 
 import './css/index.css';
 import favicon from './img/favicon.png';
