@@ -25,8 +25,8 @@ const quotes = [
     quote: `
     <p>Dear God,</p>
     <p>
-      Thank you so much for letting us exist. I can't believe we got even a few moments
-      to experience what it's like to be thrust into time as monkey-descendants
+      Thank you so much for letting us exist. I can’t believe we got even a few moments
+      to experience what it’s like to be thrust into time as monkey-descendants
       with an advanced biocomputer that allows us to experience a past, present, and
       future.
     </p>
@@ -35,8 +35,8 @@ const quotes = [
       brainwashed weirdos whose entire conceptualization of reality has been constructed
       for them by religious institutions, corporations, or politicians, please help
       us remember that our family is actually me, wrapped around the infinite
-      goodness of the universe, and just because we're currently acting like vicious
-      hyenas doesn't mean that we don't suffer, just like anyone else.
+      goodness of the universe, and just because we’re currently acting like vicious
+      hyenas doesn’t mean that we don’t suffer, just like anyone else.
     </p>
     <p>
       Help us see beyond our temporary mask of cuntiness, to the never ending transcendent glory
@@ -63,7 +63,7 @@ const quotes = [
   {
     quote: `
     <p>
-      8 hours? There's 24 hours in a day, bro. What are you worried about?
+      8 hours? There’s 24 hours in a day, bro. What are you worried about?
     </p>`,
     quotee: 'Joe Rogan',
     platform: 'Joe Rogan Experience, #895',
@@ -75,7 +75,7 @@ const quotes = [
     <p>
       Before I had children, I used to think of people as being sort of static.
       Obviously I was younger, and when you’re &mdash; especially when you’re really
-      young, when you're like 20 or something like that &mdash; you don’t really take
+      young, when you’re like 20 or something like that &mdash; you don’t really take
       into consideration that the people around you used to be your age. You
       kind of know it in an abstract sort of a sense, but once you actually have
       a baby, and then like, 5 years later the baby’s talking to you and you’re
@@ -121,21 +121,21 @@ const quotes = [
       No.
     </p>
     <p>
-      Yeah, they'll take poop from a healthy person...
+      Yeah, they’ll take poop from a healthy person...
     </p>
     <p>
       No!
     </p>
     <p>
-      Yes! Yes! It's a real thing!
+      Yes! Yes! It’s a real thing!
     </p>
     <p>
       Ass to ass?
     </p>
     <p>
-      Well, they don't make you go butt-to-butt with somebody. I think they go
+      Well, they don’t make you go butt-to-butt with somebody. I think they go
       in and fish it out and they shoot it up in you. But they literally will
-      shoot somebody else's poop up your asshole, into your body. And some
+      shoot somebody else’s poop up your asshole, into your body. And some
       people even swallow poop tablets.
     </p>
     `,
@@ -147,16 +147,16 @@ const quotes = [
   {
     quote: `
     <p>
-      I didn't let my brother AJ score on me in basketball &mdash; he's 11 years
+      I didn’t let my brother AJ score on me in basketball &mdash; he’s 11 years
       younger than me &mdash; until he was like, 15. Score. Like, score.
     </p>
     <p>
-      You wouldn't let him?
+      You wouldn’t let him?
     </p>
     <p>
       No! Now I have a 4 year old guy &mdash; Zander my little guy &mdash; he’s got a weird
       condition. When he picks up the basketball, he starts kind of weirdly
-      crying, because he knows dad's going to come out of somewhere and block the
+      crying, because he knows dad’s going to come out of somewhere and block the
       fucking shit out of him. And so I posted this thing about it today on
       instagram, and it was funny to watch everybody. I mean everybody’s into
       these fucking eigth place trophies &mdash; I want to kill people. Like, all this
@@ -189,8 +189,8 @@ const quotes = [
   {
     quote: `
     <p>
-      If anybody's made it that looks like you &mdash; that's it. That's
-      it. There's a blueprint.
+      If anybody’s made it that looks like you &mdash; that’s it. That’s
+      it. There’s a blueprint.
     </p>
     `,
     quotee: 'Gary Vaynerchuk',
@@ -201,11 +201,11 @@ const quotes = [
   {
     quote: `
     <p>
-      You understand that there's a very big difference between
+      You understand that there’s a very big difference between
       being an entrepreneur, and being a successful entrepreneur?
-      But the market right now &mdash; everyone's like, "Oh, you're a CEO
-      and entrepreneur?" Like, as if you won. That's like me saying,
-      "I'm a basketball player." I play basketball...I'm not making
+      But the market right now &mdash; everyone’s like, "Oh, you’re a CEO
+      and entrepreneur?" Like, as if you won. That’s like me saying,
+      "I’m a basketball player." I play basketball...I’m not making
       any fucking money.
     </p>
     `,
@@ -229,8 +229,8 @@ const quotes = [
   {
     quote: `
     <p>
-      I'm from the generation where people made fun of my dad
-      because I didn't open a second wine store and I went on the
+      I’m from the generation where people made fun of my dad
+      because I didn’t open a second wine store and I went on the
       internet.
     </p>
     `,
@@ -243,7 +243,7 @@ const quotes = [
     quote: `
     <p>
       "The telephone is not a viable product," was once said by
-      people that didn't want the telephone to win.
+      people that didn’t want the telephone to win.
     </p>
     `,
     quotee: 'Gary Vaynerchuk',
@@ -254,7 +254,7 @@ const quotes = [
   {
     quote: `
     <p>
-      If you're lucky enough, right now, to be listening, and you're
+      If you’re lucky enough, right now, to be listening, and you’re
       good at what you like &mdash; become tunnel fucking vision.
     </p>
     `,
@@ -266,9 +266,9 @@ const quotes = [
   {
     quote: `
     <p>
-      Have the conversation with the person that's holding you back.
+      Have the conversation with the person that’s holding you back.
       The reason most people who are listening right now are not
-      doing "that thing" is because they're worried about the opinion
+      doing "that thing" is because they’re worried about the opinion
       of somebody.
     </p>
     `,
@@ -280,9 +280,9 @@ const quotes = [
   {
     quote: `
     <p>
-      We have to get to a place where you're doing you, because
+      We have to get to a place where you’re doing you, because
       the number one thing that scares the fuck out of me is regret.
-      And you're going to sit there at 72, and you're going to say,
+      And you’re going to sit there at 72, and you’re going to say,
       "I wish. I wish. I wish."
     </p>
     `,
@@ -387,10 +387,10 @@ const quotes = [
   {
     quote: `
     <p>
-      But it's just like anything else. It's sticking with it. Right now, I'm in
-      a slump. So what do you do as a baseball player &mdash; Jamie, when you're
+      But it’s just like anything else. It’s sticking with it. Right now, I’m in
+      a slump. So what do you do as a baseball player &mdash; Jamie, when you’re
       in a slump, what do you do as a baseball player? You quit? No! You keep
-      fuckin' hittin'! And you keep striking out and you keep fuckin' striking out
+      fuckin’ hittin’! And you keep striking out and you keep fuckin’ striking out
       and you keep it together.
     </p>
     `,
@@ -490,7 +490,7 @@ const quotes = [
       up every distraction, emotional subversion of reason, and all drama,
       vanity, and complaint over your fair share. You can see how mastery over
       a few things makes it possible to live an abundant and devout life &mdash;
-      for, if you keep watch over these things, the gods won't ask for more.
+      for, if you keep watch over these things, the gods won’t ask for more.
     </p>
     `,
     quotee: 'Marcus Aurelius',
@@ -502,7 +502,7 @@ const quotes = [
     quote: `
     <p>
       If you wish to improve, be content to appear clueless or stupid in
-      extraneous matters &mdash; don't wish to seem knowledgeable. And if some
+      extraneous matters &mdash; don’t wish to seem knowledgeable. And if some
       regard you as important, distrust yourself.
     </p>
     `,
@@ -514,9 +514,9 @@ const quotes = [
   {
     quote: `
     <p>
-      Frame your thoughts like this &mdash; you are an old person, you won't let
+      Frame your thoughts like this &mdash; you are an old person, you won’t let
       yourself be enslaved by this any longer, no longer pulled like a puppet
-      by every impulse, and you'll stop complaining about your present fortune
+      by every impulse, and you’ll stop complaining about your present fortune
       or dreading the future.
     </p>
     `,
@@ -529,7 +529,7 @@ const quotes = [
     quote: `
     <p>
       When I see an anxious person, I ask myself, what do they want? For if a
-      person wasn't wanting something outside of their own control, why would
+      person wasn’t wanting something outside of their own control, why would
       they be stricken by anxiety?
     </p>
     `,
@@ -553,7 +553,7 @@ const quotes = [
   {
     quote: `
     <p>
-      Anyway, I'm sorry. I know I haven't been my best this past decade.
+      Anyway, I’m sorry. I know I haven’t been my best this past decade.
     </p>
     `,
     quotee: 'Steve Zissou',
@@ -581,7 +581,7 @@ const quotes = [
   {
     quote: `
     <p>
-      That's the thing about national conversations...not everyone gets to talk.
+      That’s the thing about national conversations...not everyone gets to talk.
     </p>
     `,
     quotee: 'Cody Wilson',
@@ -596,9 +596,9 @@ const quotes = [
       guard yourself from being carried away by it, let it await your action,
       give yourself a pause. After that, bring to mind both times, first when
       you you have enjoyed the pleasure and later when you will regret it and
-      hate yourself. Then compare to those the joy and satisfaction you'd feel
+      hate yourself. Then compare to those the joy and satisfaction you’d feel
       for abstaining altogether. However, if a seemingly appropriate time arises
-      to act on it, don't be overcome by its comfort, pleasantness, and allure
+      to act on it, don’t be overcome by its comfort, pleasantness, and allure
       &mdash; but against all of this, how much better the consciousness of
       conquering it.
     </p>
@@ -613,7 +613,7 @@ const quotes = [
     <p>
       Clear your mind and get a hold on yourself and, as when awakened from
       sleep and realizing it was only a bad dream upsetting you, wake up and
-      see that what's there is just like those dreams.
+      see that what’s there is just like those dreams.
     </p>
     `,
     quotee: 'Marcus Aurelius',
@@ -625,7 +625,7 @@ const quotes = [
     quote: `
     <p>
       If someone asks you how to write your name, would you bark out each letter?
-      And if they get angry, would you then return the anger? Wouldn't you rather
+      And if they get angry, would you then return the anger? Wouldn’t you rather
       gently spell out each letter for them? So then, remember in life that your
       duties are the sum of individual acts. Pay attention to each of these as you
       do your duty...just methodically complete your task.
@@ -640,7 +640,7 @@ const quotes = [
     quote: `
     <p>
       It is quite impossible to unite happiness with a yearning for what we
-      don't have.
+      don’t have.
     </p>
     `,
     quotee: 'Epictetus',
@@ -654,7 +654,7 @@ const quotes = [
       Remember to conduct yourself in life as if at a banquet.
       As something being passed around comes to you, reach out
       your hand and take a moderate helping. Does it pass you by?
-      Don't stop it. It hasn't yet come? Don't burn in desire for
+      Don’t stop it. It hasn’t yet come? Don’t burn in desire for
       it, but wait until it arrives in front of you. Act this way
       with children, a spouse, toward position, with wealth &mdash;
       one day it will make you worthy of a banquet with the gods.
@@ -668,7 +668,7 @@ const quotes = [
   {
     quote: `
     <p>
-      You shouldn't give circumstances the power to rouse anger, for they don't
+      You shouldn’t give circumstances the power to rouse anger, for they don’t
       care at all.
     </p>
     `,
@@ -680,9 +680,9 @@ const quotes = [
   {
     quote: `
     <p>
-      Keep in mind that it isn't the one who has it in for you and takes a
+      Keep in mind that it isn’t the one who has it in for you and takes a
       swipe that harms you, but rather the harm comes from your own belief
-      about the abuse. So when someone arouses your anger, know that it's really
+      about the abuse. So when someone arouses your anger, know that it’s really
       your own opinion fueling it. Instead, make it your first response not to
       be carried away by such impressions, for with time and distance
       self-mastery is more easily achieved.
@@ -696,7 +696,7 @@ const quotes = [
   {
     quote: `
     <p>
-      Listen and connect with people, don't perform for them.
+      Listen and connect with people, don’t perform for them.
     </p>
     `,
     quotee: 'Ryan Holiday and Stephen Hanselman',
@@ -707,7 +707,7 @@ const quotes = [
   {
     quote: `
     <p>
-      If a person gave away your body to some passerby, you'd be furious. Yet
+      If a person gave away your body to some passerby, you’d be furious. Yet
       you hand over your mind to anyone who comes along, so they may abuse you,
       leaving it disturbed and troubled &mdash; have you no shame in that?
     </p>
@@ -722,7 +722,7 @@ const quotes = [
     <p>
       Yesterday, I was on the road, and this woman is just tailing me so hard
       &mdash; coming around, getting all crazy &mdash; and I just look over at
-      her, and I'm just like, "Easy. Like, eeeaaasssyyy. Like, live is good.
+      her, and I’m just like, "Easy. Like, eeeaaasssyyy. Like, live is good.
       You have a beautiful car. You look healthy and young and pretty. Whatever.
       Like, chill the hell out." You know? And I think people &mdash; they get
       so caught up in these little problems, and they let it manifest into
@@ -750,7 +750,7 @@ const quotes = [
   {
     quote: `
     <p>
-      It isn't events themselves that disturb people, but only their judgments
+      It isn’t events themselves that disturb people, but only their judgments
       about them.
     </p>
     `,
@@ -762,12 +762,12 @@ const quotes = [
   {
     quote: `
     <p>
-      When your sparring partner scratches or head-butts you, you don't then
+      When your sparring partner scratches or head-butts you, you don’t then
       make a show of it, or protest, or view him with suspicion or as plotting
       against you. And yet you keep an eye on him, not as an enemy or with
       suspicion, but with a healthy avoidance. You should act this way with all
       things in life. We should give a pass to many things with our fellow
-      trainees. For, as I've said, it's possible to avoid without suspicion or
+      trainees. For, as I’ve said, it’s possible to avoid without suspicion or
       hate.
     </p>
     `,
@@ -814,40 +814,40 @@ const quotes = [
     <p>
       One of my direct subordinates, one of my guys that worked for me &mdash; he would
       call me up, he would pull me aside with some major problem, some issue that
-      was going on, and he'd say, "Boss, we got this and that and the other thing."
+      was going on, and he’d say, "Boss, we got this and that and the other thing."
     </p>
     <p>
-      And I'd look at him and I'd say, "Good."
+      And I’d look at him and I’d say, "Good."
     </p>
     <p>
       And finally one day he was telling me about some issue that he was having,
-      some problem, and he said, "I already know what you're going to say."
+      some problem, and he said, "I already know what you’re going to say."
     </p>
     <p>
       And I said, "Well, what am I going to say?"
     </p>
     <p>
-      And he said, "You're going to say, 'good.'" He said, "That's what you always say.
+      And he said, "You’re going to say, ’good.’" He said, "That’s what you always say.
       When something is wrong and going bad, you always just look at me and say,
-      'good.'"
+      ’good.’"
     </p>
     <p>
-      And I said, "Well, yeah. When things are going bad, there's going to be some
-      good that's going to come from it. Didn't get the high-speed gear we wanted?
-      Didn't get promoted? Good. More time to get better. Oh, mission got canceled?
-      Good. We can focus on our other one. Didn't get funded? Didn't get the job
+      And I said, "Well, yeah. When things are going bad, there’s going to be some
+      good that’s going to come from it. Didn’t get the high-speed gear we wanted?
+      Didn’t get promoted? Good. More time to get better. Oh, mission got canceled?
+      Good. We can focus on our other one. Didn’t get funded? Didn’t get the job
       you wanted? Got injured? Sprained my ankle? Got tapped out? Good. Got beat?
       Good. You learned. Unexpected problems? Good. We have the opportunity to
       figure out a solution."
     </p>
     <p>
-      That's it. When things are going bad. Don't get all bummed out. Don't get
-      startled. Don't get frustrated.
+      That’s it. When things are going bad. Don’t get all bummed out. Don’t get
+      startled. Don’t get frustrated.
     </p>
     <p>
-      If you can say the word, "good." Guess what? It means you're still alive.
-      It means you're still breathing. And if you're still breating, well then
-      hell &mdash; it means you've still got some fight left in you. So get up.
+      If you can say the word, "good." Guess what? It means you’re still alive.
+      It means you’re still breathing. And if you’re still breating, well then
+      hell &mdash; it means you’ve still got some fight left in you. So get up.
       Dust off. Reload. Recalibrate. Reengage. And go out on the attack.
     </p>
     `,
@@ -859,8 +859,8 @@ const quotes = [
   {
     quote: `
     <p>
-      We don't tell ourselves, "I'm never going to write my symphony." Instead
-      we say, "I'm going to write my symphony; I'm just going to start tomorrow."
+      We don’t tell ourselves, "I’m never going to write my symphony." Instead
+      we say, "I’m going to write my symphony; I’m just going to start tomorrow."
     </p>
     `,
     quotee: 'Steven Pressfield',
@@ -907,6 +907,20 @@ const quotes = [
     `,
     quotee: 'Ryan Holiday and Stephen Hanselman',
     platform: 'The Daily Stoic',
+    link: 'https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736?tag=ryanholnet-20',
+    length: 'medium'
+  },
+  {
+    quote: `
+    <p>
+      If you are defeated once and tell yourself you will overcome, but carry
+      on as before, know in the end you’ll be so ill and weakened that eventually
+      you won’t even notice your mistake and will begin to rationalize your
+      behavior.
+    </p>
+    `,
+    quotee: 'Epictetus',
+    platform: 'Discourses, 2.18.31',
     link: 'https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736?tag=ryanholnet-20',
     length: 'medium'
   }
