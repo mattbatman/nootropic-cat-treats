@@ -939,6 +939,24 @@ const quotes = [
     platform: 'On the Brevity of Life, 20',
     link: 'https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736?tag=ryanholnet-20',
     length: 'medium'
+  },
+  {
+    quote: `
+    <p>
+      You hear about a friend who has cancer, and you think like, "What would I
+      do if I had cancer?" You do have cancer. You’re going to fucking die. You
+      do have cancer. You just don’t &mdash; first off, because lot’s of people
+      do have cancer, so there’s a good chance the cells are already in your
+      body. But like, you do have a fatal diagnosis from a doctor. He just can’t
+      tell you if it’s 6 months or 60 years. But you are definitely, 100%, going
+      to die. And it could be tomorrow. So what are you going to do with that
+      information?
+    </p>
+    `,
+    quotee: 'Ryan Holiday',
+    platform: '#ASKGARYVEE 262',
+    link: 'https://www.youtube.com/watch?v=QTbQMbRDZj4&t=52m5s',
+    length: 'long'
   }
 ];
 
