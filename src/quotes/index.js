@@ -957,6 +957,18 @@ const quotes = [
     platform: '#ASKGARYVEE 262',
     link: 'https://www.youtube.com/watch?v=QTbQMbRDZj4&t=52m5s',
     length: 'long'
+  },
+  {
+    quote: `
+    <p>
+      You become the sum of your actions, and as you do, what flows from that
+      &mdash; your impulses &mdash; reflect the actions you've taken.
+    </p>
+    `,
+    quotee: 'Ryan Holiday and Stephen Hanselman',
+    platform: 'The Daily Stoic',
+    link: 'https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736?tag=ryanholnet-20',
+    length: 'short'
   }
 ];
 
