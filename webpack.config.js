@@ -7,25 +7,20 @@ const { resolve } = require('path');
 module.exports = env => ({
   context: resolve(__dirname, 'src'),
   entry: {
-    app: './index.js',
+    app: './index.ts',
     vendor: ['@cycle/dom', '@cycle/run', 'xstream']
   },
   output: {
     path: resolve(__dirname, 'docs'),
     filename: 'bundle.[name].[chunkhash].js'
   },
-  devtool: env.prod ? 'source-map' : 'eval',
+  devtool: env.prod ? 'none' : 'inline-source-map',
   module: {
     rules: [
       {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-          options: {
-            presets: ['env']
-          }
-        }
+        test: /\.tsx?$/,
+        use: 'ts-loader',
+        exclude: /node_modules/
       },
       {
         test: /\.css$/,
@@ -47,6 +42,13 @@ module.exports = env => ({
           }
         ]
       }
+    ]
+  },
+  resolve: {
+    extensions: [
+      '.tsx',
+      '.ts',
+      '.js'
     ]
   },
   plugins: [
