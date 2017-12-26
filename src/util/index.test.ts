@@ -1,4 +1,4 @@
-import assert from 'assert';
+import * as assert from 'assert';
 import Random from './index';
 
 describe('Random Number Generating Utility Function', () => {

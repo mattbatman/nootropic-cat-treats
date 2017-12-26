@@ -3,7 +3,8 @@ import { makeDOMDriver } from '@cycle/dom';
 import App from './mains/app';
 
 import './css/index.css';
-import favicon from './img/favicon.png';
+
+const favicon = require('./img/favicon.png');
 
 const main = App;
 
