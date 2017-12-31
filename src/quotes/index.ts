@@ -969,6 +969,30 @@ const quotes = [
     platform: 'The Daily Stoic',
     link: 'https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736?tag=ryanholnet-20',
     length: 'short'
+  },
+  {
+    quote: `
+    <p>
+      When you’re flexible, you’ll never be bent out of shape.
+    </p>
+    `,
+    quotee: 'Kyle Kingsbury',
+    platform: 'Onnit Podcast, #8',
+    link: 'https://www.youtube.com/watch?v=7EbQO2R-Sh8&t=31m5s',
+    length: 'short'
+  },
+  {
+    quote: `
+    <p>
+      You know how people are supposed to edit? You’re supposed to edit, like
+      when you make a document? You’re supposed to edit when you write a book?
+      You should also edit your thoughts. You can’t just let them all run wild.
+    </p>
+    `,
+    quotee: 'Joe Rogan',
+    platform: 'Joe Rogan Experience, #1045',
+    link: 'https://www.youtube.com/watch?v=_ERIRyhQ_34&t=2h5m55s',
+    length: 'short'
   }
 ];
 
