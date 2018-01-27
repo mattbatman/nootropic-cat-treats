@@ -993,6 +993,41 @@ const quotes = [
     platform: 'Joe Rogan Experience, #1045',
     link: 'https://www.youtube.com/watch?v=_ERIRyhQ_34&t=2h5m55s',
     length: 'short'
+  },
+  {
+    quote: `
+    <p>
+      Pride is a master of deception: when you think you’re occupied in the
+      weightiest business, that’s when he has you in his spell.
+    </p>
+    `,
+    quotee: 'Marcus Aurelius',
+    platform: 'Meditations, Translated by Gregory Hays',
+    link: 'https://www.amazon.com/Meditations-New-Translation-Marcus-Aurelius/dp/0812968255/ref=sr_1_3?ie=UTF8&qid=1517080147&sr=8-3&keywords=marcus+aurelius+meditations',
+    length: 'short'
+  },
+  {
+    quote: `
+    <p>
+      The things we fear pale in comparison to the damage we do to ourselves and
+      others when we unthinkingly scramble to avoid them.
+    </p>
+    `,
+    quotee: 'Ryan Holiday and Stephen Hanselman',
+    platform: 'The Daily Stoic',
+    link: 'https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736/ref=sr_1_1?s=books&ie=UTF8&qid=1517080375&sr=1-1&keywords=the+daily+stoic',
+    length: 'short'
+  },
+  {
+    quote: `
+    <p>
+      Those who aren’t pompous in good times, don’t have their bubbles burst with change.
+    </p>
+    `,
+    quotee: 'Seneca',
+    platform: 'On Consolation to Helvia, 5.4b, 5b-6, via The Daily Stoic',
+    link: 'https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736?tag=ryanholnet-20',
+    length: 'short'
   }
 ];
 
