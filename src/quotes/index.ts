@@ -1028,6 +1028,20 @@ const quotes = [
     platform: 'On Consolation to Helvia, 5.4b, 5b-6, via The Daily Stoic',
     link: 'https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736?tag=ryanholnet-20',
     length: 'short'
+  },
+  {
+    quote: `
+    <p>
+        Finally, consider that virtually all forbidden techniques (e.g. eye
+        gouging, biting, hair pulling) are far more effective when applied from
+        a dominant position. If you are really determined to bite somebody, then
+        get to side mount first and bite them from there.
+    </p>
+    `,
+    quotee: 'Stephan Kesting',
+    platform: 'A Roadmap for Brazilian Jiu-jitsu',
+    link: 'http://www.grapplearts.com/',
+    length: 'medium'
   }
 ];
 
