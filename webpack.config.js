@@ -7,7 +7,7 @@ const { resolve } = require('path');
 module.exports = env => ({
   context: resolve(__dirname, 'src'),
   entry: {
-    app: './index.ts',
+    app: './index.js',
     vendor: ['@cycle/dom', '@cycle/run', 'xstream']
   },
   output: {
@@ -18,9 +18,9 @@ module.exports = env => ({
   module: {
     rules: [
       {
-        test: /\.tsx?$/,
-        use: 'ts-loader',
-        exclude: /node_modules/
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: 'babel-loader'
       },
       {
         test: /\.css$/,
@@ -46,8 +46,6 @@ module.exports = env => ({
   },
   resolve: {
     extensions: [
-      '.tsx',
-      '.ts',
       '.js'
     ]
   },

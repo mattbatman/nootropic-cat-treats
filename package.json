@@ -27,14 +27,14 @@
     "postcss-loader": "^2.0.6",
     "rimraf": "^2.6.1",
     "style-loader": "^0.18.2",
-    "ts-loader": "^3.2.0",
-    "typescript": "^2.6.2",
     "webpack": "^3.5.5",
     "webpack-dev-server": "^2.7.1"
   },
   "dependencies": {
     "@cycle/dom": "^18.1.0",
     "@cycle/run": "^3.2.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "snabbdom-jsx": "^0.4.2",
     "xstream": "^10.9.0"
   },
   "scripts": {
