@@ -26,11 +26,9 @@ function model(actions) {
 // views render state
 function view(state$) {
   return state$.map(quoteObj =>
-    (<div className={`container ${quoteObj.length}`}>
+    <div className={`container ${quoteObj.length}`}>
       <span className="quotemark-l">“</span>
-      <blockquote>
-        {quoteObj.quote}
-      </blockquote>
+      <blockquote dangerouslySetInnerHTML={{__html: quoteObj.quote}}></blockquote>
       <div className="meta">
         <div className="cite">
           <p className="person">{quoteObj.quotee}</p>
@@ -40,7 +38,7 @@ function view(state$) {
           <button className="new">New Quote</button>
         </div>
       </div>
-    </div>)
+    </div>
   );
 }
 
