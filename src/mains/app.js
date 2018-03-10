@@ -1,6 +1,5 @@
 import { button, div, h, p, span } from '@cycle/dom';
 import xs from 'xstream';
-import { html } from 'snabbdom-jsx';
 import random from '../util';
 import quotes from '../quotes';
 
@@ -26,19 +25,21 @@ function model(actions) {
 // views render state
 function view(state$) {
   return state$.map(quoteObj =>
-    <div className={`container ${quoteObj.length}`}>
-      <span className="quotemark-l">“</span>
-      <blockquote dangerouslySetInnerHTML={{__html: `<p>test</p>`}}></blockquote>
-      <div className="meta">
-        <div className="cite">
-          <p className="person">{quoteObj.quotee}</p>
-          <p><a href={quoteObj.link}>{quoteObj.platform}</a></p>
-        </div>
-        <div className="container-button">
-          <button className="new">New Quote</button>
-        </div>
-      </div>
-    </div>
+    div(`.container.${quoteObj.length}`, [
+      span('.quotemark-l', '“'),
+      h('blockquote', { props: { innerHTML: quoteObj.quote } }),
+      div('.meta', [
+        div('.cite', [
+          p('.person', quoteObj.quotee),
+          p([
+            h('a', { props: { href: quoteObj.link } }, quoteObj.platform)
+          ])
+        ])
+      ]),
+      div('.container-button', [
+        button('.new', 'new quote')
+      ])
+    ])
   );
 }
 
