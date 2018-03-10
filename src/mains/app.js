@@ -28,7 +28,7 @@ function view(state$) {
   return state$.map(quoteObj =>
     <div className={`container ${quoteObj.length}`}>
       <span className="quotemark-l">“</span>
-      <div dangerouslySetInnerHTML={{__html: quoteObj.quote}}></div>
+      <blockquote dangerouslySetInnerHTML={{__html: `<p>test</p>`}}></blockquote>
       <div className="meta">
         <div className="cite">
           <p className="person">{quoteObj.quotee}</p>
