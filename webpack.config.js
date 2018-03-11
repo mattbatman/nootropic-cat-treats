@@ -2,6 +2,7 @@ const webpack = require('webpack');
 const CnameWebpackPlugin = require('cname-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 const { resolve } = require('path');
 
 module.exports = env => ({
@@ -13,6 +14,10 @@ module.exports = env => ({
   output: {
     path: resolve(__dirname, 'docs'),
     filename: 'bundle.[name].[chunkhash].js'
+  },
+  devServer: {
+    contentBase: resolve(__dirname, 'docs'),
+    port: 9999
   },
   devtool: env.prod ? 'none' : 'inline-source-map',
   module: {
@@ -44,21 +49,25 @@ module.exports = env => ({
       }
     ]
   },
-  resolve: {
-    extensions: [
-      '.js'
-    ]
+  optimization: {
+    splitChunks: {
+      cacheGroups: {
+        commons: {
+          test: /[\\/]node_modules[\\/]/,
+          name: 'vendor',
+          chunks: 'all'
+        }
+      }
+    }
   },
   plugins: [
+    new UglifyJSPlugin(),
     new HtmlWebpackPlugin({
       template: './index.html'
     }),
     new ExtractTextPlugin({
       filename: 'css/[name].[chunkhash].css',
       allChunks: true
-    }),
-    env.test ? undefined : new webpack.optimize.CommonsChunkPlugin({
-      name: 'vendor'
     }),
     env.prod ? new CnameWebpackPlugin({
       domain: 'nootropiccattreats.space'
