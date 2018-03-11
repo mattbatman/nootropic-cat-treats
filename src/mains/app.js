@@ -1,5 +1,6 @@
 import { button, div, h, p, span } from '@cycle/dom';
 import xs from 'xstream';
+import { html } from 'snabbdom-jsx';
 import random from '../util';
 import quotes from '../quotes';
 
@@ -25,21 +26,19 @@ function model(actions) {
 // views render state
 function view(state$) {
   return state$.map(quoteObj =>
-    div(`.container.${quoteObj.length}`, [
-      span('.quotemark-l', '“'),
-      h('blockquote', { props: { innerHTML: quoteObj.quote } }),
-      div('.meta', [
-        div('.cite', [
-          p('.person', quoteObj.quotee),
-          p([
-            h('a', { props: { href: quoteObj.link } }, quoteObj.platform)
-          ])
-        ])
-      ]),
-      div('.container-button', [
-        button('.new', 'new quote')
-      ])
-    ])
+    <div className={`container ${quoteObj.length}`}>
+      <span className="quotemark-l">​‌&ldquo;</span>
+      <blockquote innerHTML={quoteObj.quote}></blockquote>
+        <div className="meta">
+            <div className="cite">
+                <p className="person">{quoteObj.quotee}</p>
+                <p><a href={quoteObj.link}>{quoteObj.platform}</a></p>
+            </div>
+        </div>
+        <div className="container-button">
+          <button className="new">New Quote</button>
+        </div>
+    </div>
   );
 }
 
@@ -62,7 +61,7 @@ sink = output (write) effect
 
 /*
 div(`.container.${quoteObj.length}`, [
-  span('.quotemark-l', '“'),
+  span('.quotemark-l', '&ldquo'),
   h('blockquote', { props: { innerHTML: quoteObj.quote } }),
   div('.meta', [
     div('.cite', [
