@@ -1,6 +1,6 @@
 import { run } from '@cycle/run';
 import { makeDOMDriver } from '@cycle/dom';
-import App from './mains/app';
+import App from './page/app';
 
 import './css/index.css';
 
