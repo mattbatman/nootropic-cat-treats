@@ -10,15 +10,13 @@ function scrollJack() {
 }
 
 function initState(l) {
-  return random(0, l, 0);
+  const first = random(0, l, 0);
+  return {
+    history: [first],
+    placeInHistory: 0,
+    next: first
+  }
 }
-
-/*
-TODO
-When the chevron is clicked, overlay a menu on the screen (or display a new page)
-that lets you select from a list of all quotees. The quotee selected will be used
-to create a filtered playlist of quotes.
- */
 
 // interpret what the user wants to do for the model
 function intent(domSource) {
@@ -78,11 +76,7 @@ function model(actions) {
           history: prev.history
         };
       }
-    }, {
-      history: [0],
-      placeInHistory: 0,
-      next: 0
-    });
+    }, initState(quotes.length));
 }
 
 // views render state
