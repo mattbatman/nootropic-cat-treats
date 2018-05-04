@@ -1042,6 +1042,34 @@ const quotes = [
     platform: 'A Roadmap for Brazilian Jiu-jitsu',
     link: 'http://www.grapplearts.com/',
     length: 'medium'
+  },
+  {
+    quote: `
+    <p>
+        In short, you must remember this &mdash; that if you hold anything dear
+        outside of your own reasoned choice, you will have destroyed your
+        capacity for choice.
+    </p>
+    `,
+    quotee: 'Epictetus',
+    platform: 'Discourses, 4.4.23, via The Daily Stoic',
+    link: 'https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736?tag=ryanholnet-20',
+    length: 'medium'
+  },
+  {
+    quote: `
+    <p>
+        Devastation &mdash; that feeling that we’re absolutely crushed and
+        shocked by an event &mdash; is a factor of how unlikely we considered
+        that event in the first place. No one is wrecked by the fact that it’s
+        snowing in the winter, because we’ve accepted (and even anticipated)
+        this turn of events.
+    </p>
+    `,
+    quotee: 'Ryan Holiday and Stephen Hanselman',
+    platform: 'The Daily Stoic',
+    link: 'https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736?tag=ryanholnet-20',
+    length: 'medium'
   }
 ];
 
