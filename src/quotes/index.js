@@ -503,7 +503,7 @@ const quotes = [
     <p>
       If you wish to improve, be content to appear clueless or stupid in
       extraneous matters &mdash; don’t wish to seem knowledgeable. And if some
-      regard you as important, distrust yourself.
+      regards you as important, distrust yourself.
     </p>
     `,
     quotee: 'Epictetus',
@@ -1070,6 +1070,117 @@ const quotes = [
     platform: 'The Daily Stoic',
     link: 'https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736?tag=ryanholnet-20',
     length: 'medium'
+  },
+  {
+    quote: `
+    <p>
+      You know what wine and liqueur tastes like. It makes no difference whether
+      a hundred or a thousand bottles pass through your bladder &mdash; you are
+      nothing more than a filter.
+    </p>
+    `,
+    quotee: 'Seneca',
+    platform: 'Moral Letters, 77.16 via The Daily Stoic',
+    link: 'https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736?tag=ryanholnet-20',
+    length: 'medium'
+  },
+  {
+    quote: `
+    <p>
+        It’s a disgrace in this life when the soul surrenders first while the
+        body refuses to.
+    </p>
+    `,
+    quotee: 'Marcus Aurelius',
+    platform: 'Meditations, 6.29 via The Daily Stoic',
+    link: 'https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736?tag=ryanholnet-20',
+    length: 'short'
+  },
+  {
+    quote: `
+    <p>
+        Let’s not confuse getting better at stuff with being a better person.
+    </p>
+    `,
+    quotee: 'Ryan Holiday and Stephen Hanselman',
+    platform: 'The Daily Stoic',
+    link: 'https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736?tag=ryanholnet-20',
+    length: 'short'
+  },
+  {
+    quote: `
+    <p>
+      How much better to heal than seek revenge from injury. Vengeance wastes a
+      lot of time and exposes you to many more injuries than the first that
+      sparked it. Anger always outlasts hurt. Best to take the opposite course.
+      Would anyone think it normal to return a kick to a mule or a bite to a dog?
+    </p>
+    `,
+    quotee: 'Seneca',
+    platform: 'On Anger, 3.27.2 via The Daily Stoic',
+    link: 'https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736?tag=ryanholnet-20',
+    length: 'medium'
+  },
+  {
+    quote: `
+    <p>
+        Think of yourself as dead. You have lived your life. Now take what’s left
+        and live it properly.
+    </p>
+    `,
+    quotee: 'Marcus Aurelius',
+    platform: 'Meditations, 7.56',
+    link: 'https://www.amazon.com/Meditations-New-Translation-Marcus-Aurelius/dp/0812968255/ref=sr_1_4?ie=UTF8&qid=1528427977&sr=8-4&keywords=marcus+aurelius+meditations',
+    length: 'short'
+  },
+  {
+    quote: `
+    <p>
+        If they’ve made a mistake, correct them gently and show them where they
+        went wrong. If you can’t do that, then the blame lies with you. Or no one.
+    </p>
+    `,
+    quotee: 'Marcus Aurelius',
+    platform: 'Meditations, 10.4',
+    link: 'https://www.amazon.com/Meditations-New-Translation-Marcus-Aurelius/dp/0812968255/ref=sr_1_4?ie=UTF8&qid=1528427977&sr=8-4&keywords=marcus+aurelius+meditations',
+    length: 'medium'
+  },
+  {
+    quote: `
+    <p>
+        Everything that happens is either endurable or not.
+    </p>
+    <p>
+        If it’s endurable, then endure it. Stop complaining.
+    </p>
+    <p>
+        If it’s unendurable...then stop complaining. Your destruction will mean
+        it’s end as well.
+    </p>
+    <p>
+        Just remember: you can endure anything your mind can make endurable, by
+        treating it as in your interest to do so.
+    </p>
+    <p>
+        In your interest, or in your nature.
+    </p>
+    `,
+    quotee: 'Marcus Aurelius',
+    platform: 'Meditations, 10.3',
+    link: 'https://www.amazon.com/Meditations-New-Translation-Marcus-Aurelius/dp/0812968255/ref=sr_1_4?ie=UTF8&qid=1528427977&sr=8-4&keywords=marcus+aurelius+meditations',
+    length: 'long'
+  },
+  {
+    quote: `
+    <p>
+        In short, the straightforward and good person should be like a smelly
+        goat &mdash; you know when they are in the room with you.
+    </p>
+    `,
+    quotee: 'Marcus Aurelius',
+    platform: 'Meditations, 11.15',
+    link: 'https://www.amazon.com/Meditations-New-Translation-Marcus-Aurelius/dp/0812968255/ref=sr_1_4?ie=UTF8&qid=1528427977&sr=8-4&keywords=marcus+aurelius+meditations',
+    length: 'short'
   }
 ];
 
