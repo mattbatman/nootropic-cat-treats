@@ -104,7 +104,7 @@ const quotes = [
       continued path of improvement and spiritual enlightenment, or do we
       eventually go, “Hey, guys, there’s a cliff coming up. Let’s just have a
       drink. There’s a fucking cliff. There’s a cliff right over there. We’re
-      both looking at it."
+      both looking at it.”
     </p>
     `,
     quotee: 'Joe Rogan',
@@ -203,9 +203,9 @@ const quotes = [
     <p>
       You understand that there’s a very big difference between
       being an entrepreneur, and being a successful entrepreneur?
-      But the market right now &mdash; everyone’s like, "Oh, you’re a CEO
-      and entrepreneur?" Like, as if you won. That’s like me saying,
-      "I’m a basketball player." I play basketball...I’m not making
+      But the market right now &mdash; everyone’s like, “Oh, you’re a CEO
+      and entrepreneur?” Like, as if you won. That’s like me saying,
+      “I’m a basketball player.” I play basketball...I’m not making
       any fucking money.
     </p>
     `,
@@ -242,7 +242,7 @@ const quotes = [
   {
     quote: `
     <p>
-      "The telephone is not a viable product," was once said by
+      “The telephone is not a viable product,” was once said by
       people that didn’t want the telephone to win.
     </p>
     `,
@@ -268,7 +268,7 @@ const quotes = [
     <p>
       Have the conversation with the person that’s holding you back.
       The reason most people who are listening right now are not
-      doing "that thing" is because they’re worried about the opinion
+      doing “that thing” is because they’re worried about the opinion
       of somebody.
     </p>
     `,
@@ -283,7 +283,7 @@ const quotes = [
       We have to get to a place where you’re doing you, because
       the number one thing that scares the fuck out of me is regret.
       And you’re going to sit there at 72, and you’re going to say,
-      "I wish. I wish. I wish."
+      “I wish. I wish. I wish.”
     </p>
     `,
     quotee: 'Gary Vaynerchuk',
@@ -356,13 +356,13 @@ const quotes = [
       that uses this as a form of questioning &mdash; is that you
       first have to legitimize their position before you suggest
       that there might be something flawed about it. So you go like,
-      "I totally understand that you would think that &mdash; you
+      “I totally understand that you would think that &mdash; you
       know &mdash; the earth is flat. I can see why you would have
       thought that. I mean you grew up here. Of course you thought
-      that." If you empathize with them first, and then say, “You
+      that.” If you empathize with them first, and then say, “You
       know, but, turns out it’s round,” they’re more likely to
       come around. But if you say, “Hey, you know that’s fucking
-      wrong," and if you show them proof, they double down even further.
+      wrong,” and if you show them proof, they double down even further.
     </p>
     `,
     quotee: 'Whitney Cummings',
@@ -570,7 +570,7 @@ const quotes = [
       it and go slowly and just grow and compare yourself to the person that you
       were yesterday. That feeling of, “Oh my god, there is so much that I don’t
       know,” that feeling will not go away by learning more. It will grow - to a
-      point where you just realize, “Oh...uh...OK."
+      point where you just realize, “Oh...uh...OK.”
     </p>
     `,
     quotee: 'Mattias Petter Johansson (MPJ)',
@@ -722,12 +722,12 @@ const quotes = [
     <p>
       Yesterday, I was on the road, and this woman is just tailing me so hard
       &mdash; coming around, getting all crazy &mdash; and I just look over at
-      her, and I’m just like, "Easy. Like, eeeaaasssyyy. Like, live is good.
+      her, and I’m just like, “Easy. Like, eeeaaasssyyy. Like, live is good.
       You have a beautiful car. You look healthy and young and pretty. Whatever.
-      Like, chill the hell out." You know? And I think people &mdash; they get
+      Like, chill the hell out.” You know? And I think people &mdash; they get
       so caught up in these little problems, and they let it manifest into
       something so great that they stop &mdash; they never stop to reflect that,
-      “Hey, look &mdash; life is OK."
+      “Hey, look &mdash; life is OK.”
     </p>
     `,
     quotee: 'Jason Khalipa',
@@ -814,38 +814,38 @@ const quotes = [
     <p>
       One of my direct subordinates, one of my guys that worked for me &mdash; he would
       call me up, he would pull me aside with some major problem, some issue that
-      was going on, and he’d say, "Boss, we got this and that and the other thing."
+      was going on, and he’d say, “Boss, we got this and that and the other thing.”
     </p>
     <p>
-      And I’d look at him and I’d say, "Good."
+      And I’d look at him and I’d say, “Good.”
     </p>
     <p>
       And finally one day he was telling me about some issue that he was having,
-      some problem, and he said, "I already know what you’re going to say."
+      some problem, and he said, “I already know what you’re going to say.”
     </p>
     <p>
-      And I said, "Well, what am I going to say?"
+      And I said, “Well, what am I going to say?”
     </p>
     <p>
-      And he said, "You’re going to say, ’good.’" He said, "That’s what you always say.
+      And he said, “You’re going to say, ’good.’” He said, “That’s what you always say.
       When something is wrong and going bad, you always just look at me and say,
-      ’good.’"
+      ’good.’”
     </p>
     <p>
-      And I said, "Well, yeah. When things are going bad, there’s going to be some
+      And I said, “Well, yeah. When things are going bad, there’s going to be some
       good that’s going to come from it. Didn’t get the high-speed gear we wanted?
       Didn’t get promoted? Good. More time to get better. Oh, mission got canceled?
       Good. We can focus on our other one. Didn’t get funded? Didn’t get the job
       you wanted? Got injured? Sprained my ankle? Got tapped out? Good. Got beat?
       Good. You learned. Unexpected problems? Good. We have the opportunity to
-      figure out a solution."
+      figure out a solution.”
     </p>
     <p>
       That’s it. When things are going bad. Don’t get all bummed out. Don’t get
       startled. Don’t get frustrated.
     </p>
     <p>
-      If you can say the word, "good." Guess what? It means you’re still alive.
+      If you can say the word, “good.” Guess what? It means you’re still alive.
       It means you’re still breathing. And if you’re still breating, well then
       hell &mdash; it means you’ve still got some fight left in you. So get up.
       Dust off. Reload. Recalibrate. Reengage. And go out on the attack.
@@ -859,8 +859,8 @@ const quotes = [
   {
     quote: `
     <p>
-      We don’t tell ourselves, "I’m never going to write my symphony." Instead
-      we say, "I’m going to write my symphony; I’m just going to start tomorrow."
+      We don’t tell ourselves, “I’m never going to write my symphony.” Instead
+      we say, “I’m going to write my symphony; I’m just going to start tomorrow.”
     </p>
     `,
     quotee: 'Steven Pressfield',
@@ -943,8 +943,8 @@ const quotes = [
   {
     quote: `
     <p>
-      You hear about a friend who has cancer, and you think like, "What would I
-      do if I had cancer?" You do have cancer. You’re going to fucking die. You
+      You hear about a friend who has cancer, and you think like, “What would I
+      do if I had cancer?” You do have cancer. You’re going to fucking die. You
       do have cancer. You just don’t &mdash; first off, because lot’s of people
       do have cancer, so there’s a good chance the cells are already in your
       body. But like, you do have a fatal diagnosis from a doctor. He just can’t
@@ -962,7 +962,7 @@ const quotes = [
     quote: `
     <p>
       You become the sum of your actions, and as you do, what flows from that
-      &mdash; your impulses &mdash; reflect the actions you've taken.
+      &mdash; your impulses &mdash; reflect the actions you’ve taken.
     </p>
     `,
     quotee: 'Ryan Holiday and Stephen Hanselman',
