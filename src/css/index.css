@@ -196,6 +196,11 @@ button:focus {
   cursor: default;
 }
 
+.forward.disabled {
+  border-left: 40px solid rgba(255, 255, 255, 0.5);
+  cursor: default;
+}
+
 
   @media (min-width: 600px) {
     button {

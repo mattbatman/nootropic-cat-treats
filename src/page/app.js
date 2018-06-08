@@ -10,7 +10,7 @@ function scrollJack() {
 }
 
 function initState(l) {
-  const first = random(0, l, 0);
+  const first = random(0, l, 0, []);
   return {
     history: [first],
     placeInHistory: 0,
@@ -40,40 +40,43 @@ function model(actions) {
   const sideEffect$ = xs.merge(forwardClickStr$, backwardClickStr$);
 
   return xs.merge(forwardClickStr$, backwardClickStr$)
-    .fold((prev, cur) => {
+    .fold((state, buttonClicked) => {
 
       scrollJack();
 
-      if (cur === 'forward') {
-        if (prev.placeInHistory + 1 === prev.history.length) {
-          const next = random(0, quotesLength, prev.next);
-          prev.history.push(next);
+      if (buttonClicked === 'forward') {
+        if (state.placeInHistory + 1 === state.history.length) {
+          if (state.history.length - 1 === quotesLength) {
+            return state;
+          }
+          const next = random(0, quotesLength, state.next, state.history);
+          state.history.push(next);
           return {
             next,
-            placeInHistory: prev.placeInHistory += 1,
-            history: prev.history
+            placeInHistory: state.placeInHistory += 1,
+            history: state.history
           };
         } else {
-          const placeInHistory = prev.placeInHistory + 1;
-          const next = prev.history[placeInHistory];
+          const placeInHistory = state.placeInHistory + 1;
+          const next = state.history[placeInHistory];
           return {
             next,
             placeInHistory,
-            history: prev.history
+            history: state.history
           };
         }
       }
 
-      if (cur === 'back') {
-        if (prev.placeInHistory === 0) {
-          return prev;
+      if (buttonClicked === 'back') {
+        if (state.placeInHistory === 0) {
+          return state;
         }
-        const placeInHistory = prev.placeInHistory - 1;
-        const next = prev.history[placeInHistory];
+        const placeInHistory = state.placeInHistory - 1;
+        const next = state.history[placeInHistory];
         return {
           next,
           placeInHistory,
-          history: prev.history
+          history: state.history
         };
       }
     }, initState(quotes.length));
@@ -83,7 +86,9 @@ function model(actions) {
 function view(state$) {
   return state$
   .map(state => {
+    const quotesLength = quotes.length - 1;
     const quoteObj = quotes[state.next];
+    const endOfQuotes = state.history.length - 1 === quotesLength && state.placeInHistory === quotesLength;
     return (
       <div className="App">
         <div className={`container ${quoteObj.length}`}>
@@ -99,7 +104,7 @@ function view(state$) {
         <div className="menu">
           <span className={`backward ${state.placeInHistory === 0 ? 'disabled' : ''}`}></span>
           <h2>Nootropic Cat Treats</h2>
-          <span className="forward"></span>
+          <span className={`forward ${endOfQuotes ? 'disabled' : ''}`}></span>
         </div>
       </div>
     );

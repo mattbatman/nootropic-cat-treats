@@ -1,4 +1,4 @@
-export default function (min, max, cur) {
+function randomNoRepeat(min, max, cur, hist) {
   let n = Math.floor(Math.random() * ((max - min) + 1)) + min;
   if (n === cur) {
     if (n < max) {
@@ -9,5 +9,10 @@ export default function (min, max, cur) {
       n = Math.floor(Math.random() * ((max - min) + 1)) + min;
     }
   }
-  return n;
+  if (hist.indexOf(n) === -1) {
+    return n;
+  }
+  return randomNoRepeat(min, max, cur, hist);
 }
+
+export default randomNoRepeat;
