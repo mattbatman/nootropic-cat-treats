@@ -1181,6 +1181,112 @@ const quotes = [
     platform: 'Meditations, 11.15',
     link: 'https://www.amazon.com/Meditations-New-Translation-Marcus-Aurelius/dp/0812968255/ref=sr_1_4?ie=UTF8&qid=1528427977&sr=8-4&keywords=marcus+aurelius+meditations',
     length: 'short'
+  },
+  {
+    quote: `
+    <p>
+        It’s silly to try to escape other people’s faults. They are inescapable.
+        Just try to escape your own.
+    </p>
+    `,
+    quotee: 'Marcus Aurelius',
+    platform: 'Meditations, 7.71',
+    link: 'https://www.amazon.com/Meditations-New-Translation-Marcus-Aurelius/dp/0812968255/ref=sr_1_4?ie=UTF8&qid=1528427977&sr=8-4&keywords=marcus+aurelius+meditations',
+    length: 'short'
+  },
+  {
+    quote: `
+    <p>
+        Nature did not blend things so inextricably that you can’t draw your
+        own boundaries &mdash; place your own well-being in your own hands. It’s
+        quite possible to be a good man without anyone realizing it. Remember that.
+    </p>
+    <p>
+        And this too: you don’t need much to live happily. And just because
+        you’ve abandoned your hopes of becoming a great thinker or scientist,
+        don’t give up on attaining freedom, achieving humility, serving others,
+        obeying God.
+    </p>
+    `,
+    quotee: 'Marcus Aurelius',
+    platform: 'Meditations, 7.71',
+    link: 'https://www.amazon.com/Meditations-New-Translation-Marcus-Aurelius/dp/0812968255/ref=sr_1_4?ie=UTF8&qid=1528427977&sr=8-4&keywords=marcus+aurelius+meditations',
+    length: 'medium'
+  },
+  {
+    quote: `
+    <p>
+        When people injure you, ask yourself what good or harm they thought would
+        come of it. If you understand that, you’ll feel sympathy rather than
+        outrage or anger. Your sense of good and evil may be the same as theirs,
+        or near it, in which case you have to excuse them. Or your sense of good
+        and evil may differ from theirs. In which case they’re misguided and
+        deserve your compassion. Is that so hard?
+    </p>
+    `,
+    quotee: 'Marcus Aurelius',
+    platform: 'Meditations, 7.26',
+    link: 'https://www.amazon.com/Meditations-New-Translation-Marcus-Aurelius/dp/0812968255/ref=sr_1_4?ie=UTF8&qid=1528427977&sr=8-4&keywords=marcus+aurelius+meditations',
+    length: 'medium'
+  },
+  {
+    quote: `
+    <p>
+        Ambition means tying your well-being to what other people say or do.
+    </p>
+    <p>
+        Self-indulgence means tying it to the things tht happen to you.
+    </p>
+    <p>
+        Sanity means tying it to your own actions.
+    </p>
+    `,
+    quotee: 'Marcus Aurelius',
+    platform: 'Meditations, 6.51',
+    link: 'https://www.amazon.com/Meditations-New-Translation-Marcus-Aurelius/dp/0812968255/ref=sr_1_4?ie=UTF8&qid=1528427977&sr=8-4&keywords=marcus+aurelius+meditations',
+    length: 'short'
+  },
+  {
+    quote: `
+    <p>
+        You don’t have to turn this into something. It doesn’t have to upset you.
+        Things can’t shape our decisions by themselves.
+    </p>
+    `,
+    quotee: 'Marcus Aurelius',
+    platform: 'Meditations, 6.52',
+    link: 'https://www.amazon.com/Meditations-New-Translation-Marcus-Aurelius/dp/0812968255/ref=sr_1_4?ie=UTF8&qid=1528427977&sr=8-4&keywords=marcus+aurelius+meditations',
+    length: 'short'
+  },
+  {
+    quote: `
+    <p>
+        Practice really hearing what people say. Do your best to get inside
+        their minds.
+    </p>
+    `,
+    quotee: 'Marcus Aurelius',
+    platform: 'Meditations, 6.53',
+    link: 'https://www.amazon.com/Meditations-New-Translation-Marcus-Aurelius/dp/0812968255/ref=sr_1_4?ie=UTF8&qid=1528427977&sr=8-4&keywords=marcus+aurelius+meditations',
+    length: 'short'
+  },
+  {
+    quote: `
+    <p>
+        When you need encouragement, think of the qualities the people around
+        you have: this one’s energy, that one’s modesty, another’s generosity,
+        and so on. Nothing is as encouraging as when virtues are visibily
+        embodied in the people around us, when we’re practically showered with
+        them.
+    </p>
+    <p>
+        It’s good to keep this in mind.
+    </p>
+    `,
+    quotee: 'Marcus Aurelius',
+    platform: 'Meditations, 6.48',
+    link: 'https://www.amazon.com/Meditations-New-Translation-Marcus-Aurelius/dp/0812968255/ref=sr_1_4?ie=UTF8&qid=1528427977&sr=8-4&keywords=marcus+aurelius+meditations',
+    length: 'medium'
   }
 ];
 
