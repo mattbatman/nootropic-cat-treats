@@ -1,19 +1,21 @@
-import { run } from '@cycle/run';
-import { makeDOMDriver } from '@cycle/dom';
-import App from './page/app';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { createStore } from 'redux';
+import { Provider } from 'react-redux';
+import rootReducer from './reducers';
 
-import './css/index.css';
+import App from './App';
 
-const favicon = require('./img/favicon.png');
+/* eslint-disable no-underscore-dangle */
+const store = createStore(
+  rootReducer,
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+);
+/* eslint-enable */
 
-const main = App;
-
-const drivers = {
-  DOM: makeDOMDriver('#app')
-};
-
-run(main, drivers);
-
-/*
-In cycle.js, applications are a loop of write effects and read effects
-*/
+ReactDOM.render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById('app')
+);
