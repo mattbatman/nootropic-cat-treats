@@ -1,9 +1,3 @@
 {
-  "presets": [
-    "env"
-  ],
-  "plugins": [
-    "syntax-jsx",
-    ["transform-react-jsx", {"pragma": "html"}]
-  ]
+  "presets": ["env", "react"]
 }

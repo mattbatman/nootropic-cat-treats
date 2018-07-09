@@ -5,11 +5,10 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 const { resolve } = require('path');
 
-module.exports = env => ({
+const devConfig = {
   context: resolve(__dirname, 'src'),
   entry: {
-    app: './index.js',
-    vendor: ['@cycle/dom', '@cycle/run', 'xstream']
+    app: './index.js'
   },
   output: {
     path: resolve(__dirname, 'docs'),
@@ -19,11 +18,11 @@ module.exports = env => ({
     contentBase: resolve(__dirname, 'docs'),
     port: 9999
   },
-  devtool: env.prod ? 'none' : 'inline-source-map',
+  devtool: 'inline-source-map',
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         loader: 'babel-loader'
       },
@@ -31,7 +30,10 @@ module.exports = env => ({
         test: /\.css$/,
         use: ExtractTextPlugin.extract({
           use: [
-            { loader: 'css-loader', options: { importLoaders: 1 } },
+            {
+              loader: 'css-loader',
+              options: { importLoaders: 1 }
+            },
             'postcss-loader'
           ]
         })
@@ -48,6 +50,70 @@ module.exports = env => ({
         ]
       }
     ]
+  },
+  resolve: {
+    extensions: ['.js', '.jsx']
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './index.html'
+    }),
+    new ExtractTextPlugin({
+      filename: 'css/[name].[chunkhash].css',
+      allChunks: true
+    })
+  ].filter(p => !!p)
+};
+
+const prodConfig = {
+  context: resolve(__dirname, 'src'),
+  entry: {
+    app: './index.js',
+    vendor: ['prop-types', 'react', 'react-dom', 'react-redux', 'redux', 'reselect']
+  },
+  output: {
+    path: resolve(__dirname, 'docs'),
+    filename: 'bundle.[name].[chunkhash].js'
+  },
+  devServer: {
+    contentBase: resolve(__dirname, 'docs'),
+    port: 9999
+  },
+  devtool: 'none',
+  module: {
+    rules: [
+      {
+        test: /\.(js|jsx)$/,
+        exclude: /node_modules/,
+        loader: 'babel-loader'
+      },
+      {
+        test: /\.css$/,
+        use: ExtractTextPlugin.extract({
+          use: [
+            {
+              loader: 'css-loader',
+              options: { importLoaders: 1 }
+            },
+            'postcss-loader'
+          ]
+        })
+      },
+      {
+        test: /\.(png|jpg|jpeg|gif)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[path][name].[ext]'
+            }
+          }
+        ]
+      }
+    ]
+  },
+  resolve: {
+    extensions: ['.js', '.jsx']
   },
   optimization: {
     splitChunks: {
@@ -69,8 +135,14 @@ module.exports = env => ({
       filename: 'css/[name].[chunkhash].css',
       allChunks: true
     }),
-    env.prod ? new CnameWebpackPlugin({
+    new CnameWebpackPlugin({
       domain: 'nootropiccattreats.space'
-    }) : undefined
+    })
   ].filter(p => !!p)
-});
+};
+
+function loadConfig(env) {
+  return env.prod ? prodConfig : devConfig;
+}
+
+module.exports = env => loadConfig(env);

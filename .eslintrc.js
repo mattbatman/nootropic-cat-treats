@@ -1,12 +1,17 @@
 module.exports = {
     "parserOptions": {
-      "ecmaFeatures": {
-        "jsx": true
-      }
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
     },
-    "extends": "airbnb-base",
-    'rules': {
-      'comma-dangle': ['error', 'never'],
-      'no-unused-vars: "off"
+    "env": {
+      "browser": true
+    },
+    "plugins": ["react"],
+    "extends": "airbnb",
+    "rules": {
+      "comma-dangle": ["error", "never"]
     }
 };
