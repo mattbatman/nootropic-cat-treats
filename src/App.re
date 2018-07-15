@@ -53,6 +53,7 @@ let make = _children => {
     let forwardClass =
       historyIndex === maxIndex ? "forward disabled" : "forward";
     let currentQuote = Quotes.quotes[history[historyIndex]];
+    Js.log(history);
     <div className="App">
       <div className="container">
         <span className="quotemark-l">
@@ -79,13 +80,17 @@ let make = _children => {
           onClick=(
             _event =>
               Array.length(history) - 1 === historyIndex ?
-                self.send(NewForward(Random.int(maxIndex))) :
+                self.send(
+                  NewForward(Utility.randomNoRepeat(maxIndex, history)),
+                ) :
                 self.send(ReturnForward)
           )
           onKeyPress=(
             _event =>
               Array.length(history) - 1 === historyIndex ?
-                self.send(NewForward(Random.int(maxIndex))) :
+                self.send(
+                  NewForward(Utility.randomNoRepeat(maxIndex, history)),
+                ) :
                 self.send(ReturnForward)
           )
           role="button"
