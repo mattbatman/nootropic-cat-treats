@@ -1,4 +1,3 @@
-const webpack = require('webpack');
 const CnameWebpackPlugin = require('cname-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -8,7 +7,7 @@ const { resolve } = require('path');
 const devConfig = {
   context: resolve(__dirname, 'src'),
   entry: {
-    app: './index.js'
+    app: './Index.bs.js'
   },
   output: {
     path: resolve(__dirname, 'docs'),
@@ -68,8 +67,8 @@ const devConfig = {
 const prodConfig = {
   context: resolve(__dirname, 'src'),
   entry: {
-    app: './index.js',
-    vendor: ['prop-types', 'react', 'react-dom', 'react-redux', 'redux', 'reselect']
+    app: '././Index.bs.js',
+    vendor: ['react', 'react-dom', 'reason-react/src/ReactDOMRe.js', 'reason-react/src/ReasonReact.js']
   },
   output: {
     path: resolve(__dirname, 'docs'),

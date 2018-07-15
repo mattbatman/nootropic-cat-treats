@@ -46,3 +46,12 @@ jspm_packages
 *.tgz
 
 build
+
+# reason
+.DS_Store
+.merlin
+.bsb.lock
+npm-debug.log
+/lib/bs/
+/node_modules/
+/src/**/*.js

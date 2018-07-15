@@ -32,16 +32,19 @@ a {
 a:hover {
   color: var(--primary-alt);
 }
-.cite {
+
+cite {
   display: block;
+  font-style: normal;
+  margin-bottom: 1.618em;
   text-align: left;
 }
 
-.cite > p {
+cite > p {
   margin: 0;
 }
 
-.cite > p:first-child {
+cite > p:first-child {
   color: var(--white);
   font-weight: 700;
   margin-bottom: 6px;
@@ -74,10 +77,6 @@ blockquote > div {
   padding-top: 1em;
 }
 
-.meta {
-  margin-bottom: 1.618em;
-}
-
 .quotemark-l {
   color: var(--primary);
   font-size: 100px;
@@ -85,7 +84,7 @@ blockquote > div {
   line-height: 1;
 }
 
-.menu {
+nav {
   background-color: var(--black);
   display: flex;
   flex-flow: row nowrap;
@@ -99,11 +98,11 @@ blockquote > div {
   justify-content: center;
 }
 
-.menu * {
+nav * {
   padding: 0 20px;
 }
 
-.menu h2 {
+nav h2 {
   font-size: 0.777em;
 }
 
@@ -167,10 +166,10 @@ blockquote > div {
 }
 
 
-  @media (min-width: 600px) {
-    button {
-      margin-top: 0;
-      margin-bottom: 0;
-      max-width: 180px;
-    }
+@media (min-width: 600px) {
+  button {
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 180px;
   }
+}
