@@ -26,7 +26,10 @@ let safeSubtract = x => x === 0 ? 0 : x - 1;
 let make = _children => {
   /* spread the other default fields of component here and override a few */
   ...component,
-  initialState: () => {history: [|Random.int(maxIndex)|], historyIndex: 0},
+  initialState: () => {
+    history: [|Random.int(maxIndex + 1)|],
+    historyIndex: 0,
+  },
   /* State transitions */
   reducer: (action, state) =>
     switch (action) {
@@ -53,7 +56,6 @@ let make = _children => {
     let forwardClass =
       historyIndex === maxIndex ? "forward disabled" : "forward";
     let currentQuote = Quotes.quotes[history[historyIndex]];
-    Js.log(history);
     <div className="App">
       <div className="container">
         <span className="quotemark-l">
@@ -79,19 +81,27 @@ let make = _children => {
           className=forwardClass
           onClick=(
             _event =>
-              Array.length(history) - 1 === historyIndex ?
+              if (historyIndex === maxIndex) {
+                self.send(ReturnForward);
+              } else if (Array.length(history) - 1 === historyIndex) {
                 self.send(
-                  NewForward(Utility.randomNoRepeat(maxIndex, history)),
-                ) :
-                self.send(ReturnForward)
+                  NewForward(Utility.randomNoRepeat(maxIndex + 1, history)),
+                );
+              } else {
+                self.send(ReturnForward);
+              }
           )
           onKeyPress=(
             _event =>
-              Array.length(history) - 1 === historyIndex ?
+              if (historyIndex === maxIndex) {
+                self.send(ReturnForward);
+              } else if (Array.length(history) - 1 === historyIndex) {
                 self.send(
-                  NewForward(Utility.randomNoRepeat(maxIndex, history)),
-                ) :
-                self.send(ReturnForward)
+                  NewForward(Utility.randomNoRepeat(maxIndex + 1, history)),
+                );
+              } else {
+                self.send(ReturnForward);
+              }
           )
           role="button"
           tabIndex=0
