@@ -1,24 +1,4 @@
-# nootropic-cat-treats-vue
+# Nootropic Cat Treats
+Nootropic Cat Treats is a random quote generator, built with unnecessary complexity, so I can test things out.
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+This branch is built using Vue.
