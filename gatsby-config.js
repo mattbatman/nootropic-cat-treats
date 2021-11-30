@@ -4,6 +4,15 @@ module.exports = {
     title: "Nootropic Cat Treats",
   },
   plugins: [
+    'gatsby-transformer-json',
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `quotes`,
+        path: `${__dirname}/src/data/`,
+        ignore: [`**/\.*`], // ignore files starting with a dot
+      },
+    },
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
