@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-basic-js",
+    "path": "/quotes/2",
+    "result": {"pageContext":{"id":2,"quote":"<p>You’ve probably heard the fable about &mdash; I think it’s Buridan’s donkey,who &mdash; it’s a fable about a donkey that is standing halfway in-between a pileof hay and a bucket of water. And he just keeps looking left, to the hay, orright, to the water, trying to decide. Hay, or water? Hay, or water? And heis unable to decide, so he eventually falls over and dies of both hunger and thirst.</p>","quotee":"Derek Sivers","platform":"The Tim Ferriss Show","link":"http://fourhourworkweek.com/2016/11/21/tools-of-titans-derek-sivers-distilled/","length":"medium","allQuotesLength":96}},
+    "staticQueryHashes": []}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-basic-js",
+    "path": "/quotes/4",
+    "result": {"pageContext":{"id":4,"quote":"<p>8 hours? There’s 24 hours in a day, bro. What are you worried about?</p>","quotee":"Joe Rogan","platform":"Joe Rogan Experience, #895","link":"https://www.youtube.com/watch?v=5r-vP3N2uAg&t=51m40s","length":"short","allQuotesLength":96}},
+    "staticQueryHashes": []}

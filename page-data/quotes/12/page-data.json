@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-basic-js",
+    "path": "/quotes/12",
+    "result": {"pageContext":{"id":12,"quote":"<p>When I was a kid, being an entrepreneur meant you were a loserand had an idea.</p>","quotee":"Gary Vaynerchuk","platform":"Joe Rogan Experience, #910","link":"https://www.youtube.com/watch?v=OLHdzLpMg-s&t=1h40m00s","length":"short","allQuotesLength":96}},
+    "staticQueryHashes": []}
