@@ -103,6 +103,25 @@ nav * {
 
 nav h2 {
   font-size: 0.777em;
+  cursor: pointer;
+}
+
+nav.open {
+  height: 90vh;
+  overflow-y: scroll;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+nav.open ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+nav.open ul li {
+  cursor: pointer;
 }
 
 p.jumbo {
