@@ -110,7 +110,6 @@ nav.open {
   height: 90vh;
   overflow-y: scroll;
   padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 nav.open ul {
@@ -122,6 +121,18 @@ nav.open ul {
 
 nav.open ul li {
   cursor: pointer;
+  margin-bottom: 0.777rem;
+}
+
+nav.open .close-button {
+  position: absolute;
+  top: 0.333rem;
+  left: 0.333rem;
+  font-size: 1.777rem;
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--white);
+  border: none;
 }
 
 p.jumbo {
