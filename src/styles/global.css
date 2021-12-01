@@ -95,6 +95,7 @@ nav {
   border-top: 1px var(--white-alt) solid;
   align-items: center;
   justify-content: center;
+  transition: height 0.25s linear;
 }
 
 nav * {
