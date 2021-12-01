@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 function getIsAtEnd(id, playlist, backwardOrForward) {
-  const end = backwardOrForward === 'backward' ? 0 : playlist.length - 1
-  
+  const end = backwardOrForward === 'backward' ? 0 : playlist.length - 1;
+
   if (!playlist || playlist.length <= 1) {
     return true;
   }
@@ -29,7 +29,12 @@ const NavBarLink = ({ id, playlist, backwardOrForward }) => {
     return <span className={`${backwardOrForward} disabled`} />;
   }
 
-  return <Link to={`/quotes/${getNextId(id, playlist, backwardOrForward)}`} className={backwardOrForward} />;
+  return (
+    <Link
+      to={`/quotes/${getNextId(id, playlist, backwardOrForward)}`}
+      className={backwardOrForward}
+    />
+  );
 };
 
 export default NavBarLink;

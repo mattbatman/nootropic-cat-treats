@@ -18,7 +18,7 @@ const Nav = ({ id }) => {
 
   const allQuotesData = queryResponse.allQuotesJson.edges
     .map(({ node }) => node)
-    .map(({quotee, jsonId }) => ({ quotee, id: parseInt(jsonId) }));
+    .map(({ quotee, jsonId }) => ({ quotee, id: parseInt(jsonId) }));
 
   const uniqueQuotees = allQuotesData
     .map(({ quotee }) => quotee)

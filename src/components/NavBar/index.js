@@ -45,7 +45,9 @@ const NavBar = ({
           x
         </button>
       ) : null}
-      {isOpen ? null : (<NavBarLink backwardOrForward="backward" id={id} playlist={playlist} />)}
+      {isOpen ? null : (
+        <NavBarLink backwardOrForward="backward" id={id} playlist={playlist} />
+      )}
       {isOpen ? (
         <NavQuoteeList
           quotees={uniqueQuotees}
@@ -56,7 +58,9 @@ const NavBar = ({
           {!selectedQuotee ? 'Nootropic Cat Treats' : selectedQuotee}
         </h2>
       )}
-      {isOpen ? null : <NavBarLink backwardOrForward="forward" id={id} playlist={playlist} />}
+      {isOpen ? null : (
+        <NavBarLink backwardOrForward="forward" id={id} playlist={playlist} />
+      )}
     </nav>
   );
 };
