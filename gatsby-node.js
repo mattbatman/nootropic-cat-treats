@@ -15,8 +15,7 @@ exports.createPages = ({ actions }) => {
         quotee,
         platform,
         link,
-        length,
-        allQuotesLength: quotes.length
+        length
       },
     })
   })

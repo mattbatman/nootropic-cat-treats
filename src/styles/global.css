@@ -98,15 +98,6 @@ nav {
   transition: height 0.25s linear;
 }
 
-nav * {
-  padding: 0 20px;
-}
-
-nav h2 {
-  font-size: 0.777em;
-  cursor: pointer;
-}
-
 nav.open {
   height: 90vh;
   overflow-y: scroll;
@@ -121,19 +112,39 @@ nav.open ul {
 }
 
 nav.open ul li {
-  cursor: pointer;
   margin-bottom: 0.333rem;
 }
 
-nav.open .close-button {
+.quotee-select-button {
+  font-size: 0.777rem;
+  white-space: nowrap;
+}
+
+.close-button {
   position: absolute;
   top: 0.333rem;
   left: 0.333rem;
   font-size: 1.777rem;
-  cursor: pointer;
+}
+
+.playlist-button {
+  font-size: 0.777em;
+  text-align: center;
+  white-space: nowrap;
+  padding: 0;
+  margin: 0 1rem;
+}
+
+button {
+  font-weight: bold;
   background-color: transparent;
+  cursor: pointer;
   color: var(--white);
   border: none;
+}
+
+button:hover {
+  color: var(--white-alt);
 }
 
 p.jumbo {

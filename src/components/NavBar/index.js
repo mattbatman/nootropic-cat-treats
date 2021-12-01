@@ -14,7 +14,6 @@ const NavBar = ({
 }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [playlist, setPlaylist] = useState([]);
-  const allQuotesLength = playlist.length;
 
   useEffect(() => {
     const quotesOfSelectedQuotee = !selectedQuotee
@@ -54,9 +53,9 @@ const NavBar = ({
           handleClick={handleQuoteeSelectionClick}
         />
       ) : (
-        <h2 onClick={() => setIsOpen(true)}>
+        <button onClick={() => setIsOpen(true)} className="playlist-button">
           {!selectedQuotee ? 'Nootropic Cat Treats' : selectedQuotee}
-        </h2>
+        </button>
       )}
       {isOpen ? null : (
         <NavBarLink backwardOrForward="forward" id={id} playlist={playlist} />
