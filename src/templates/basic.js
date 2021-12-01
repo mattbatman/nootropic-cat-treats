@@ -1,11 +1,10 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import NavBar from '../components/NavBar';
+import Nav from '../components/Nav';
 
 const basicTemplate = (props) => {
   const { pageContext } = props;
-  const { id, quote, quotee, platform, link, length, allQuotesLength } =
-    pageContext;
+  const { id, quote, quotee, platform, link } = pageContext;
 
   return (
     <div className="App">
@@ -23,7 +22,7 @@ const basicTemplate = (props) => {
           </p>
         </cite>
       </div>
-      <NavBar id={id} allQuotesLength={allQuotesLength} />
+      <Nav id={id} />
     </div>
   );
 };

@@ -121,7 +121,7 @@ nav.open ul {
 
 nav.open ul li {
   cursor: pointer;
-  margin-bottom: 0.777rem;
+  margin-bottom: 0.333rem;
 }
 
 nav.open .close-button {
