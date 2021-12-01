@@ -192,11 +192,3 @@ p.jumbo {
   border-left: 40px solid rgba(255, 255, 255, 0.5);
   cursor: default;
 }
-
-@media (min-width: 600px) {
-  button {
-    margin-top: 0;
-    margin-bottom: 0;
-    max-width: 180px;
-  }
-}
