@@ -1,24 +1,33 @@
-import React, { useState } from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
+import React, { useEffect, useState } from 'react';
+import { navigate } from 'gatsby';
+import { connect } from 'react-redux';
 import NavQuoteeList from '../NavQuoteeList';
 import NavBarLink from '../NavBarLink';
+import { selectQuotee } from '../../global-state/actions';
 
-const NavBar = ({ id, allQuotesLength }) => {
+const NavBar = ({
+  allQuotesData,
+  id,
+  uniqueQuotees,
+  selectedQuotee,
+  selectQuotee
+}) => {
   const [isOpen, setIsOpen] = useState(false);
+  const allQuotesLength = 96;
 
-  const data = useStaticQuery(graphql`
-    query QuoteAuthorQuery {
-      allQuotesJson {
-        nodes {
-          quotee
-        }
-      }
+  useEffect(() => {}, [selectedQuotee]);
+
+  const handleQuoteeSelectionClick = (quoteeSelection) => {
+    if (quoteeSelection !== null) {
+      const firstQuoteFromQuotee = allQuotesData.find(
+        (quoteData) => quoteData.quotee === quoteeSelection
+      );
+      navigate(`/quotes/${firstQuoteFromQuotee.jsonId}`);
     }
-  `);
 
-  const quotees = data.allQuotesJson.nodes
-    .map(({ quotee }) => quotee)
-    .filter((value, index, self) => self.indexOf(value) === index);
+    selectQuotee(quoteeSelection);
+    setIsOpen(false);
+  };
 
   return (
     <nav className={isOpen ? 'open' : 'closed'}>
@@ -29,11 +38,20 @@ const NavBar = ({ id, allQuotesLength }) => {
           allQuotesLength={allQuotesLength}
         />
       )}
-      {isOpen ? <button className="close-button" onClick={() => setIsOpen(false)}>x</button> : null}
       {isOpen ? (
-        <NavQuoteeList quotees={quotees} handleClick={() => setIsOpen(false)} />
+        <button className="close-button" onClick={() => setIsOpen(false)}>
+          x
+        </button>
+      ) : null}
+      {isOpen ? (
+        <NavQuoteeList
+          quotees={uniqueQuotees}
+          handleClick={handleQuoteeSelectionClick}
+        />
       ) : (
-        <h2 onClick={() => setIsOpen(true)}>Nootropic Cat Treats</h2>
+        <h2 onClick={() => setIsOpen(true)}>
+          {!selectedQuotee ? 'Nootropic Cat Treats' : selectedQuotee}
+        </h2>
       )}
       {isOpen ? null : (
         <NavBarLink
@@ -46,4 +64,6 @@ const NavBar = ({ id, allQuotesLength }) => {
   );
 };
 
-export default NavBar;
+const mapStateToProps = ({ selectedQuotee }) => ({ selectedQuotee });
+
+export default connect(mapStateToProps, { selectQuotee })(NavBar);
