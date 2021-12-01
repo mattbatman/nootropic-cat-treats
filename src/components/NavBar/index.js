@@ -13,16 +13,25 @@ const NavBar = ({
   selectQuotee
 }) => {
   const [isOpen, setIsOpen] = useState(false);
-  const allQuotesLength = 96;
+  const [playlist, setPlaylist] = useState([]);
+  const allQuotesLength = playlist.length;
 
-  useEffect(() => {}, [selectedQuotee]);
+  useEffect(() => {
+    const quotesOfSelectedQuotee = !selectedQuotee
+      ? allQuotesData
+      : allQuotesData.filter(
+          (quoteData) => quoteData.quotee === selectedQuotee
+        );
+
+    setPlaylist(quotesOfSelectedQuotee);
+  }, [selectedQuotee, allQuotesData]);
 
   const handleQuoteeSelectionClick = (quoteeSelection) => {
     if (quoteeSelection !== null) {
       const firstQuoteFromQuotee = allQuotesData.find(
         (quoteData) => quoteData.quotee === quoteeSelection
       );
-      navigate(`/quotes/${firstQuoteFromQuotee.jsonId}`);
+      navigate(`/quotes/${firstQuoteFromQuotee.id}`);
     }
 
     selectQuotee(quoteeSelection);
@@ -31,18 +40,12 @@ const NavBar = ({
 
   return (
     <nav className={isOpen ? 'open' : 'closed'}>
-      {isOpen ? null : (
-        <NavBarLink
-          isForward={false}
-          id={id}
-          allQuotesLength={allQuotesLength}
-        />
-      )}
       {isOpen ? (
         <button className="close-button" onClick={() => setIsOpen(false)}>
           x
         </button>
       ) : null}
+      {isOpen ? null : (<NavBarLink backwardOrForward="backward" id={id} playlist={playlist} />)}
       {isOpen ? (
         <NavQuoteeList
           quotees={uniqueQuotees}
@@ -53,13 +56,7 @@ const NavBar = ({
           {!selectedQuotee ? 'Nootropic Cat Treats' : selectedQuotee}
         </h2>
       )}
-      {isOpen ? null : (
-        <NavBarLink
-          isForward={true}
-          id={id}
-          allQuotesLength={allQuotesLength}
-        />
-      )}
+      {isOpen ? null : <NavBarLink backwardOrForward="forward" id={id} playlist={playlist} />}
     </nav>
   );
 };
