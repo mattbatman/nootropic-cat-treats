@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-basic-js",
     "path": "/quotes/26",
-    "result": {"pageContext":{"id":26,"quote":"<p>For this is what makes us evil &mdash; that none of us looksback upon our own lives. We reflect upon only that which weare about to do. And yet our plans for the future descendfrom the past.</p>","quotee":"Seneca","platform":"Moral Letters, 83.2 via The Daily Stoic","link":"https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736?tag=ryanholnet-20","length":"medium"}},
+    "result": {"pageContext":{"id":26,"quote":"<p>\nFor this is what makes us evil &mdash; that none of us looks back upon our own lives. We reflect upon only that which we are about to do. And yet our plans for the future descend from the past.\n</p>","quotee":"Seneca","platform":"Moral Letters, 83.2 via The Daily Stoic","link":"https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736?tag=ryanholnet-20","length":"medium"}},
     "staticQueryHashes": ["2259100704"]}

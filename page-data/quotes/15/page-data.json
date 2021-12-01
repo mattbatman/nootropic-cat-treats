@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-basic-js",
     "path": "/quotes/15",
-    "result": {"pageContext":{"id":15,"quote":"<p>If you’re lucky enough, right now, to be listening, and you’regood at what you like &mdash; become tunnel fucking vision.</p>","quotee":"Gary Vaynerchuk","platform":"Joe Rogan Experience, #910","link":"https://www.youtube.com/watch?v=OLHdzLpMg-s&t=1h42m40s","length":"short"}},
+    "result": {"pageContext":{"id":15,"quote":"<p>\nIf you’re lucky enough, right now, to be listening, and you’re good at what you like &mdash; become tunnel fucking vision.\n</p>","quotee":"Gary Vaynerchuk","platform":"Joe Rogan Experience, #910","link":"https://www.youtube.com/watch?v=OLHdzLpMg-s&t=1h42m40s","length":"short"}},
     "staticQueryHashes": ["2259100704"]}

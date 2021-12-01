@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-basic-js",
     "path": "/quotes/30",
-    "result": {"pageContext":{"id":30,"quote":"<p>Frame your thoughts like this &mdash; you are an old person, you won’t letyourself be enslaved by this any longer, no longer pulled like a puppetby every impulse, and you’ll stop complaining about your present fortuneor dreading the future.</p>","quotee":"Marcus Auerelius","platform":"Meditations, 2.2 via The Daily Stoic","link":"https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance-ebook/dp/B01HNJIJB2/ref=sr_1_1?ie=UTF8&qid=1493176790&sr=8-1&keywords=the+daily+stoic","length":"medium"}},
+    "result": {"pageContext":{"id":30,"quote":"<p>\nFrame your thoughts like this &mdash; you are an old person, you won’t let yourself be enslaved by this any longer, no longer pulled like a puppet by every impulse, and you’ll stop complaining about your present fortune or dreading the future.\n</p>","quotee":"Marcus Auerelius","platform":"Meditations, 2.2 via The Daily Stoic","link":"https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance-ebook/dp/B01HNJIJB2/ref=sr_1_1?ie=UTF8&qid=1493176790&sr=8-1&keywords=the+daily+stoic","length":"medium"}},
     "staticQueryHashes": ["2259100704"]}
