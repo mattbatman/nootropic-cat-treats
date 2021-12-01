@@ -123,7 +123,7 @@ nav.open ul li {
 .close-button {
   position: absolute;
   top: 0.333rem;
-  left: 0.333rem;
+  right: 0.333rem;
   font-size: 1.777rem;
 }
 
