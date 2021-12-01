@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-basic-js",
     "path": "/quotes/71",
-    "result": {"pageContext":{"id":71,"quote":"<p>Let’s not confuse getting better at stuff with being a better person.</p>","quotee":"Ryan Holiday and Stephen Hanselman","platform":"The Daily Stoic","link":"https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736?tag=ryanholnet-20","length":"short"}},
+    "result": {"pageContext":{"id":71,"quote":"<p>\nLet’s not confuse getting better at stuff with being a better person.\n</p>","quotee":"Ryan Holiday and Stephen Hanselman","platform":"The Daily Stoic","link":"https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736?tag=ryanholnet-20","length":"short"}},
     "staticQueryHashes": ["2259100704"]}

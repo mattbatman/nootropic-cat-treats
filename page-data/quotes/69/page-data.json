@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-basic-js",
     "path": "/quotes/69",
-    "result": {"pageContext":{"id":69,"quote":"<p>You know what wine and liqueur tastes like. It makes no difference whethera hundred or a thousand bottles pass through your bladder &mdash; you arenothing more than a filter.</p>","quotee":"Seneca","platform":"Moral Letters, 77.16 via The Daily Stoic","link":"https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736?tag=ryanholnet-20","length":"medium"}},
+    "result": {"pageContext":{"id":69,"quote":"<p>\nYou know what wine and liqueur tastes like. It makes no difference whether a hundred or a thousand bottles pass through your bladder &mdash; you are nothing more than a filter.\n</p>","quotee":"Seneca","platform":"Moral Letters, 77.16 via The Daily Stoic","link":"https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736?tag=ryanholnet-20","length":"medium"}},
     "staticQueryHashes": ["2259100704"]}

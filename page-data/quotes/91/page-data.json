@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-basic-js",
     "path": "/quotes/91",
-    "result": {"pageContext":{"id":91,"quote":"<p>I've read a number of disparaging articles about your generation in The Atlantic and Slate.com summaries. It's all true. Trigger warning &mdash; fuck you!</p>","quotee":"Erlich Bachman","platform":"Silicon Valley, Season 4 Episode 4","link":"https://www.hbo.com/silicon-valley/season-4/4-teambuilding-exercise","length":"short"}},
+    "result": {"pageContext":{"id":91,"quote":"<p>\nI've read a number of disparaging articles about your generation in The Atlantic and Slate.com summaries. It's all true. Trigger warning &mdash; fuck you!\n</p>","quotee":"Erlich Bachman","platform":"Silicon Valley, Season 4 Episode 4","link":"https://www.hbo.com/silicon-valley/season-4/4-teambuilding-exercise","length":"short"}},
     "staticQueryHashes": ["2259100704"]}

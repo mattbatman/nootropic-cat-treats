@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-basic-js",
     "path": "/quotes/65",
-    "result": {"pageContext":{"id":65,"quote":"<p>Those who aren’t pompous in good times, don’t have their bubbles burst with change.</p>","quotee":"Seneca","platform":"On Consolation to Helvia, 5.4b, 5b-6, via The Daily Stoic","link":"https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736?tag=ryanholnet-20","length":"short"}},
+    "result": {"pageContext":{"id":65,"quote":"<p>\nThose who aren’t pompous in good times, don’t have their bubbles burst with change.\n</p>","quotee":"Seneca","platform":"On Consolation to Helvia, 5.4b, 5b-6, via The Daily Stoic","link":"https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736?tag=ryanholnet-20","length":"short"}},
     "staticQueryHashes": ["2259100704"]}

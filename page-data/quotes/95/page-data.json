@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-basic-js",
     "path": "/quotes/95",
-    "result": {"pageContext":{"id":95,"quote":"<p>To me it's just as simple as , are we slaves or are we free men? Which one are we? Because if I can't choose what I can put in my own body, then I'm a slave to somebody else.</p>","quotee":"Dave Smith","platform":"Joe Rogan Experience, #1639","link":"https://open.spotify.com/episode/7taqki4fGUkcXESbaUzjgh?si=BOSGdBvdTTWz3qz3ncdM7A","length":"short"}},
+    "result": {"pageContext":{"id":95,"quote":"<p>\nTo me it's just as simple as: are we slaves or are we free men? Which one are we? Because if I can't choose what I can put in my own body, then I'm a slave to somebody else.\n</p>","quotee":"Dave Smith","platform":"Joe Rogan Experience, #1639","link":"https://open.spotify.com/episode/7taqki4fGUkcXESbaUzjgh?si=BOSGdBvdTTWz3qz3ncdM7A","length":"short"}},
     "staticQueryHashes": ["2259100704"]}

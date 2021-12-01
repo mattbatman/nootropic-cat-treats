@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-basic-js",
     "path": "/quotes/57",
-    "result": {"pageContext":{"id":57,"quote":"<p>If you are defeated once and tell yourself you will overcome, but carryon as before, know in the end you’ll be so ill and weakened that eventuallyyou won’t even notice your mistake and will begin to rationalize yourbehavior.</p>","quotee":"Epictetus","platform":"Discourses, 2.18.31","link":"https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736?tag=ryanholnet-20","length":"medium"}},
+    "result": {"pageContext":{"id":57,"quote":"<p>\nIf you are defeated once and tell yourself you will overcome, but carry on as before, know in the end you’ll be so ill and weakened that eventually you won’t even notice your mistake and will begin to rationalize your behavior.</p>","quotee":"Epictetus","platform":"Discourses, 2.18.31","link":"https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736?tag=ryanholnet-20","length":"medium"}},
     "staticQueryHashes": ["2259100704"]}

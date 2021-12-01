@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-basic-js",
     "path": "/quotes/37",
-    "result": {"pageContext":{"id":37,"quote":"<p>Clear your mind and get a hold on yourself and, as when awakened fromsleep and realizing it was only a bad dream upsetting you, wake up andsee that what’s there is just like those dreams.</p>","quotee":"Marcus Aurelius","platform":"Meditations, 6.31 via The Daily Stoic","link":"https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance-ebook/dp/B01HNJIJB2/ref=sr_1_1?ie=UTF8&qid=1493176790&sr=8-1&keywords=the+daily+stoic","length":"medium"}},
+    "result": {"pageContext":{"id":37,"quote":"<p>\nClear your mind and get a hold on yourself and, as when awakened from sleep and realizing it was only a bad dream upsetting you, wake up and see that what’s there is just like those dreams.\n</p>","quotee":"Marcus Aurelius","platform":"Meditations, 6.31 via The Daily Stoic","link":"https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance-ebook/dp/B01HNJIJB2/ref=sr_1_1?ie=UTF8&qid=1493176790&sr=8-1&keywords=the+daily+stoic","length":"medium"}},
     "staticQueryHashes": ["2259100704"]}
