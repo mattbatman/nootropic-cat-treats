@@ -29,6 +29,7 @@ const NavBar = ({ id, allQuotesLength }) => {
           allQuotesLength={allQuotesLength}
         />
       )}
+      {isOpen ? <button className="close-button" onClick={() => setIsOpen(false)}>x</button> : null}
       {isOpen ? (
         <NavQuoteeList quotees={quotees} handleClick={() => setIsOpen(false)} />
       ) : (
