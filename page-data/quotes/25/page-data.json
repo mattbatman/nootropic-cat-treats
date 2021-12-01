@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-basic-js",
     "path": "/quotes/25",
-    "result": {"pageContext":{"id":25,"quote":"<p>From Rusticus...I learned to read carefully and not be satisfied with arough understanding of the whole, and not to agree too quickly with thosewho have a lot to say about something.</p>","quotee":"Marcus Aurelius","platform":"Meditations, 1.7.3 via The Daily Stoic","link":"https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736?tag=ryanholnet-20","length":"short","allQuotesLength":96}},
-    "staticQueryHashes": []}
+    "result": {"pageContext":{"id":25,"quote":"<p>From Rusticus...I learned to read carefully and not be satisfied with arough understanding of the whole, and not to agree too quickly with thosewho have a lot to say about something.</p>","quotee":"Marcus Aurelius","platform":"Meditations, 1.7.3 via The Daily Stoic","link":"https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736?tag=ryanholnet-20","length":"short"}},
+    "staticQueryHashes": ["2259100704"]}

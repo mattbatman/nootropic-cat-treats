@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-basic-js",
     "path": "/quotes/16",
-    "result": {"pageContext":{"id":16,"quote":"<p>Have the conversation with the person that’s holding you back.The reason most people who are listening right now are notdoing “that thing” is because they’re worried about the opinionof somebody.</p>","quotee":"Gary Vaynerchuk","platform":"Joe Rogan Experience, #910","link":"https://www.youtube.com/watch?v=OLHdzLpMg-s&t=1h42m55s","length":"short","allQuotesLength":96}},
-    "staticQueryHashes": []}
+    "result": {"pageContext":{"id":16,"quote":"<p>Have the conversation with the person that’s holding you back.The reason most people who are listening right now are notdoing “that thing” is because they’re worried about the opinionof somebody.</p>","quotee":"Gary Vaynerchuk","platform":"Joe Rogan Experience, #910","link":"https://www.youtube.com/watch?v=OLHdzLpMg-s&t=1h42m55s","length":"short"}},
+    "staticQueryHashes": ["2259100704"]}

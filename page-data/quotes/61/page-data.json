@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-basic-js",
     "path": "/quotes/61",
-    "result": {"pageContext":{"id":61,"quote":"<p>When you’re flexible, you’ll never be bent out of shape.</p>","quotee":"Kyle Kingsbury","platform":"Onnit Podcast, #8","link":"https://www.youtube.com/watch?v=7EbQO2R-Sh8&t=31m5s","length":"short","allQuotesLength":96}},
-    "staticQueryHashes": []}
+    "result": {"pageContext":{"id":61,"quote":"<p>When you’re flexible, you’ll never be bent out of shape.</p>","quotee":"Kyle Kingsbury","platform":"Onnit Podcast, #8","link":"https://www.youtube.com/watch?v=7EbQO2R-Sh8&t=31m5s","length":"short"}},
+    "staticQueryHashes": ["2259100704"]}

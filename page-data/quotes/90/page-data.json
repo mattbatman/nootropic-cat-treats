@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-basic-js",
     "path": "/quotes/90",
-    "result": {"pageContext":{"id":90,"quote":"<p>You can't talk people out of a good panic. They sure love it.</p>","quotee":"Elon Musk","platform":"Joe Rogan Experience, #1609","link":"https://open.spotify.com/episode/2aB2swgyXqbFA06AxPlFmr?si=KRAMB5u7QR251GcZV13EKw","length":"short","allQuotesLength":96}},
-    "staticQueryHashes": []}
+    "result": {"pageContext":{"id":90,"quote":"<p>You can't talk people out of a good panic. They sure love it.</p>","quotee":"Elon Musk","platform":"Joe Rogan Experience, #1609","link":"https://open.spotify.com/episode/2aB2swgyXqbFA06AxPlFmr?si=KRAMB5u7QR251GcZV13EKw","length":"short"}},
+    "staticQueryHashes": ["2259100704"]}

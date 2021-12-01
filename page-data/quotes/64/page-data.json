@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-basic-js",
     "path": "/quotes/64",
-    "result": {"pageContext":{"id":64,"quote":"<p>The things we fear pale in comparison to the damage we do to ourselves andothers when we unthinkingly scramble to avoid them.</p>","quotee":"Ryan Holiday and Stephen Hanselman","platform":"The Daily Stoic","link":"https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736/ref=sr_1_1?s=books&ie=UTF8&qid=1517080375&sr=1-1&keywords=the+daily+stoic","length":"short","allQuotesLength":96}},
-    "staticQueryHashes": []}
+    "result": {"pageContext":{"id":64,"quote":"<p>The things we fear pale in comparison to the damage we do to ourselves and others when we unthinkingly scramble to avoid them.</p>","quotee":"Ryan Holiday and Stephen Hanselman","platform":"The Daily Stoic","link":"https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736/ref=sr_1_1?s=books&ie=UTF8&qid=1517080375&sr=1-1&keywords=the+daily+stoic","length":"short"}},
+    "staticQueryHashes": ["2259100704"]}

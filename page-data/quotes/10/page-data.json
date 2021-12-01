@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-basic-js",
     "path": "/quotes/10",
-    "result": {"pageContext":{"id":10,"quote":"<p>If anybody’s made it that looks like you &mdash; that’s it. That’sit. There’s a blueprint.</p>","quotee":"Gary Vaynerchuk","platform":"Joe Rogan Experience, #910","link":"https://www.youtube.com/watch?v=OLHdzLpMg-s&t=1h35m25s","length":"short","allQuotesLength":96}},
-    "staticQueryHashes": []}
+    "result": {"pageContext":{"id":10,"quote":"<p>If anybody’s made it that looks like you &mdash; that’s it. That’sit. There’s a blueprint.</p>","quotee":"Gary Vaynerchuk","platform":"Joe Rogan Experience, #910","link":"https://www.youtube.com/watch?v=OLHdzLpMg-s&t=1h35m25s","length":"short"}},
+    "staticQueryHashes": ["2259100704"]}
