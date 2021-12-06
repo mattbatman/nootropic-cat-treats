@@ -127,11 +127,20 @@ nav.open ul li {
   white-space: nowrap;
 }
 
+.open-button,
 .close-button {
   position: absolute;
-  top: 0.333rem;
-  right: 0.333rem;
-  font-size: 1.777rem;
+  right: 25px;
+  font-size: calc(20 / 16 * 1rem);
+}
+
+.close-button {
+  top: 8px;
+}
+
+.open-button {
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .playlist-button {

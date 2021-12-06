@@ -41,9 +41,13 @@ const NavBar = ({
     <nav className={isOpen ? 'open' : 'closed'}>
       {isOpen ? (
         <button className="close-button" onClick={() => setIsOpen(false)}>
-          x
+          &#9660;
         </button>
-      ) : null}
+      ) : (
+        <button className="open-button" onClick={() => setIsOpen(true)}>
+          &#9650;
+        </button>
+      )}
       {isOpen ? null : (
         <NavBarLink backwardOrForward="backward" id={id} playlist={playlist} />
       )}
