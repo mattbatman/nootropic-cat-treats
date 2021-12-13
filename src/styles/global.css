@@ -130,7 +130,7 @@ nav.open ul li {
 .open-button,
 .close-button {
   position: absolute;
-  right: 25px;
+  right: 0;
   font-size: calc(20 / 16 * 1rem);
 }
 
@@ -207,4 +207,11 @@ p.jumbo {
 .forward.disabled {
   border-left: 20px solid rgba(255, 255, 255, 0.5);
   cursor: default;
+}
+
+@media (min-width: 650px) {
+  .open-button,
+  .close-button {
+    right: 2vw;
+  }
 }
