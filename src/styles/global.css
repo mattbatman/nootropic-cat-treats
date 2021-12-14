@@ -97,8 +97,9 @@ nav {
   bottom: 0;
   border-top: 1px var(--white-alt) solid;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   transition: height 0.25s linear;
+  padding-left: 0.25rem;
 }
 
 nav.open {
@@ -144,7 +145,7 @@ nav.open ul li {
 }
 
 .playlist-button {
-  font-size: 0.777em;
+  font-size: calc(13 / 21 * 1rem);
   text-align: center;
   white-space: nowrap;
   padding: 0;
@@ -213,5 +214,20 @@ p.jumbo {
   .open-button,
   .close-button {
     right: 2vw;
+  }
+
+  .playlist-button {
+    font-size: calc(16 / 21 * 1rem);
+  }
+}
+
+@media (min-width: 450px) {
+  nav {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .playlist-button {
+    font-size: calc(14 / 21 * 1rem);
   }
 }
