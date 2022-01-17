@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-basic-js",
+    "path": "/quotes/101",
+    "result": {"pageContext":{"id":101,"quote":"<p>\nEven a broken clock is right twice a day.\n</p>","quotee":"Old Saying"}},
+    "staticQueryHashes": ["2259100704"]}
