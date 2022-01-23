@@ -103,7 +103,7 @@ nav {
   align-items: center;
   justify-content: flex-start;
   transition: height 0.25s linear;
-  padding-left: 0.25rem;
+  padding-left: 2%;
 }
 
 nav.open {
@@ -135,8 +135,8 @@ nav.open ul li {
 .open-button,
 .close-button {
   position: absolute;
-  right: 0;
-  font-size: calc(20 / 16 * 1rem);
+  right: 2%;
+  font-size: calc(21 / 16 * 1rem);
 }
 
 .close-button {
