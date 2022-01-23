@@ -41,11 +41,11 @@ const NavBar = ({
     <nav className={isOpen ? 'open' : 'closed'}>
       {isOpen ? (
         <button className="close-button" onClick={() => setIsOpen(false)}>
-          &#9660;
+          &or;
         </button>
       ) : (
         <button className="open-button" onClick={() => setIsOpen(true)}>
-          &#9650;
+          &and;
         </button>
       )}
       {isOpen ? null : (
