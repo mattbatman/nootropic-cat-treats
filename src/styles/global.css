@@ -146,6 +146,7 @@ nav.open ul li {
 .open-button {
   top: 50%;
   transform: translateY(-50%);
+  display: none;
 }
 
 .playlist-button {
@@ -233,5 +234,9 @@ p.jumbo {
 
   .playlist-button {
     font-size: calc(14 / 21 * 1rem);
+  }
+
+  .open-button {
+    display: block;
   }
 }
