@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { navigate } from 'gatsby';
 import { connect } from 'react-redux';
+import NavPlaylistButton from '../NavPlaylistButton';
 import NavQuoteeList from '../NavQuoteeList';
 import NavBarLink from '../NavBarLink';
 import { selectQuotee } from '../../global-state/actions';
@@ -44,9 +45,10 @@ const NavBar = ({
           &or;
         </button>
       ) : (
-        <button className="open-button" onClick={() => setIsOpen(true)}>
-          &and;
-        </button>
+          <NavPlaylistButton
+            className="open-button"
+            handleClick={() => setIsOpen(true)}
+          />
       )}
       {isOpen ? null : (
         <NavBarLink backwardOrForward="backward" id={id} playlist={playlist} />
