@@ -107,7 +107,7 @@ nav {
 }
 
 nav.open {
-  height: 90vh;
+  height: 100vh;
   overflow-y: scroll;
   padding-top: 1rem;
 }
@@ -124,7 +124,6 @@ nav.open ul {
 nav.open ul li {
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
-  border-bottom: 1px rgba(255, 255, 255, 0.5) solid;
 }
 
 .quotee-select-button {
