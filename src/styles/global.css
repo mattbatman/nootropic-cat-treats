@@ -214,7 +214,8 @@ p.jumbo {
   cursor: default;
 }
 
-.open-button {
+.open-button,
+.close-button {
   width: 1.5rem;
   height: 1.5rem;
 }

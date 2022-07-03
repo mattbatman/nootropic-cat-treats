@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { navigate } from 'gatsby';
 import { connect } from 'react-redux';
 import NavPlaylistButton from '../NavPlaylistButton';
+import NavPlaylistCloseButton from '../NavPlaylistCloseButton';
 import NavQuoteeList from '../NavQuoteeList';
 import NavBarLink from '../NavBarLink';
 import { selectQuotee } from '../../global-state/actions';
@@ -41,9 +42,9 @@ const NavBar = ({
   return (
     <nav className={isOpen ? 'open' : 'closed'}>
       {isOpen ? (
-        <button className="close-button" onClick={() => setIsOpen(false)}>
-          &or;
-        </button>
+        <NavPlaylistCloseButton
+          handleClick={() => setIsOpen(false)}
+        />
       ) : (
           <NavPlaylistButton
             className="open-button"
