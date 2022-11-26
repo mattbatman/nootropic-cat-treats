@@ -4,6 +4,8 @@
   --white-alt: #e4d8de;
   --primary: #a71d5d;
   --primary-alt: #7d063d;
+  --font-quote:  'DM Sans', serif;
+  --font-meta: 'DM Sans', sans-serif;
 }
 
 * {
@@ -12,18 +14,22 @@
 
 html,
 .root {
-  font-size: 21px;
+  font-size: 17px;
 }
 
 body {
   background-color: var(--black);
   color: var(--white);
-  font-family: 'Quattrocento Sans', sans-serif;
+  font-family: var(--font-meta);
   font-size: 1em;
   margin-bottom: 75px;
   margin-top: 0;
   margin-left: 0;
   margin-right: 0;
+}
+
+body, button {
+  font-family: var(--font-meta);
 }
 
 a {
@@ -53,10 +59,10 @@ cite > p:first-child {
 }
 
 blockquote {
-  font-family: 'Quattrocento', serif;
+  font-family: var(--font-quote);
   font-size: 1em;
   font-weight: 400;
-  line-height: 1.58em;
+  line-height: 1.75em;
   margin: 0.79310345em 0 0.79310345em 0;
 }
 
@@ -149,7 +155,7 @@ nav.open ul li {
 }
 
 .playlist-button {
-  font-size: calc(13 / 21 * 1rem);
+  font-size: 1rem;
   text-align: center;
   white-space: nowrap;
   padding: 0;
@@ -227,7 +233,7 @@ p.jumbo {
   }
 
   .playlist-button {
-    font-size: calc(16 / 21 * 1rem);
+    font-size: 1rem;
   }
 }
 
@@ -238,7 +244,7 @@ p.jumbo {
   }
 
   .playlist-button {
-    font-size: calc(14 / 21 * 1rem);
+    font-size: 1rem;
   }
 
   .open-button {
