@@ -61,7 +61,9 @@ const NavBar = ({
         />
       ) : (
         <button onClick={() => setIsOpen(true)} className="playlist-button">
-          {!selectedQuotee ? 'Nootropic Cat Treats' : selectedQuotee}
+          <span className="playlist-button-text">
+              {!selectedQuotee ? 'Nootropic Cat Treats' : selectedQuotee}
+            </span>
         </button>
       )}
       {isOpen ? null : (
