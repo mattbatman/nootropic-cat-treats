@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-basic-js",
-    "path": "/quotes/104",
-    "result": {"pageContext":{"id":104,"quote":"<p>\nWhen the Ben Shapiro conservatives say, \"Well, facts don't care about your feelings,\" I actually think it's the obverse. I think it's, \"feelings don't care about your facts.\"\n</p>","quotee":"Contain Podcast Host","platform":"Contain, Ep. 97: Russian Central Banks/CBDC’s w/ Riley Waggaman","link":"https://www.patreon.com/posts/ep-97-russian-w-62658975"}},
-    "staticQueryHashes": ["2259100704"]}
+{"componentChunkName":"component---src-templates-basic-js","path":"/quotes/104/","result":{"pageContext":{"id":104,"quote":"<p>\nWhen the Ben Shapiro conservatives say, \"Well, facts don't care about your feelings,\" I actually think it's the obverse. I think it's, \"feelings don't care about your facts.\"\n</p>","quotee":"Contain Podcast Host","platform":"Contain, Ep. 97: Russian Central Banks/CBDC’s w/ Riley Waggaman","link":"https://www.patreon.com/posts/ep-97-russian-w-62658975"}},"staticQueryHashes":["2259100704"],"slicesMap":{}}

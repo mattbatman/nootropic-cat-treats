@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-basic-js",
-    "path": "/quotes/74",
-    "result": {"pageContext":{"id":74,"quote":"<p>\nIf they’ve made a mistake, correct them gently and show them where they went wrong. If you can’t do that, then the blame lies with you. Or no one.\n</p>","quotee":"Marcus Aurelius","platform":"Meditations, 10.4","link":"https://www.amazon.com/Meditations-New-Translation-Marcus-Aurelius/dp/0812968255/ref=sr_1_4?ie=UTF8&qid=1528427977&sr=8-4&keywords=marcus+aurelius+meditations","length":"medium"}},
-    "staticQueryHashes": ["2259100704"]}
+{"componentChunkName":"component---src-templates-basic-js","path":"/quotes/74/","result":{"pageContext":{"id":74,"quote":"<p>\nIf they’ve made a mistake, correct them gently and show them where they went wrong. If you can’t do that, then the blame lies with you. Or no one.\n</p>","quotee":"Marcus Aurelius","platform":"Meditations, 10.4","link":"https://www.amazon.com/Meditations-New-Translation-Marcus-Aurelius/dp/0812968255/ref=sr_1_4?ie=UTF8&qid=1528427977&sr=8-4&keywords=marcus+aurelius+meditations","length":"medium"}},"staticQueryHashes":["2259100704"],"slicesMap":{}}

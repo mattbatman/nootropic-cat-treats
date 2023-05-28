@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-basic-js",
-    "path": "/quotes/131",
-    "result": {"pageContext":{"id":131,"quote":"<p>\nFor my part, whatever anguish of spirit it may cost, I am willing to know the whole truth, to know the worst and to provide for it.\n</p>","quotee":"Patrick Henry","platform":"Unknown, per The Dangerous History Podcast","link":"http://profcj.org/american-revolution-part-i/"}},
-    "staticQueryHashes": ["2259100704"]}
+{"componentChunkName":"component---src-templates-basic-js","path":"/quotes/131/","result":{"pageContext":{"id":131,"quote":"<p>\nFor my part, whatever anguish of spirit it may cost, I am willing to know the whole truth, to know the worst and to provide for it.\n</p>","quotee":"Patrick Henry","platform":"Unknown, per The Dangerous History Podcast","link":"http://profcj.org/american-revolution-part-i/"}},"staticQueryHashes":["2259100704"],"slicesMap":{}}

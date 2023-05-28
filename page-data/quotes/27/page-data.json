@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-basic-js",
-    "path": "/quotes/27",
-    "result": {"pageContext":{"id":27,"quote":"<p>\nEach day presents the chance to overthink things.\n</p>","quotee":"Ryan Holiday and Stephen Hanselman","platform":"The Daily Stoic","link":"https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736?tag=ryanholnet-20","length":"short"}},
-    "staticQueryHashes": ["2259100704"]}
+{"componentChunkName":"component---src-templates-basic-js","path":"/quotes/27/","result":{"pageContext":{"id":27,"quote":"<p>\nEach day presents the chance to overthink things.\n</p>","quotee":"Ryan Holiday and Stephen Hanselman","platform":"The Daily Stoic","link":"https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736?tag=ryanholnet-20","length":"short"}},"staticQueryHashes":["2259100704"],"slicesMap":{}}

@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-basic-js",
-    "path": "/quotes/84",
-    "result": {"pageContext":{"id":84,"quote":"<p>\nSome poor, phoneless fool is probably sitting next to a waterfall somewhere totally unaware of how angy and scared he's supposed to be.\n</p>","quotee":"Duncan Trussell","platform":"Unknown (Instagram)","link":"https://www.instagram.com/p/CHZS8cPF2O9/?igshid=1rs9w8f8qfyv2","length":"short"}},
-    "staticQueryHashes": ["2259100704"]}
+{"componentChunkName":"component---src-templates-basic-js","path":"/quotes/84/","result":{"pageContext":{"id":84,"quote":"<p>\nSome poor, phoneless fool is probably sitting next to a waterfall somewhere totally unaware of how angy and scared he's supposed to be.\n</p>","quotee":"Duncan Trussell","platform":"Unknown (Instagram)","link":"https://www.instagram.com/p/CHZS8cPF2O9/?igshid=1rs9w8f8qfyv2","length":"short"}},"staticQueryHashes":["2259100704"],"slicesMap":{}}

@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-basic-js",
-    "path": "/quotes/172",
-    "result": {"pageContext":{"id":172,"quote":"<p>\nIt's easier to train a smart dog than a dumb one.\n</p>","quotee":"Michael Malice","platform":"Joe Rogan Experience, #1952","link":"https://open.spotify.com/episode/0pwgzhqqHy7DV98kLKrqFU?si=cda9858e7a91404a"}},
-    "staticQueryHashes": ["2259100704"]}
+{"componentChunkName":"component---src-templates-basic-js","path":"/quotes/172/","result":{"pageContext":{"id":172,"quote":"<p>\nIt's easier to train a smart dog than a dumb one.\n</p>","quotee":"Michael Malice","platform":"Joe Rogan Experience, #1952","link":"https://open.spotify.com/episode/0pwgzhqqHy7DV98kLKrqFU?si=cda9858e7a91404a"}},"staticQueryHashes":["2259100704"],"slicesMap":{}}

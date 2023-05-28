@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-basic-js",
-    "path": "/quotes/67",
-    "result": {"pageContext":{"id":67,"quote":"<p>\nIn short, you must remember this &mdash; that if you hold anything dear outside of your own reasoned choice, you will have destroyed your capacity for choice.\n</p>","quotee":"Epictetus","platform":"Discourses, 4.4.23, via The Daily Stoic","link":"https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736?tag=ryanholnet-20","length":"medium"}},
-    "staticQueryHashes": ["2259100704"]}
+{"componentChunkName":"component---src-templates-basic-js","path":"/quotes/67/","result":{"pageContext":{"id":67,"quote":"<p>\nIn short, you must remember this &mdash; that if you hold anything dear outside of your own reasoned choice, you will have destroyed your capacity for choice.\n</p>","quotee":"Epictetus","platform":"Discourses, 4.4.23, via The Daily Stoic","link":"https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736?tag=ryanholnet-20","length":"medium"}},"staticQueryHashes":["2259100704"],"slicesMap":{}}

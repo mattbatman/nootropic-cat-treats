@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-basic-js",
-    "path": "/quotes/133",
-    "result": {"pageContext":{"id":133,"quote":"<p> There's an old saying in Tennessee &mdash; I know it's in Texas, probably in Tennessee &mdash; that says, fool me once, shame on &mdash; shame on you. Fool me &mdash; you can't get fooled again. </p>","quotee":"President George Bush","platform":"Remarks by the President on Teaching American History and Civic Education, East Literature Magnet School, Nashville, TN, September 17, 2022","link":"https://www.youtube.com/watch?v=Hl7FKfl3O2Y"}},
-    "staticQueryHashes": ["2259100704"]}
+{"componentChunkName":"component---src-templates-basic-js","path":"/quotes/133/","result":{"pageContext":{"id":133,"quote":"<p> There's an old saying in Tennessee &mdash; I know it's in Texas, probably in Tennessee &mdash; that says, fool me once, shame on &mdash; shame on you. Fool me &mdash; you can't get fooled again. </p>","quotee":"President George Bush","platform":"Remarks by the President on Teaching American History and Civic Education, East Literature Magnet School, Nashville, TN, September 17, 2022","link":"https://www.youtube.com/watch?v=Hl7FKfl3O2Y"}},"staticQueryHashes":["2259100704"],"slicesMap":{}}

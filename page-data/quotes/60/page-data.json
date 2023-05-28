@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-basic-js",
-    "path": "/quotes/60",
-    "result": {"pageContext":{"id":60,"quote":"<p>\nYou become the sum of your actions, and as you do, what flows from that &mdash; your impulses &mdash; reflect the actions you’ve taken.\n</p>","quotee":"Ryan Holiday and Stephen Hanselman","platform":"The Daily Stoic","link":"https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736?tag=ryanholnet-20","length":"short"}},
-    "staticQueryHashes": ["2259100704"]}
+{"componentChunkName":"component---src-templates-basic-js","path":"/quotes/60/","result":{"pageContext":{"id":60,"quote":"<p>\nYou become the sum of your actions, and as you do, what flows from that &mdash; your impulses &mdash; reflect the actions you’ve taken.\n</p>","quotee":"Ryan Holiday and Stephen Hanselman","platform":"The Daily Stoic","link":"https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736?tag=ryanholnet-20","length":"short"}},"staticQueryHashes":["2259100704"],"slicesMap":{}}

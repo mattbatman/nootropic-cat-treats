@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-basic-js",
-    "path": "/quotes/33",
-    "result": {"pageContext":{"id":33,"quote":"<p>\nYou ever tried skiing on mushrooms?\n</p>","quotee":"Aubrey Marcus","platform":"Joe Rogan Experience, #878","link":"https://www.youtube.com/watch?v=2xplJOx3Vjw&t=2h27m49s","length":"short"}},
-    "staticQueryHashes": ["2259100704"]}
+{"componentChunkName":"component---src-templates-basic-js","path":"/quotes/33/","result":{"pageContext":{"id":33,"quote":"<p>\nYou ever tried skiing on mushrooms?\n</p>","quotee":"Aubrey Marcus","platform":"Joe Rogan Experience, #878","link":"https://www.youtube.com/watch?v=2xplJOx3Vjw&t=2h27m49s","length":"short"}},"staticQueryHashes":["2259100704"],"slicesMap":{}}

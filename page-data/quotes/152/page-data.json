@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-basic-js",
-    "path": "/quotes/152",
-    "result": {"pageContext":{"id":152,"quote":"<p>\nWhosoever is delighted in solitude is either a wild beast or a god\n</p>","quotee":"Aristotle","platform":"Unknown per Alone, Season 7 Episode 1","link":"https://play.history.com/shows/alone/season-7/episode-1"}},
-    "staticQueryHashes": ["2259100704"]}
+{"componentChunkName":"component---src-templates-basic-js","path":"/quotes/152/","result":{"pageContext":{"id":152,"quote":"<p>\nWhosoever is delighted in solitude is either a wild beast or a god\n</p>","quotee":"Aristotle","platform":"Unknown per Alone, Season 7 Episode 1","link":"https://play.history.com/shows/alone/season-7/episode-1"}},"staticQueryHashes":["2259100704"],"slicesMap":{}}

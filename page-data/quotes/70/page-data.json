@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-basic-js",
-    "path": "/quotes/70",
-    "result": {"pageContext":{"id":70,"quote":"<p>\nIt’s a disgrace in this life when the soul surrenders first while the body refuses to.\n</p>","quotee":"Marcus Aurelius","platform":"Meditations, 6.29 via The Daily Stoic","link":"https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736?tag=ryanholnet-20","length":"short"}},
-    "staticQueryHashes": ["2259100704"]}
+{"componentChunkName":"component---src-templates-basic-js","path":"/quotes/70/","result":{"pageContext":{"id":70,"quote":"<p>\nIt’s a disgrace in this life when the soul surrenders first while the body refuses to.\n</p>","quotee":"Marcus Aurelius","platform":"Meditations, 6.29 via The Daily Stoic","link":"https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736?tag=ryanholnet-20","length":"short"}},"staticQueryHashes":["2259100704"],"slicesMap":{}}

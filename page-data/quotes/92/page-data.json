@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-basic-js",
-    "path": "/quotes/92",
-    "result": {"pageContext":{"id":92,"quote":"<p>\nEric Bachman? This is you as an old man. I'm a ugly, and I'm dead, alone.\n</p>","quotee":"Jian Yang","platform":"Silicon Valley, Season 3 Episode 10","link":"https://www.hbo.com/silicon-valley/season-4/4-teambuilding-exercise","length":"short"}},
-    "staticQueryHashes": ["2259100704"]}
+{"componentChunkName":"component---src-templates-basic-js","path":"/quotes/92/","result":{"pageContext":{"id":92,"quote":"<p>\nEric Bachman? This is you as an old man. I'm a ugly, and I'm dead, alone.\n</p>","quotee":"Jian Yang","platform":"Silicon Valley, Season 3 Episode 10","link":"https://www.hbo.com/silicon-valley/season-4/4-teambuilding-exercise","length":"short"}},"staticQueryHashes":["2259100704"],"slicesMap":{}}

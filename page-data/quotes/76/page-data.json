@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-basic-js",
-    "path": "/quotes/76",
-    "result": {"pageContext":{"id":76,"quote":"<p>\nIn short, the straightforward and good person should be like a smelly goat &mdash; you know when they are in the room with you.\n</p>","quotee":"Marcus Aurelius","platform":"Meditations, 11.15","link":"https://www.amazon.com/Meditations-New-Translation-Marcus-Aurelius/dp/0812968255/ref=sr_1_4?ie=UTF8&qid=1528427977&sr=8-4&keywords=marcus+aurelius+meditations","length":"short"}},
-    "staticQueryHashes": ["2259100704"]}
+{"componentChunkName":"component---src-templates-basic-js","path":"/quotes/76/","result":{"pageContext":{"id":76,"quote":"<p>\nIn short, the straightforward and good person should be like a smelly goat &mdash; you know when they are in the room with you.\n</p>","quotee":"Marcus Aurelius","platform":"Meditations, 11.15","link":"https://www.amazon.com/Meditations-New-Translation-Marcus-Aurelius/dp/0812968255/ref=sr_1_4?ie=UTF8&qid=1528427977&sr=8-4&keywords=marcus+aurelius+meditations","length":"short"}},"staticQueryHashes":["2259100704"],"slicesMap":{}}

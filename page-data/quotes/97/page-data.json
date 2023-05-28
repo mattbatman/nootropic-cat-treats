@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-basic-js",
-    "path": "/quotes/97",
-    "result": {"pageContext":{"id":97,"quote":"<p>If you want to go back and think about everything you've ever said and done that's stupid, you'll be a prisoner.</p>","quotee":"Joe Rogan","platform":"Joe Rogan Experience, #1709","link":"https://open.spotify.com/episode/5N3DTJENpGqbRDFYalntkT?si=99416cd0a69b442a"}},
-    "staticQueryHashes": ["2259100704"]}
+{"componentChunkName":"component---src-templates-basic-js","path":"/quotes/97/","result":{"pageContext":{"id":97,"quote":"<p>If you want to go back and think about everything you've ever said and done that's stupid, you'll be a prisoner.</p>","quotee":"Joe Rogan","platform":"Joe Rogan Experience, #1709","link":"https://open.spotify.com/episode/5N3DTJENpGqbRDFYalntkT?si=99416cd0a69b442a"}},"staticQueryHashes":["2259100704"],"slicesMap":{}}

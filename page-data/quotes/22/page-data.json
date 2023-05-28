@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-basic-js",
-    "path": "/quotes/22",
-    "result": {"pageContext":{"id":22,"quote":"<p>\nAre we talking about chemtrails now?\n</p>\n<p>\nNo. No. We’re talking about stratospheric aerosol injections.\n</p>","quotee":"Joe Rogan and Eddie Bravo","platform":"Joe Rogan Experience, #911","link":"https://www.youtube.com/watch?v=UZPCp8SPfOM&t=1h23m30s","length":"short"}},
-    "staticQueryHashes": ["2259100704"]}
+{"componentChunkName":"component---src-templates-basic-js","path":"/quotes/22/","result":{"pageContext":{"id":22,"quote":"<p>\nAre we talking about chemtrails now?\n</p>\n<p>\nNo. No. We’re talking about stratospheric aerosol injections.\n</p>","quotee":"Joe Rogan and Eddie Bravo","platform":"Joe Rogan Experience, #911","link":"https://www.youtube.com/watch?v=UZPCp8SPfOM&t=1h23m30s","length":"short"}},"staticQueryHashes":["2259100704"],"slicesMap":{}}

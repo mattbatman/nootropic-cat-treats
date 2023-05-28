@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-basic-js",
-    "path": "/quotes/66",
-    "result": {"pageContext":{"id":66,"quote":"<p>\nFinally, consider that virtually all forbidden techniques (e.g. eye gouging, biting, hair pulling) are far more effective when applied from a dominant position. If you are really determined to bite somebody, then get to side mount first and bite them from there.\n</p>","quotee":"Stephan Kesting","platform":"A Roadmap for Brazilian Jiu-jitsu","link":"http://www.grapplearts.com/","length":"medium"}},
-    "staticQueryHashes": ["2259100704"]}
+{"componentChunkName":"component---src-templates-basic-js","path":"/quotes/66/","result":{"pageContext":{"id":66,"quote":"<p>\nFinally, consider that virtually all forbidden techniques (e.g. eye gouging, biting, hair pulling) are far more effective when applied from a dominant position. If you are really determined to bite somebody, then get to side mount first and bite them from there.\n</p>","quotee":"Stephan Kesting","platform":"A Roadmap for Brazilian Jiu-jitsu","link":"http://www.grapplearts.com/","length":"medium"}},"staticQueryHashes":["2259100704"],"slicesMap":{}}
