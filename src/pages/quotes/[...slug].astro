@@ -1,0 +1,33 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+  const quotes = await getCollection('quotes');
+
+  return quotes.map((quote) => {
+    return {
+      params: { slug: quote.data.id },
+      props: { quote },
+    };
+  });
+}
+
+const { quote } = Astro.props;
+const { Content } = await quote.render();
+---
+
+<Layout title={`${quote.data.id} | Nootropic Cat Treats`}>
+  <div class="container">
+    <span class="quotemark-l">“</span>
+    <blockquote>
+      <Content />
+    </blockquote>
+    <cite>
+      <p>{quote.data.quotee}</p>
+      <p>
+        <a href={quote.data.link}>{quote.data.platform}</a>
+      </p>
+    </cite>
+  </div>
+</Layout>
