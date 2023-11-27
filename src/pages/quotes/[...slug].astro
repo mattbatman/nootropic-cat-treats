@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
+import { Nav } from '../../components/Nav';
 
 export async function getStaticPaths() {
   const quotes = await getCollection('quotes');
@@ -30,4 +31,5 @@ const { Content } = await quote.render();
       </p>
     </cite>
   </div>
+  <Nav />
 </Layout>
