@@ -1,7 +1,16 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import { getRandomNumber } from '../utility';
 
-return Astro.redirect('/quotes/1');
+const allQuotes = await getCollection('quotes');
+const pageIndex = getRandomNumber({
+  min: 0,
+  max: allQuotes.length - 1,
+  current: null,
+});
+
+return Astro.redirect(`/quotes/${pageIndex}`);
 ---
 
 <Layout title="Nootropic Cat Treats">
