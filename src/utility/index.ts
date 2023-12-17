@@ -42,4 +42,22 @@ function getRandomNumber({
   return n;
 }
 
-export { randomNoRepeat, getRandomNumber };
+function getIsAtEnd({
+  id,
+  playlist,
+  backwardOrForward
+}: {
+  id: number;
+  playlist: any[];
+  backwardOrForward: 'backward' | 'forward';
+}) {
+  const end = backwardOrForward === 'backward' ? 0 : playlist.length - 1;
+
+  if (!playlist || playlist.length <= 1) {
+    return true;
+  }
+
+  return id === playlist[end].id;
+}
+
+export { randomNoRepeat, getRandomNumber, getIsAtEnd };
