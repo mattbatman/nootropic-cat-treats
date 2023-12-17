@@ -1,0 +1,15 @@
+---
+import { NavBar } from '../NavBar';
+
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  id: number;
+  quotes: CollectionEntry<'quotes'>[];
+}
+
+// `post` will match your 'blog' collection schema type
+const { quotes, id } = Astro.props;
+---
+
+<NavBar id={id} playlist={quotes} />
