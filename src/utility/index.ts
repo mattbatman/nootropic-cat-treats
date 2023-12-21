@@ -1,3 +1,5 @@
+import type { CollectionEntry } from 'astro:content';
+
 function randomNoRepeat(min: number, max: number, cur: number, hist: number[]) {
   let n = Math.floor(Math.random() * (max - min + 1)) + min;
   if (n === cur) {
@@ -48,7 +50,7 @@ function getIsAtEnd({
   backwardOrForward
 }: {
   id: number;
-  playlist: any[];
+  playlist: CollectionEntry<'quotes'>[];
   backwardOrForward: 'backward' | 'forward';
 }) {
   const end = backwardOrForward === 'backward' ? 0 : playlist.length - 1;
@@ -57,7 +59,7 @@ function getIsAtEnd({
     return true;
   }
 
-  return id === playlist[end].id;
+  return id === playlist[end].data.id;
 }
 
 export { randomNoRepeat, getRandomNumber, getIsAtEnd };
