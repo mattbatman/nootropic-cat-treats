@@ -21,18 +21,23 @@ function getNextLocation({
   history: number[];
   playlist: CollectionEntry<'quotes'>[];
 }) {
+  const placeInHistory = history.indexOf(id);
   let nextId = id;
 
   if (backwardOrForward === 'forward') {
-    nextId = randomNoRepeat({
-      hist: history,
-      cur: id,
-      min: 0,
-      max: playlist.length
-    });
+    if (placeInHistory === history.length - 1) {
+      nextId = randomNoRepeat({
+        hist: history,
+        cur: id,
+        min: 0,
+        max: playlist.length
+      });
+    } else {
+      nextId = history[placeInHistory + 1];
+    }
   } else {
     if (history.length > 1) {
-      nextId = history[history.length - 2];
+      nextId = history[placeInHistory - 1];
     } else {
       nextId = history[0];
     }
