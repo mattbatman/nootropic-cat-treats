@@ -56,20 +56,22 @@ function getRandomNumber({
 
 function getIsAtEnd({
   id,
-  playlist,
-  backwardOrForward
+  history,
+  backwardOrForward,
+  playlist
 }: {
   id: number;
+  history: number[];
   playlist: CollectionEntry<'quotes'>[];
   backwardOrForward: 'backward' | 'forward';
 }) {
-  const end = backwardOrForward === 'backward' ? 0 : playlist.length - 1;
+  const placeInHistory = history.indexOf(id);
 
-  if (!playlist || playlist.length <= 1) {
-    return true;
+  if (backwardOrForward === 'backward') {
+    return placeInHistory === 0;
   }
 
-  return id === playlist[end].data.id;
+  return placeInHistory === playlist.length - 1;
 }
 
 export { randomNoRepeat, getRandomNumber, getIsAtEnd };

@@ -50,7 +50,7 @@ const NavBarLink: React.FC<NavBarLinkProps> = ({
   playlist
 }) => {
   const history = useStore($history);
-  const isAtEnd = getIsAtEnd({ id, playlist, backwardOrForward });
+  const isAtEnd = getIsAtEnd({ id, history, playlist, backwardOrForward });
   const nextLocation = getNextLocation({
     id,
     backwardOrForward,
