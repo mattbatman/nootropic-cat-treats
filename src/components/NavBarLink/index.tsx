@@ -36,10 +36,8 @@ function getNextLocation({
       nextId = history[placeInHistory + 1];
     }
   } else {
-    if (history.length > 1) {
+    if (placeInHistory !== 0) {
       nextId = history[placeInHistory - 1];
-    } else {
-      nextId = history[0];
     }
   }
 
