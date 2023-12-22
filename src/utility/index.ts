@@ -1,6 +1,16 @@
 import type { CollectionEntry } from 'astro:content';
 
-function randomNoRepeat(min: number, max: number, cur: number, hist: number[]) {
+function randomNoRepeat({
+  min,
+  max,
+  cur,
+  hist
+}: {
+  min: number;
+  max: number;
+  cur: number;
+  hist: number[];
+}) {
   let n = Math.floor(Math.random() * (max - min + 1)) + min;
   if (n === cur) {
     if (n < max) {
@@ -15,7 +25,7 @@ function randomNoRepeat(min: number, max: number, cur: number, hist: number[]) {
     return n;
   }
 
-  return randomNoRepeat(min, max, cur, hist);
+  return randomNoRepeat({ min, max, cur, hist });
 }
 
 function getRandomNumber({
