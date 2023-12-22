@@ -1,6 +1,7 @@
 ---
 import { sortBy } from 'ramda';
 import { NavBar } from '../NavBar';
+import { addHistory } from '../stores/history';
 
 import type { CollectionEntry } from 'astro:content';
 
@@ -11,6 +12,7 @@ interface Props {
 
 // `post` will match your 'blog' collection schema type
 const { quotes, id } = Astro.props;
+addHistory(id);
 ---
 
 <NavBar id={id} playlist={quotes} />
