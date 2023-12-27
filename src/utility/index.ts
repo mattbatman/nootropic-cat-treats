@@ -74,4 +74,24 @@ function getIsAtEnd({
   return placeInHistory === playlist.length - 1;
 }
 
-export { randomNoRepeat, getRandomNumber, getIsAtEnd };
+function getAllQuotees(quotes: Array<CollectionEntry<'quotes'>>) {
+  return quotes.map(({ data }) => data.quotee);
+}
+
+function getUniqueQuoteesWithCount(
+  quotes: Array<CollectionEntry<'quotes'>>
+): Array<[string, number]> {
+  return [
+    ...getAllQuotees(quotes).reduce(
+      (acc, t) => acc.set(t, (acc.get(t) || 0) + 1),
+      new Map<string, number>()
+    )
+  ].sort((a, b) => b[1] - a[1]);
+}
+
+export {
+  randomNoRepeat,
+  getRandomNumber,
+  getIsAtEnd,
+  getUniqueQuoteesWithCount
+};

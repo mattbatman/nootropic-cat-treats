@@ -1,0 +1,23 @@
+---
+import { getCollection } from 'astro:content';
+import { getUniqueQuoteesWithCount } from '../utility';
+import Layout from '../layouts/Layout.astro';
+
+const quotes = await getCollection('quotes');
+const uniqueQuoteesWithCount = getUniqueQuoteesWithCount(quotes);
+---
+
+<Layout title="Quotees | Nootropic Cat Treats">
+  <div class="container quotees-page">
+    <h1>Quotees</h1>
+    <ul class="quotees-list">
+      {
+        uniqueQuoteesWithCount.map(([quotee, count]) => (
+          <li>
+            {quotee} - {count}
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</Layout>

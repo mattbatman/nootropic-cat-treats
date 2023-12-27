@@ -209,7 +209,8 @@ const { title } = Astro.props;
     overflow: hidden;
   }
 
-  button {
+  button,
+  button a {
     font-weight: bold;
     background-color: transparent;
     cursor: pointer;
@@ -217,7 +218,8 @@ const { title } = Astro.props;
     border: none;
   }
 
-  button:hover {
+  button:hover,
+  button a:hover {
     color: var(--white-alt);
   }
 
@@ -271,6 +273,21 @@ const { title } = Astro.props;
   .close-button {
     width: 1.5rem;
     height: 1.5rem;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  ul,
+  li {
+    /* reset the margin and padding */
+    margin: 0;
+    padding: 0;
+  }
+
+  .quotees-list li {
+    margin-bottom: 0.5rem;
   }
 
   @media (min-width: 450px) {
