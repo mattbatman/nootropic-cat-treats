@@ -78,20 +78,26 @@ function getAllQuotees(quotes: Array<CollectionEntry<'quotes'>>) {
   return quotes.map(({ data }) => data.quotee);
 }
 
-function getUniqueQuoteesWithCount(
+function getUniqueQuoteesWithCountAndStartId(
   quotes: Array<CollectionEntry<'quotes'>>
-): Array<[string, number]> {
+): Array<[string, number, number]> {
   return [
     ...getAllQuotees(quotes).reduce(
       (acc, t) => acc.set(t, (acc.get(t) || 0) + 1),
       new Map<string, number>()
     )
-  ].sort((a, b) => b[1] - a[1]);
+  ]
+    .sort((a, b) => b[1] - a[1])
+    .map(([quotee, count]) => {
+      const firstQuote = quotes.find(({ data }) => data.quotee === quotee);
+
+      return [quotee, count, firstQuote?.data.id ?? 0];
+    });
 }
 
 export {
   randomNoRepeat,
   getRandomNumber,
   getIsAtEnd,
-  getUniqueQuoteesWithCount
+  getUniqueQuoteesWithCountAndStartId
 };

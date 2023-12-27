@@ -219,7 +219,8 @@ const { title } = Astro.props;
   }
 
   button:hover,
-  button a:hover {
+  button a:hover,
+  .quotees-list li a:hover {
     color: var(--white-alt);
   }
 
@@ -288,6 +289,10 @@ const { title } = Astro.props;
 
   .quotees-list li {
     margin-bottom: 0.5rem;
+  }
+
+  .quotees-list li a {
+    color: var(--white);
   }
 
   @media (min-width: 450px) {
