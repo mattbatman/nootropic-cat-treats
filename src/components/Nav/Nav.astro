@@ -1,5 +1,4 @@
 ---
-import { sortBy } from 'ramda';
 import { NavBar } from '../NavBar';
 import { addHistory } from '../stores/history';
 
@@ -15,4 +14,4 @@ const { quotes, id } = Astro.props;
 addHistory(id);
 ---
 
-<NavBar id={id} playlist={quotes} />
+<NavBar id={id} playlist={quotes} client:load />
