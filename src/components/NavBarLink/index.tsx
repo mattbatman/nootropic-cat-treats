@@ -32,14 +32,14 @@ function getNextLocation({
 
     if (isAtEndOfHistory) {
       // get a random new location to add to history
-      nextId = randomNoRepeat({
+      const r = randomNoRepeat({
         hist: history,
         cur: id,
         min: 1,
         max: playlist.length
       });
 
-      nextId = playlist[nextId].data.id;
+      nextId = playlist[r - 1].data.id;
     } else {
       // move forward in history
       nextId = history[placeInHistory + 1];
