@@ -11,7 +11,8 @@ interface Props {
 
 // `post` will match your 'blog' collection schema type
 const { quotes, id } = Astro.props;
+
 addHistory(id);
 ---
 
-<NavBar id={id} playlist={quotes} client:load />
+<NavBar id={id} quotes={quotes} client:load />
