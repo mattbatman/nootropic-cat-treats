@@ -6,15 +6,21 @@ import type { CollectionEntry } from 'astro:content';
 
 const NavBar: React.FC<{
   id: number;
-  playlist: CollectionEntry<'quotes'>[];
-}> = ({ id, playlist }) => {
+  quotes: CollectionEntry<'quotes'>[];
+}> = ({ id, quotes }) => {
   const quotee$ = useStore($quotee);
+  const playlist =
+    quotee$ !== null
+      ? quotes.filter(function (quote) {
+          return quote.data.quotee === quotee$;
+        })
+      : quotes;
 
   useEffect(() => {
     const urlParams = new URLSearchParams(window.location.search);
     const quoteeInParam = urlParams.get('quotee');
 
-    updateQuotee(quoteeInParam);
+    updateQuotee({ newQuotee: quoteeInParam, id });
   }, []);
 
   return (

@@ -12,6 +12,7 @@ function randomNoRepeat({
   hist: number[];
 }) {
   let n = Math.floor(Math.random() * (max - min + 1)) + min;
+
   if (n === cur) {
     if (n < max) {
       n += 1;
@@ -21,6 +22,7 @@ function randomNoRepeat({
       n = Math.floor(Math.random() * (max - min + 1)) + min;
     }
   }
+
   if (hist.indexOf(n) === -1) {
     return n;
   }
