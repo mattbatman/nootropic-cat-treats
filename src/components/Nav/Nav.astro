@@ -1,7 +1,5 @@
 ---
 import { NavBar } from '../NavBar';
-import { addHistory } from '../stores/history';
-
 import type { CollectionEntry } from 'astro:content';
 
 interface Props {
@@ -12,7 +10,11 @@ interface Props {
 // `post` will match your 'blog' collection schema type
 const { quotes, id } = Astro.props;
 
-addHistory(id);
+const quoteMeta = quotes.map(function ({ data }) {
+  const { id, quotee, platform, link } = data;
+
+  return { id, quotee, platform, link };
+});
 ---
 
-<NavBar id={id} quotes={quotes} client:load />
+<NavBar id={id} quoteMeta={quoteMeta} client:load />

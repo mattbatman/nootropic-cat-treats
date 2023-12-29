@@ -1,20 +1,14 @@
 import { atom } from 'nanostores';
 import { $history } from './history';
 
-const $quotee = atom<string | null>(null);
+const $quotee = atom<string>('');
 
-function updateQuotee({
-  newQuotee,
-  id
-}: {
-  newQuotee: string | null;
-  id: number;
-}) {
+function updateQuotee({ newQuotee, id }: { newQuotee: string; id: number }) {
   const currentQuotee = $quotee.get();
 
   if (currentQuotee !== newQuotee) {
     $quotee.set(newQuotee);
-    $history.set([id]);
+    //    $history.set([id]);
   }
 }
 

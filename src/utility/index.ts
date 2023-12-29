@@ -1,4 +1,5 @@
 import type { CollectionEntry } from 'astro:content';
+import type { QuoteMeta } from '../components/stores/types';
 
 function randomNoRepeat({
   min,
@@ -64,7 +65,7 @@ function getIsAtEnd({
 }: {
   id: number;
   history: number[];
-  playlist: CollectionEntry<'quotes'>[];
+  playlist: QuoteMeta[];
   backwardOrForward: 'backward' | 'forward';
 }) {
   const placeInHistory = history.indexOf(id);
