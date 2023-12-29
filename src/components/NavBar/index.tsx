@@ -1,37 +1,35 @@
 import React, { useEffect } from 'react';
 import { NavBarLink } from '../NavBarLink';
-import { useStore } from '@nanostores/react';
-import { $quotee, updateQuotee } from '../stores/quotee';
-import type { CollectionEntry } from 'astro:content';
+import { updateQuotee } from '../stores/quotee';
+import { NavPlaylistButton } from '../NavPlaylistButton';
+import type { QuoteMeta } from '../stores/types';
+import { populateQuotes } from '../stores/quotes-meta';
+import { addHistory } from '../stores/history';
 
 const NavBar: React.FC<{
   id: number;
-  quotes: CollectionEntry<'quotes'>[];
-}> = ({ id, quotes }) => {
-  const quotee$ = useStore($quotee);
-  const playlist =
-    quotee$ !== null
-      ? quotes.filter(function (quote) {
-          return quote.data.quotee === quotee$;
-        })
-      : quotes;
-
+  quoteMeta: QuoteMeta[];
+}> = ({ id, quoteMeta }) => {
   useEffect(() => {
     const urlParams = new URLSearchParams(window.location.search);
     const quoteeInParam = urlParams.get('quotee');
 
-    updateQuotee({ newQuotee: quoteeInParam, id });
+    updateQuotee({ newQuotee: quoteeInParam ?? '', id });
   }, []);
+
+  useEffect(() => {
+    addHistory(id);
+  }, [id]);
+
+  useEffect(() => {
+    populateQuotes(quoteMeta);
+  }, [quoteMeta]);
 
   return (
     <nav className="closed">
-      <NavBarLink backwardOrForward="backward" id={id} playlist={playlist} />
-      <button className="playlist-button">
-        <span className="playlist-button-text">
-          <a href="/quotees">{quotee$ ? quotee$ : 'Nootropic Cat Treats'}</a>
-        </span>
-      </button>
-      <NavBarLink backwardOrForward="forward" id={id} playlist={playlist} />
+      <NavBarLink backwardOrForward="backward" id={id} />
+      <NavPlaylistButton />
+      <NavBarLink backwardOrForward="forward" id={id} />
     </nav>
   );
 };
