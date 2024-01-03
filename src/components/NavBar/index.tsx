@@ -18,12 +18,12 @@ const NavBar: React.FC<{
   }, []);
 
   useEffect(() => {
-    addHistory(id);
-  }, [id]);
-
-  useEffect(() => {
     populateQuotes(quoteMeta);
   }, [quoteMeta]);
+
+  useEffect(() => {
+    addHistory(id);
+  }, [id]);
 
   return (
     <nav className="closed">

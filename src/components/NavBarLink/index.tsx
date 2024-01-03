@@ -5,7 +5,6 @@ import { $quotee } from '../stores/quotee';
 import { $playlist } from '../stores/quotes-meta';
 import type { QuoteMeta } from '../stores/types';
 import { getIsAtEnd, randomNoRepeat } from '../../utility';
-import { set } from 'ramda';
 
 interface NavBarLinkProps {
   backwardOrForward: 'backward' | 'forward';
