@@ -1,0 +1,12 @@
+---
+id: 192
+quotee: "Dave Smith"
+platform: "Part of the Problem, The Return of Big Tech Censorship"
+link: "https://open.spotify.com/episode/5Yr8Npix9UIA09KssOHEEC?si=95576a3f86df4da5"
+---
+
+Like we've said on this show, for many years now, probably if you had to say the central message of this show since its inception has been that the government is a criminal organization. And what separates them from every other criminal organization, is the belief in their legitimacy. So, you know, the government robs people, they call it taxation; they murder people, they call it war; they enslave people, they call it imprisonment. They do all of the things that we would all consider to be both moral and legal crimes, but they call it a different name. And really the only thing that separates — obviously, it's different in scale, but it's not different in kind. It's just that we call it something else. And the reason why that works is because people believe that...this whole thing operates off the perception of legitimacy. And the justification for that — we've always said it's a kind of religion, in a sense, you know? It's a cult type of attitude. Under modern governments the justification for that is democracy.
+
+In previous, more primitive governments, the justifications were different. They were that, you know, God has chosen the king or something like that. But today, that's not the justification. They kind of know they can't get away with that. So the justification is democracy. And essentially the justification is that the government is us. It's us. It's all of us. We all get a vote, and therefore this is us. You know? We decided to do this. Which doesn't really make sense. Like, we didn't exactly decide any of these things. It's just that the politicians decided that. But since we got a vote, they say it's us.
+
+What they're saying is that — when they say that democracy is under attack, they don't really mean that you can't vote any more. They know that's not the truth. Democracy isn't under attack if Donald Trump is running in an election. Right? That doesn't really make any sense. The only way he can win — unless they're telling you that they don't believe in the elections. Right? Which would kind of undermine their whole argument. Then democracy isn't under attack because the only way Donald Trump can win is if he wins the democratic process. What they mean when they say that democracy is under attack is that our justification for our rule is under attack. And they're right about that.
