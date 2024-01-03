@@ -16,8 +16,8 @@ function updateQuotee({ newQuotee, id }: { newQuotee: string; id: number }) {
   const currentQuotee = $quotee.get();
 
   if (currentQuotee !== newQuotee) {
-    $quotee.set(newQuotee);
     $history.set([id]);
+    $quotee.set(newQuotee);
   }
 }
 
