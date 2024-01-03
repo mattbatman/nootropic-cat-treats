@@ -86,7 +86,7 @@ const NavBarLink: React.FC<NavBarLinkProps> = ({ backwardOrForward, id }) => {
     setIsAtEnd(getIsAtEnd({ id, history, playlist, backwardOrForward }));
   }, [playlist, history, quotee, id, backwardOrForward]);
 
-  if (!playlist || playlist.length === 0 || isAtEnd) {
+  if (isAtEnd) {
     return <span className={`${backwardOrForward} disabled`} />;
   }
 
