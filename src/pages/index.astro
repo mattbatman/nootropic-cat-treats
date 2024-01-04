@@ -7,10 +7,12 @@ const allQuotes = await getCollection('quotes');
 const pageIndex = getRandomNumber({
   min: 0,
   max: allQuotes.length - 1,
-  current: null,
+  current: null
 });
 
-return Astro.redirect(`/quotes/${pageIndex}`);
+const redirectUrl = `/quotes/${pageIndex}`;
+
+return Astro.redirect(redirectUrl);
 ---
 
 <Layout title="Nootropic Cat Treats">
