@@ -27,27 +27,31 @@ function getNextLocation({
   const placeInHistory = history.indexOf(id);
   let nextId = id;
 
+  // backward button
+  if (backwardOrForward === 'backward') {
+    if (placeInHistory !== 0) {
+      nextId = history[placeInHistory - 1];
+    }
+  }
+
+  // forward button
   if (backwardOrForward === 'forward') {
     const isAtEndOfHistory = placeInHistory === history.length - 1;
+    const isAtEnd = getIsAtEnd({ id, history, playlist, backwardOrForward });
 
-    if (isAtEndOfHistory) {
+    if (isAtEndOfHistory && !isAtEnd) {
       // get a random new location to add to history
       const r = randomNoRepeat({
         hist: history,
-        cur: id,
-        min: 1,
-        max: playlist.length
+        playlist
       });
 
       nextId = playlist[r - 1].id;
-    } else {
+    }
+
+    if (!isAtEndOfHistory && !isAtEnd) {
       // move forward in history
       nextId = history[placeInHistory + 1];
-    }
-  } else {
-    // if backward button
-    if (placeInHistory !== 0) {
-      nextId = history[placeInHistory - 1];
     }
   }
 
@@ -62,7 +66,6 @@ function getNextLocation({
 
 const NavBarLink: React.FC<NavBarLinkProps> = ({ backwardOrForward, id }) => {
   const [nextLocation, setNextLocation] = useState('');
-  const [isAtEnd, setIsAtEnd] = useState(false);
 
   const playlist = useStore($playlist);
   const history = useStore($history);
@@ -82,11 +85,9 @@ const NavBarLink: React.FC<NavBarLinkProps> = ({ backwardOrForward, id }) => {
     });
 
     setNextLocation(l);
-
-    setIsAtEnd(getIsAtEnd({ id, history, playlist, backwardOrForward }));
   }, [playlist, history, quotee, id, backwardOrForward]);
 
-  if (isAtEnd) {
+  if (getIsAtEnd({ id, history, playlist, backwardOrForward })) {
     return <span className={`${backwardOrForward} disabled`} />;
   }
 

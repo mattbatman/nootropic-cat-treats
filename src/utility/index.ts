@@ -2,33 +2,28 @@ import type { CollectionEntry } from 'astro:content';
 import type { QuoteMeta } from '../components/stores/types';
 
 function randomNoRepeat({
-  min,
-  max,
-  cur,
+  playlist,
   hist
 }: {
-  min: number;
-  max: number;
-  cur: number;
+  playlist: QuoteMeta[];
   hist: number[];
 }) {
-  let n = Math.floor(Math.random() * (max - min + 1)) + min;
-
-  if (n === cur) {
-    if (n < max) {
-      n += 1;
-    } else if (n > min) {
-      n -= 1;
-    } else {
-      n = Math.floor(Math.random() * (max - min + 1)) + min;
-    }
+  if (playlist.length === history.length) {
+    return null;
   }
 
-  if (hist.indexOf(n) === -1) {
+  const min = 1;
+  const max = playlist.length;
+
+  let n = Math.floor(Math.random() * (max - min + 1)) + min;
+
+  const nextId = playlist[n - 1].id;
+
+  if (hist.indexOf(nextId) === -1) {
     return n;
   }
 
-  return randomNoRepeat({ min, max, cur, hist });
+  return randomNoRepeat({ playlist, hist });
 }
 
 function getRandomNumber({
