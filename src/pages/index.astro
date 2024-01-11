@@ -9,14 +9,25 @@ const pageIndex = getRandomNumber({
   max: allQuotes.length - 1,
   current: null
 });
-
-const redirectUrl = `/quotes/${pageIndex}`;
-
-return Astro.redirect(redirectUrl);
 ---
 
 <Layout title="Nootropic Cat Treats">
   <main class="App">
-    <div>loading...</div>
+    <loading-holder data-next={pageIndex}>loading...</loading-holder>
   </main>
 </Layout>
+
+<script>
+  class LoadingHolder extends HTMLElement {
+    constructor() {
+      super();
+
+      const pageIndex = this.dataset.next;
+
+      const redirectUrl = `${window.location.origin}/quotes/${pageIndex}`;
+      window.location.href = redirectUrl;
+    }
+  }
+
+  customElements.define('loading-holder', LoadingHolder);
+</script>
