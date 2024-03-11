@@ -1,8 +1,8 @@
 ---
 id: 206
-quotee: "David S. Lifton"
-platform: "Best Evidence, pg. 769-770"
-link: "https://www.goodreads.com/book/show/602499.Best_Evidence?from_search=true&from_srp=true&qid=eux8SfCPwZ&rank=1"
+quotee: David S. Lifton
+platform: Best Evidence, pg. 769-770
+link: https://www.goodreads.com/book/show/602499.Best_Evidence?from_search=true&from_srp=true&qid=eux8SfCPwZ&rank=1
 ---
 Jenkins' account suggests that President Kennedy's body, even though altered, was not altered sufficiently to create the unambiguous appearance of a shot from the rear.
 

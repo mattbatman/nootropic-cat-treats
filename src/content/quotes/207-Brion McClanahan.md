@@ -1,8 +1,8 @@
 ---
 id: 207
-quotee: "Brion McClanahan"
-platform: "Liberty Classroom, U.S. History to 1877, The Southern Colonies and the Celts, ~19:40"
-link: "https://libertyclassroom.com/lessons/the-southern-colonies-and-the-celts/"
+quotee: Brion McClanahan
+platform: Liberty Classroom, U.S. History to 1877, The Southern Colonies and the Celts, ~19:40
+link: https://libertyclassroom.com/lessons/the-southern-colonies-and-the-celts/
 ---
 Personal government was the most important thing in Celtic society. You had to have very strong personal leadership. And so, when I talk about building the will and this independence streak, this immense freedom that people had &mdash; I mean that played a role in the way they looked at government.
 

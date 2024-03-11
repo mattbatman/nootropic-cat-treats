@@ -1,8 +1,8 @@
 ---
 id: 205
-quotee: "David S. Lifton"
-platform: "Best Evidence, pg. 32-33"
-link: "https://www.goodreads.com/book/show/602499.Best_Evidence?from_search=true&from_srp=true&qid=eux8SfCPwZ&rank=1"
+quotee: David S. Lifton
+platform: Best Evidence, pg. 32-33
+link: https://www.goodreads.com/book/show/602499.Best_Evidence?from_search=true&from_srp=true&qid=eux8SfCPwZ&rank=1
 ---
 No verbal description really captures the voluminous and disorganized nature of the twenty-six volumes [of the Warren Commission investigation]. Numerous side trips were necessary to relate the approximately eight thousand pages of documentary exhibits in the last eleven volumes to the five thousand pages of testimony in the first fifteen. Given a normal schedule and a reasonable curiosity, that task could easily stretch to a year.
 
