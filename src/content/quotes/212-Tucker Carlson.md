@@ -1,0 +1,7 @@
+---
+id: 212
+quotee: Tucker Carlson
+platform: Tucker by Chadwick Moore, pg. 189
+link: https://www.amazon.com/Tucker-Chadwick-Moore/dp/1958682012/ref=sr_1_1?crid=2HV8X8WGTJSFA&dib=eyJ2IjoiMSJ9.oZ0V5zroxsYZFJvGwa08nm3S_nLorpGTppFcEKVygqo6UWSGaEJ5V8PJnrQFzYuVBigqN5SBGaTRdahsMnbX_x2QkHdetUQPDuDNBrBD415MKfwoUBZMElmCtZxMVFkPBxVNud07bl-BxBhbu6lxC3sQHsOCU2xYgKH7zujAzzspcFw5oAQM3OscqSPeY6XEu3djZGgc0Hk7MDiW85GvlGPKdlrWhA3hB20i9VAzjCo.LzXhm7HO7yfDfjsMk7tDtlUh0iNaOWu_wWsP-Ggk4wU&dib_tag=se&keywords=tucker&qid=1715826269&sprefix=tucker%2Caps%2C109&sr=8-1
+---
+I'm a huge believer in people staying in their lane. Identify our strengths, orient your life around maximizing those and minimizing your weaknesses. I tell my children all the time: You're good at some things and you're not good at others. Don't lie to yourself. Figure out what you're good at, emphasize that, build your life around that. You cannot be whatever you want to be. You were given a bundle of strengths and weaknesses at birth and roll with those. A stonecutter goes along the preexisting form. You see a crack in the stone, that's what you're cutting. You didn't make the crack; you find it and you go with it. And I think all people are like that.
