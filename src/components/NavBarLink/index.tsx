@@ -46,7 +46,9 @@ function getNextLocation({
         playlist
       });
 
-      nextId = playlist[r - 1].id;
+      if (r !== null) {
+        nextId = playlist[r - 1].id;
+      }
     }
 
     if (!isAtEndOfHistory && !isAtEnd) {
