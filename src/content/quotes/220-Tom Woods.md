@@ -1,8 +1,8 @@
 ---
 id: 220
-quotee: Tom Woods
-platform: Diary of a Psychosis, pg. 57-58
-link: https://diaryofcovid.com/
+quotee: "Tom Woods"
+platform: "Diary of a Psychosis, pg. 57-58"
+link: "https://diaryofcovid.com/"
 ---
 Well, sometimes the truth has a way of tricking out, in the unlikeliest of places. The *New York Times* just ran this headline: "Your Coronavirus Test Is Positive. Maybe It Shouldn't Be."
 
