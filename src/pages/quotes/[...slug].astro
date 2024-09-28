@@ -1,7 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
-import Nav from '../../components/Nav/Nav.astro';
+import { Nav } from '../../components/Nav';
 
 const quotes = await getCollection('quotes');
 
@@ -16,22 +16,24 @@ export async function getStaticPaths() {
   });
 }
 
-const { quote } = Astro.props;
-const { Content } = await quote.render();
+const { quote: quoteInfo } = Astro.props;
+const { data } = quoteInfo;
+const { quotee, link, platform, id } = data;
+const { Content } = await quoteInfo.render();
 ---
 
-<Layout title={`${quote.data.id} | Nootropic Cat Treats`}>
+<Layout title={`${id} | Nootropic Cat Treats`}>
   <div class="container">
     <span class="quotemark-l">“</span>
     <blockquote>
       <Content />
     </blockquote>
     <cite>
-      <p>{quote.data.quotee}</p>
+      <p>{quotee}</p>
       <p>
-        <a href={quote.data.link}>{quote.data.platform}</a>
+        <a href={link}>{platform}</a>
       </p>
     </cite>
   </div>
-  <Nav id={quote.data.id} quotes={quotes} />
+  <Nav id={id} quotes={quotes} client:only="react" />
 </Layout>
