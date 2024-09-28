@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nootropiccattreats.win/sitemap-index.xml
