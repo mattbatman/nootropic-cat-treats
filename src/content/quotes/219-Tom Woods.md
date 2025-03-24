@@ -1,8 +1,8 @@
 ---
 id: 219
-quotee: "Tom Woods"
-platform: "Diary of a Psychosis, pg. 16-17"
-link: "https://diaryofcovid.com/"
+quotee: Tom Woods
+platform: Diary of a Psychosis, pg. 16-17
+link: https://diaryofcovid.com/
 ---
 Perhaps you know the name Neil Ferguson.
 
