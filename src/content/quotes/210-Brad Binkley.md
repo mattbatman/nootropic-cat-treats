@@ -1,6 +1,6 @@
 ---
 id: 210
-quotee: Brad BInkley
+quotee: Brad Binkley
 platform: "#757: Fani Willis and The Divine 9 Black Secret Societies With Brad Binkley, Tin Foil Hat With Sam Tripoli"
 link: https://open.spotify.com/episode/2loy8vDEScp11VM5cns8mw?si=548d2b0e1d2a4141
 ---
