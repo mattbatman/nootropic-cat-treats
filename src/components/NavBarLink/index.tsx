@@ -89,11 +89,69 @@ const NavBarLink: React.FC<NavBarLinkProps> = ({ backwardOrForward, id }) => {
     setNextLocation(l);
   }, [playlist, history, quotee, id, backwardOrForward]);
 
-  if (getIsAtEnd({ id, history, playlist, backwardOrForward })) {
-    return <span className={`${backwardOrForward} disabled`} />;
+  if (backwardOrForward === 'forward') {
+    if (getIsAtEnd({ id, history, playlist, backwardOrForward })) {
+      return (
+        <span
+          className={getClassName({
+            backwardOrForward,
+            isAtEnd: getIsAtEnd({ id, history, playlist, backwardOrForward })
+          })}
+        >
+          <svg id="icon-arrow-right" viewBox="0 0 23 8">
+            <path d="M17.656 7.744q.48-1.024.928-1.792.48-.768.928-1.28H.855V3.328h18.657q-.449-.544-.928-1.312a26 26 0 0 1-.928-1.76h1.12Q20.79 2.592 23 3.712v.576q-2.209 1.087-4.224 3.456z"></path>
+          </svg>
+        </span>
+      );
+    }
+
+    return (
+      <a
+        href={nextLocation}
+        className={getClassName({
+          backwardOrForward,
+          isAtEnd: getIsAtEnd({ id, history, playlist, backwardOrForward })
+        })}
+      >
+        <svg id="icon-arrow-right" viewBox="0 0 23 8">
+          <path d="M17.656 7.744q.48-1.024.928-1.792.48-.768.928-1.28H.855V3.328h18.657q-.449-.544-.928-1.312a26 26 0 0 1-.928-1.76h1.12Q20.79 2.592 23 3.712v.576q-2.209 1.087-4.224 3.456z"></path>
+        </svg>
+      </a>
+    );
   }
 
-  return <a className={backwardOrForward} href={nextLocation} />;
+  if (getIsAtEnd({ id, history, playlist, backwardOrForward })) {
+    return (
+      <span
+        className={getClassName({
+          backwardOrForward,
+          isAtEnd: getIsAtEnd({ id, history, playlist, backwardOrForward })
+        })}
+      >
+        <svg id="icon-arrow-left" viewBox="0 0 23 8">
+          <path d="M5.345 7.744q-.48-1.024-.928-1.792-.48-.768-.928-1.28h18.656V3.328H3.489q.447-.544.928-1.312a26 26 0 0 0 .928-1.76h-1.12Q2.209 2.592 0 3.712v.576q2.208 1.087 4.224 3.456z"></path>
+        </svg>
+      </span>
+    );
+  }
+
+  return (
+    <a
+      href={nextLocation}
+      className={getClassName({
+        backwardOrForward,
+        isAtEnd: getIsAtEnd({ id, history, playlist, backwardOrForward })
+      })}
+    >
+      <svg id="icon-arrow-left" viewBox="0 0 23 8">
+        <path d="M5.345 7.744q-.48-1.024-.928-1.792-.48-.768-.928-1.28h18.656V3.328H3.489q.447-.544.928-1.312a26 26 0 0 0 .928-1.76h-1.12Q2.209 2.592 0 3.712v.576q2.208 1.087 4.224 3.456z"></path>
+      </svg>
+    </a>
+  );
 };
+
+function getClassName({ isAtEnd, backwardOrForward }) {
+  return isAtEnd ? `${backwardOrForward} disabled` : backwardOrForward;
+}
 
 export { NavBarLink };
