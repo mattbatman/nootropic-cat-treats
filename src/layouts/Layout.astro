@@ -344,7 +344,14 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   }
 
   .quotees-list li a {
-    color: var(--white);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid var(--white-alt);
+    padding: 0.5rem 1.5rem;
+    color: var(--white-alt);
   }
 
   @media (min-width: 450px) {
